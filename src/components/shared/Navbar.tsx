@@ -44,10 +44,10 @@ const Navbar = ({ session }: { session: userProps | null }) => {
                         </Link>
                     ))}
                 </div>
+                <ThemeSwitcher />
 
                 {/* Theme Switcher & Auth Button */}
                 {/* <div className="hidden md:flex items-center space-x-4">
-                    <ThemeSwitcher />
                     {session ? (
                         <button
                             onClick={() => signOut()}
