@@ -61,15 +61,17 @@ const Banner = () => {
             <div className="lg:w-7/12 hidden lg:flex justify-center items-center relative">
                 <div className="absolute -skew-x-[10deg] translate-x-20 w-full h-full bg-black" />
 
-                <div className='relative z-10 -bottom-2 flex items-end'>
-                    <Image
-                        src="/assets/profileImg.png"
-                        alt="Sakhawat Hossain - Full Stack Developer"
-                        width={350}
-                        height={500}
-                        className="object-cover"
-                        priority
-                    />
+                <div className='relative z-10 h-full w-full flex items-end justify-center'>
+                    <div className="relative h-[90%] w-auto aspect-[3/4]">
+                        <Image
+                            src="/assets/profileImg.png"
+                            alt="Sakhawat Hossain - Full Stack Developer"
+                            fill
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            className="object-contain object-bottom"
+                            priority
+                        />
+                    </div>
                 </div>
             </div>
         </div>
