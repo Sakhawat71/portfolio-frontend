@@ -33,7 +33,8 @@ const Contact = () => {
             else {
                 toast.error("Failed to send message", { id: toastId });
             }
-        } catch (error) {
+        } catch (error : any) {
+            console.log(error);
             toast.error("Failed to send message", { id: toastId });
         }
     };
