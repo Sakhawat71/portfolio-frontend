@@ -4,7 +4,7 @@ import { FaDownload, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className="flex h-screen lg:max-h-[90vh] mx-auto justify-center overflow-hidden font-raleway bg-[#D7D7D7]">
+        <div className="flex h-screen lg:max-h-[100vh] mx-auto justify-center overflow-hidden font-raleway bg-[#D7D7D7]">
             {/* Left Content Section */}
             <div className="lg:w-5/12 w-full bg-[#D7D7D7] flex flex-col justify-center lg:items-start p-10 md:p-16 space-y-12 lg:pl-28 md:items-center text-center lg:text-start">
                 <div>

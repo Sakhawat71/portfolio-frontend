@@ -1,9 +1,11 @@
-export interface Blog {
-    _id: string;
+export interface IBlog {
+    id: string;
     title: string;
-    content: string;
-    slug: string;
-    coverImage: string;
     tags: string[];
-    createdAt: string;
-};
+    contentHtml: string;
+    contentJson: JSON;
+    slug: string;
+    publishedAt?: Date;
+    isPublished?: boolean;
+    createdAt: Date;
+}
