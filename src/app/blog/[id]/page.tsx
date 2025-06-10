@@ -8,7 +8,8 @@ interface BlogPageProps {
     params: { id: string };
 }
 
-export async function generateMetadata({ params }: any): Promise<Metadata> {
+export async function generateMetadata(props: any): Promise<Metadata> {
+    const params = await props.params;
     const blog = await fetchBlogById(params.id);
     if (!blog || !blog.data) return { title: "Blog Not Found" };
     return {
@@ -17,7 +18,8 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
     };
 }
 
-const BlogDetailsPage = async ({ params }: any) => {
+const BlogDetailsPage = async (props: BlogPageProps) => {
+    const params = await props.params;
     const { id } = params;
     const blog = await fetchBlogById(id);
     if (!blog || !blog.data) return notFound();
