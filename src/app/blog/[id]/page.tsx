@@ -1,30 +1,26 @@
-import BlogDetails from "@/components/Blog/BlogDetails";
 import { fetchBlogById } from "@/utils/actions/fetchBlogs";
 import { IBlog } from "@/types/blog.type";
-import React from "react";
+import { notFound } from "next/navigation";
+import { Metadata } from "next";
+import BlogDetails from "@/components/Blog/BlogDetails";
 
-interface PageProps {
-    params: {
-        id: string;
+interface BlogPageProps {
+    params: { id: string };
+}
+
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+    const blog = await fetchBlogById(params.id);
+    if (!blog || !blog.data) return { title: "Blog Not Found" };
+    return {
+        title: blog.data.title,
+        description: blog.data.contentHtml?.substring(0, 150),
     };
 }
 
-const BlogDetailsPage = async ({ params }: PageProps) => {
-
-    // const { id } = params; 
-    const { id } = await Promise.resolve(params);
-
-
+const BlogDetailsPage = async ({ params }: any) => {
+    const { id } = params;
     const blog = await fetchBlogById(id);
-
-    if (!blog || !blog.data) {
-        return (
-            <div className="text-center text-red-500 text-xl mt-10">
-                Blog not found!
-            </div>
-        );
-    }
-
+    if (!blog || !blog.data) return notFound();
     const blogData: IBlog = blog.data;
 
     return (
