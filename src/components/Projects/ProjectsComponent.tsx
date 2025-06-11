@@ -1,13 +1,30 @@
+import ProjectCard from "./ProjectCard";
 
-const ProjectsComponent = () => {
+type TProject = {
+    id: string;
+    title: string;
+    description: string;
+    image: string;
+    techStack: string[];
+    liveUrl: string;
+    githubUrl: string;
+};
+
+interface ProjectsComponentProps {
+    projects: TProject[];
+}
+
+const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
+
+
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 bg-[#D6D6D6]'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 bg-[#D6D6D6]'>
 
-            {/* {
-                projectInfo?.map(project =>
-                    // <SkillCart key={project.id} project={project} />
+            {
+                projects?.map((project) =>
+                    <ProjectCard key={project.id} project={project} />
                 )
-            } */}
+            }
 
         </div>
     );

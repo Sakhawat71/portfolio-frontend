@@ -19,7 +19,7 @@ export async function generateMetadata(props: any): Promise<Metadata> {
 }
 
 const BlogDetailsPage = async (props: BlogPageProps) => {
-    const params = await props.params;
+    const params = props.params;
     const { id } = params;
     const blog = await fetchBlogById(id);
     if (!blog || !blog.data) return notFound();
