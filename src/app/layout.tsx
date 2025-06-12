@@ -30,7 +30,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className} bg-slate-300`}
+        className={`${roboto.className} bg-slate-100`}
       >
         <ThemeProvider >
           <Navbar session={session} />

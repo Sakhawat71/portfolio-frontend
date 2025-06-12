@@ -12,6 +12,7 @@ const ProjectDetailsPage = async ({ params }: ProjectDetailsPageProps) => {
     const { id } = resolvedParams;
 
     const projectData = await getProjectById(id);
+    console.log(projectData);
     const project: IProject = projectData?.data;
 
 

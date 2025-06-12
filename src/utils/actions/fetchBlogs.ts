@@ -4,7 +4,7 @@ export const fetchBlogs = async () => {
     try {
         const res = await fetch(`${process.env.NEXTAUTH_URL}/blogs`, {
             method: "GET",
-            cache: "no-store",
+            next: { revalidate: 60 }
         });
 
         if (!res.ok) {
@@ -22,7 +22,7 @@ export const fetchBlogById = async (id: string) => {
     try {
         const res = await fetch(`${process.env.NEXTAUTH_URL}/blogs/${id}`, {
             method: "GET",
-            cache: "no-store",
+            next: { revalidate: 60 }, 
         });
 
         // if (!res.ok) {
@@ -36,21 +36,3 @@ export const fetchBlogById = async (id: string) => {
     }
 };
 
-
-// export const fetchCreateBlog = async (data: any) => {
-//     try {
-//         const res = await fetch(`${process.env.NEXTAUTH_URL}/blogs/create-blog`, {
-//             method: "POST",
-//             headers: {
-//                 "Content-Type": "application/json",
-//             },
-//             body: JSON.stringify(data),
-//             cache: "no-store",
-//         });
-
-//         return await res.json();
-//     } catch (error) {
-//         console.error("Error creating blog:", error);
-//         return { success: false };
-//     }
-// };
