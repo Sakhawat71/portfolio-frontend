@@ -5,7 +5,7 @@ import { Metadata } from "next";
 import BlogDetails from "@/components/Blog/BlogDetails";
 
 interface BlogPageProps {
-    params: { id: string };
+    params: Promise<{ id: string }>;
 }
 
 export async function generateMetadata(props: any): Promise<Metadata> {
@@ -18,9 +18,10 @@ export async function generateMetadata(props: any): Promise<Metadata> {
     };
 }
 
-const BlogDetailsPage = async (props: BlogPageProps) => {
-    const params = props.params;
-    const { id } = params;
+const BlogDetailsPage = async ({ params }: BlogPageProps) => {
+
+    const resolvedParams = await params;
+    const { id } = resolvedParams;
     const blog = await fetchBlogById(id);
     if (!blog || !blog.data) return notFound();
     const blogData: IBlog = blog.data;
