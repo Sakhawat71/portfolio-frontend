@@ -4,7 +4,7 @@ export const getProjects = async () => {
     try {
         const res = await fetch(`${process.env.NEXTAUTH_URL}/projects`, {
             method: "GET",
-            next: { revalidate: 60 }
+            // next: { revalidate: 60 }
         });
 
         if (!res.ok) {
