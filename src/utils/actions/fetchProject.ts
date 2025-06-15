@@ -2,9 +2,9 @@
 
 export const getProjects = async () => {
     try {
-        const res = await fetch(`${process.env.NEXTAUTH_URL}/projects`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/projects`, {
             method: "GET",
-            // next: { revalidate: 60 }
+            next: { revalidate: 60 }
         });
 
         if (!res.ok) {
@@ -20,9 +20,9 @@ export const getProjects = async () => {
 
 export const getProjectById = async (id: string) => {
     try {
-        const res = await fetch(`${process.env.NEXTAUTH_URL}/projects/${id}`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/projects/${id}`, {
             method: "GET",
-            next: { revalidate: 60 }, 
+            cache : 'no-store'
         });
 
         if (!res.ok) {

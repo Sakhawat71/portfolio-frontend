@@ -2,7 +2,7 @@
 
 export const fetchBlogs = async () => {
     try {
-        const res = await fetch(`${process.env.NEXTAUTH_URL}/blogs`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/blogs`, {
             method: "GET",
             next: { revalidate: 60 }
         });
@@ -20,7 +20,7 @@ export const fetchBlogs = async () => {
 
 export const fetchBlogById = async (id: string) => {
     try {
-        const res = await fetch(`${process.env.NEXTAUTH_URL}/blogs/${id}`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/blogs/${id}`, {
             method: "GET",
             next: { revalidate: 60 }, 
         });
