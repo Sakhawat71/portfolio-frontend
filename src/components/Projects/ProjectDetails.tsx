@@ -7,8 +7,25 @@ import { Github, ExternalLink } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { getProjectById } from "@/utils/actions/fetchProject";
+// { project }: { project: IProject }
 
-const ProjectDetails = ({ project }: { project: IProject }) => {
+interface ProjectDetailsProps {
+    id: string;
+}
+
+const ProjectDetails = ({ id }: ProjectDetailsProps) => {
+    const [project, setProject] = useState<IProject | null>(null);
+
+    useEffect(() => {
+        const fetchProject = async () => {
+            const projectData = await getProjectById(id);
+            setProject(projectData?.data ?? null);
+        };
+        fetchProject();
+    }, [id]);
+
     // Format date display
     const formatDate = (dateString: string | null) => {
         if (!dateString) return "Present";
@@ -17,6 +34,14 @@ const ProjectDetails = ({ project }: { project: IProject }) => {
             year: "numeric",
         });
     };
+
+    if (!project) {
+        return (
+            <div className="flex justify-center items-center min-h-[300px]">
+                <span className="text-lg text-gray-500 dark:text-gray-400">Loading project details...</span>
+            </div>
+        );
+    }
 
     return (
         <motion.div
