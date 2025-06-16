@@ -15,16 +15,16 @@ interface ProjectDetailsProps {
     id: string;
 }
 
-const ProjectDetails = ({ id }: ProjectDetailsProps) => {
-    const [project, setProject] = useState<IProject | null>(null);
+const ProjectDetails = ({ project }: { project: IProject }) => {
+    // const [project, setProject] = useState<IProject | null>(null);
 
-    useEffect(() => {
-        const fetchProject = async () => {
-            const projectData = await getProjectById(id);
-            setProject(projectData?.data ?? null);
-        };
-        fetchProject();
-    }, [id]);
+    // useEffect(() => {
+    //     const fetchProject = async () => {
+    //         const projectData = await getProjectById(id);
+    //         setProject(projectData?.data ?? null);
+    //     };
+    //     fetchProject();
+    // }, [id]);
 
     // Format date display
     const formatDate = (dateString: string | null) => {
@@ -112,7 +112,7 @@ const ProjectDetails = ({ id }: ProjectDetailsProps) => {
                             Technologies Used
                         </h2>
                         <div className="flex flex-wrap gap-2">
-                            {project.techStack.map((tech) => (
+                            {project.techStack.map((tech: any) => (
                                 <Badge
                                     key={tech}
                                     variant="secondary"
