@@ -13,3 +13,13 @@ export type IProject = {
     endDate: string | null;
     createdAt: string;
 };
+
+export type TProject = {
+    id: string;
+    title: string;
+    description: string;
+    image: string;
+    techStack: string[];
+    liveUrl: string;
+    githubUrl: string;
+};

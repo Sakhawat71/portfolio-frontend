@@ -1,14 +1,7 @@
+import { TProject } from "@/types/project.type";
 import ProjectCard from "./ProjectCard";
 
-type TProject = {
-    id: string;
-    title: string;
-    description: string;
-    image: string;
-    techStack: string[];
-    liveUrl: string;
-    githubUrl: string;
-};
+
 
 interface ProjectsComponentProps {
     projects: TProject[];
@@ -16,16 +9,13 @@ interface ProjectsComponentProps {
 
 const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
 
-
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 bg-[#D6D6D6]'>
-
             {
                 projects?.map((project) =>
                     <ProjectCard key={project.id} project={project} />
                 )
             }
-
         </div>
     );
 };
