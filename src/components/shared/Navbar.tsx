@@ -50,7 +50,7 @@ const Navbar = ({ session }: { session: userProps | null }) => {
                         ))}
                     </div>
 
-                    <ThemeSwitcher />
+                    {/* <ThemeSwitcher /> */}
 
                     {/* Mobile Menu Button */}
                     <button
