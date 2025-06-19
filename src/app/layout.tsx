@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fira_Code, Inter, Roboto } from "next/font/google";
+import { Fira_Code, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 // import { getServerSession } from "next-auth";

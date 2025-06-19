@@ -19,79 +19,13 @@ import figma from "@/assets/skills/figma.png";
 import vercel from "@/assets/skills/vercel.png";
 import firebase from "@/assets/skills/firebase.png";
 import netlify from "@/assets/skills/netlify.png";
-
-import scImage from "@/assets/aspirations/sc.png";
-import devImg from "@/assets/aspirations/dev.png";
-import learnImg from "@/assets/aspirations/learn.png";
-
 import lineImage from '@/assets/ext/line.png'
+import Aspirations from '../Aspirations/Aspirations';
 
 const Skills = () => {
     return (
         <div className=' gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
-
-
-            {/* Aspirations */}
-            <div className='mt-10 border-black border-[5px] w-72 mx-auto text-center'>
-                <h2 className='font-bold text-xl tracking-[6px] p-3 uppercase'>Aspirations</h2>
-            </div>
-
-
-            <Image
-                src={lineImage}
-                alt='line'
-                width={150}
-                height={50}
-                className='my-20 mx-auto'
-            />
-
-            <div className='lg:grid lg:grid-cols-2  text-center my-20 '>
-
-                <div className='flex flex-col md:flex-row items-center'>
-                    <Image
-                        src={devImg}
-                        alt='DEVELOPMENT'
-                        width={100}
-                        height={100}
-                    />
-                    <div className='text-center'>
-                        <h2 className='font-bold tracking-widest text-xl text-center md:text-start'>DEVELOPMENT</h2>
-                        <p className='text-center md:text-start md:pl-5 pt-3'>Aspiring to become a Full Stack Developer, mastering both front-end and back-end technologies.</p>
-                    </div>
-                </div>
-
-
-
-                <div className='flex flex-col md:flex-row items-center mt-10 lg:mt-0'>
-                    <Image
-                        src={scImage}
-                        alt='cyber_security'
-                        width={100}
-                        height={100}
-                    />
-                    <div>
-                        <h2 className='uppercase font-bold tracking-widest text-xl text-center md:text-start'>cyber security</h2>
-                        <p className='text-center md:text-start md:pl-5 pt-3'>Passionate about cybersecurity, eager to explore and learn about protecting digital infrastructures.</p>
-                    </div>
-                </div>
-
-                <div className=' mt-10 lg:mt-16 col-span-2 text-center flex justify-center'>
-                    <div className='flex flex-col md:flex-row items-center lg:w-1/2'>
-                        <Image
-                            src={learnImg}
-                            alt='Learning'
-                            width={100}
-                            height={100}
-                        />
-                        <div>
-                            <h2 className='uppercase font-bold tracking-widest text-xl text-center md:text-start'>Continuous Learning</h2>
-                            <p className='text-center md:text-start md:pl-5 pt-3'>Committed to lifelong learning in technology, politics, and history, constantly expanding my knowledge.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+            <Aspirations />
             <Image
                 src={lineImage}
                 alt='line'
