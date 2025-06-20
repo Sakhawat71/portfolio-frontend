@@ -23,6 +23,9 @@ import lineImage from '@/assets/ext/line.png'
 import Aspirations from '../Aspirations/Aspirations';
 
 const Skills = () => {
+
+    
+
     return (
         <div className=' gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
             <Aspirations />
