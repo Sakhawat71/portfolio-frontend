@@ -1,5 +1,5 @@
 import BlogComponent from "@/components/Blog/BlogComponent";
-import { fetchBlogs } from "@/utils/actions/fetchBlogs";
+import { fetchBlogs } from "@/services/fetchBlogs";
 
 const BlogsPage = async () => {
     const blogs = await fetchBlogs();

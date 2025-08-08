@@ -1,8 +1,9 @@
-import { fetchBlogById } from "@/utils/actions/fetchBlogs";
+
 import { IBlog } from "@/types/blog.type";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import BlogDetails from "@/components/Blog/BlogDetails";
+import { fetchBlogById } from "@/services/fetchBlogs";
 
 interface BlogPageProps {
     params: Promise<{ id: string }>;

@@ -2,8 +2,8 @@
 import Image from "next/image";
 import lineImage from "@/assets/ext/line.png"
 import { useForm } from "react-hook-form";
-import { createMessage } from "@/utils/actions/fetchMessage";
 import { toast } from "sonner";
+import { createMessage } from "@/services/fetchMessage";
 
 export type MessageForm = {
     name: string;

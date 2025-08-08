@@ -1,7 +1,7 @@
-import { getProjectById } from "@/utils/actions/fetchProject";
 import { notFound } from "next/navigation";
 import { IProject } from "@/types/project.type";
 import ProjectDetails from "@/components/Projects/ProjectDetails";
+import { getProjectById } from "@/services/fetchProject";
 
 type Props = {
     params: {
