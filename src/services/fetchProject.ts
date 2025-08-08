@@ -28,7 +28,7 @@ export const getProjectById = async (id: string) => {
         if (!res.ok) {
             throw new Error("Failed to fetch blog");
         }
-
+        // console.log(res);
         return await res.json();
     } catch (error) {
         console.error("Error fetching blog:", error);

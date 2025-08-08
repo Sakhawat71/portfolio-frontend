@@ -3,15 +3,16 @@ import { IProject } from "@/types/project.type";
 import ProjectDetails from "@/components/Projects/ProjectDetails";
 import { getProjectById } from "@/services/fetchProject";
 
-type Props = {
-    params: {
-        id: string;
-    };
+type ProjectProps = {
+    params: Promise<{ id: string }>;
 };
 
-const ProjectDetailsPage = async ( params : any ) => {
-    const { id } = params;
+const ProjectDetailsPage = async ({ params }: ProjectProps) => {
+
+    const resolvedParams = await params;
+    const { id } = resolvedParams;
     const projectData = await getProjectById(id);
+    // console.log(id, projectData);
     const project: IProject = projectData?.data;
     if (!project) return notFound();
 

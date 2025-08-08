@@ -3,7 +3,7 @@ import { getProjects } from "@/services/fetchProject";
 
 const ProjectsPage = async () => {
     const { data: projects } = await getProjects();
-    console.log(projects);
+    // console.log(projects);
 
     if (!projects || projects.length === 0) {
         return <p className="text-center text-gray-500 mt-10">No projects found.</p>;
