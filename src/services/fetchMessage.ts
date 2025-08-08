@@ -1,9 +1,9 @@
 "use server";
-import { IMessage } from "../../types/message.type";
+import { IMessage } from "@/types/message.type";
 
 export const createMessage = async (data: IMessage) => {
     try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/contacts/send-message`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}api/contacts/send-message`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

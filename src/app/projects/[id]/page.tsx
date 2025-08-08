@@ -26,12 +26,3 @@ const ProjectDetailsPage = async ( params : any ) => {
 
 export default ProjectDetailsPage;
 
-// // This must match the dynamic route [id]
-// export const generateStaticParams = async () => {
-//     const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/projects`);
-//     const json = await res.json();
-
-//     return json.data?.map((project: { id: string }) => ({
-//         id: project.id,
-//     }));
-// };

@@ -2,7 +2,7 @@
 
 export const getProjects = async () => {
     try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/projects`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}api/projects`, {
             method: "GET",
             next: { revalidate: 60 }
         });
@@ -20,7 +20,7 @@ export const getProjects = async () => {
 
 export const getProjectById = async (id: string) => {
     try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/projects/${id}`, {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}api/projects/${id}`, {
             method: "GET",
             cache : 'no-store'
         });
