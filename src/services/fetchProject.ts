@@ -10,7 +10,7 @@ export const getProjects = async () => {
         if (!res.ok) {
             throw new Error("Failed to fetch blogs");
         }
-
+        console.log(res);
         return await res.json();
     } catch (error) {
         console.error("Error fetching blogs:", error);
