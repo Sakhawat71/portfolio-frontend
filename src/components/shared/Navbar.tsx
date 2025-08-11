@@ -2,12 +2,22 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     const navLinks = [
         { href: "/", label: "Home" },
@@ -17,11 +27,17 @@ const Navbar = () => {
     ];
 
     return (
-        <header className="fixed top-0 w-full z-50">
+        <header
+            className={`fixed top-0 w-full z-50 transition-colors duration-300 ${isScrolled ? "bg-black" : "bg-transparent"
+                }`}
+        >
             <nav className="relative flex items-center justify-between h-16 px-4 md:px-8 lg:px-28">
                 {/* Logo */}
                 <div className="w-5/12">
-                    <Link href="/" className="text-2xl font-bold font-mono text-black dark:text-white">
+                    <Link
+                        href="/"
+                        className={`text-2xl font-bold font-mono ${isScrolled ? "text-white" : "text-black"}`}
+                    >
                         {`<Sakhawat/>`}
                     </Link>
                 </div>
@@ -36,7 +52,7 @@ const Navbar = () => {
                                 href={href}
                                 className={`${pathname === href
                                     ? "text-teal-300 font-bold"
-                                    : "text-white/80 hover:text-teal-300 dark:text-gray-300 dark:hover:text-teal-400"
+                                    : "text-white/80 hover:text-teal-300"
                                     } transition-colors`}
                             >
                                 {label}
