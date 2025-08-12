@@ -1,6 +1,7 @@
 import React from 'react';
 import "./skills.css";
 import Image from 'next/image';
+import * as motion from "motion/react-client"
 
 import html5 from "@/assets/skills/html.png";
 import css3 from "@/assets/skills/css3.png";
@@ -24,7 +25,12 @@ import Aspirations from '../Aspirations/Aspirations';
 
 const Skills = () => {
 
-    
+    const box = {
+        width: 100,
+        height: 100,
+        backgroundColor: "#9911ff",
+        borderRadius: 5,
+    }
 
     return (
         <div className=' gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
@@ -68,6 +74,21 @@ const Skills = () => {
                     />
                     <p>CSS3</p>
                 </div>
+
+                <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }}
+                    // style={box}
+                    className=' flex flex-col justify-center items-center space-y-3'
+                >
+                    <Image
+                        src={es6}
+                        alt='html5'
+                        width={80}
+                        height={80}
+                    />
+                    <p>JS</p>
+                </motion.div>
 
                 <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image

@@ -7,9 +7,7 @@ import MainNavbar from './MainNavbar';
 
 const NavbarSelector = () => {
     const path = usePathname();
-    const isHome = path === '/';
-    if (isHome) return <Navbar />;
-    else return <MainNavbar />
+    return path === "/" ? <Navbar /> : <MainNavbar />;
 };
 
 export default NavbarSelector;
