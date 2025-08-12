@@ -5,13 +5,13 @@ import Typewriter from './Typewriter';
 
 const Banner = () => {
     return (
-        <div className="flex h-screen lg:max-h-[100vh] mx-auto justify-center overflow-hidden bg-[#D7D7D7]">
+        <div className="flex h-screen lg:max-h-[100vh] mx-auto justify-center overflow-hidden bg-[#D7D7D7] pt-3 md:pt-0">
             {/* Left Content Section */}
             <div className="lg:w-5/12 w-full bg-[#D7D7D7] flex flex-col justify-center lg:items-start p-10 md:p-16 space-y-12 lg:pl-28 md:items-center text-center lg:text-start">
-                <div className='font-light'>
-                    <h1 className="text-xl md:text-3xl font-semibold mb-4">Hi, I am</h1>
-                    <h2 className="text-4xl md:text-5xl font-bold text-black uppercase">Sakhawat H.</h2>
-                    <p className="Typewriter md:text-xl font-extrabold text-[#909090]">
+                <div className='font-light space-y-3'>
+                    <h4 className="text-xl md:text-3xl font-semibold text-gray-600">Hi, I am</h4>
+                    <h2 className="text-3xl md:text-5xl font-bold text-black uppercase font-sans">Sakhawat H.</h2>
+                    <p className="md:text-xl font-extrabold text-gray-600">
                         <Typewriter />
                     </p>
                 </div>

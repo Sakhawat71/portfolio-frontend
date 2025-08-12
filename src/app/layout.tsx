@@ -5,13 +5,10 @@ import { Toaster } from "sonner";
 import NavbarSelector from "@/components/shared/NavbarSelector";
 
 
-const inter = Inter({ 
-  subsets: ['latin'],
-  variable: '--font-inter',
-});
-const firaCode = Fira_Code({
-  subsets: ['latin'],
-  variable: '--font-fira-code',
+const inter = Inter({
+    subsets: ["latin"],
+    variable: '--font-inter',
+    weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {
@@ -26,7 +23,7 @@ export default async function RootLayout({
 }>) {
 
     return (
-        <html lang="en" className={`${inter.variable} ${firaCode.variable}`}>
+        <html lang="en" className={`${inter.className}`}>
             <body
                 className={` bg-slate-100`}
             >
