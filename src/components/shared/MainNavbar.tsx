@@ -29,8 +29,7 @@ const Navbar = () => {
     return (
         <header
             className={
-                `fixed top-0 w-full z-50 transition-colors duration-300 ${isScrolled ? "bg-black" : "bg-transparent"
-                }`
+                `fixed top-0 w-full z-50 transition-colors duration-300 "bg-black`
             }
         >
             <nav className="relative flex items-center justify-between h-16 px-4 md:px-8 lg:px-28">
@@ -38,7 +37,7 @@ const Navbar = () => {
                 <div className="w-5/12">
                     <Link
                         href="/"
-                        className={`text-2xl font-bold font-mono ${isScrolled ? "text-white" : "text-black"}`}
+                        className={`text-2xl font-bold font-mono text-black`}
                     >
                         {`<Sakhawat/>`}
                     </Link>
