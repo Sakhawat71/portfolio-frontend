@@ -9,6 +9,8 @@ const Navbar = () => {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+    const isHome = pathname === "/";
+    // console.log(pathname,isHome);
 
     useEffect(() => {
         const handleScroll = () => {
