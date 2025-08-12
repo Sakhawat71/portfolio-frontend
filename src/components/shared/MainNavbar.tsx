@@ -2,22 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const Navbar = () => {
+const MainNavbar = () => {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setIsScrolled(window.scrollY > 0);
-        };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
 
     const navLinks = [
         { href: "/", label: "Home" },
@@ -29,7 +19,7 @@ const Navbar = () => {
     return (
         <header
             className={
-                `fixed top-0 w-full z-50 transition-colors duration-300 "bg-black`
+                `fixed top-0 w-full z-50 transition-colors duration-300 bg-black`
             }
         >
             <nav className="relative flex items-center justify-between h-16 px-4 md:px-8 lg:px-28">
@@ -37,7 +27,7 @@ const Navbar = () => {
                 <div className="w-5/12">
                     <Link
                         href="/"
-                        className={`text-2xl font-bold font-mono text-black`}
+                        className={`text-2xl font-bold font-mono text-white`}
                     >
                         {`<Sakhawat/>`}
                     </Link>
@@ -90,4 +80,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default MainNavbar;

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Fira_Code, Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/shared/Navbar";
 import { Toaster } from "sonner";
+import NavbarSelector from "@/components/shared/NavbarSelector";
 
 
 const inter = Inter({ 
@@ -30,7 +30,7 @@ export default async function RootLayout({
             <body
                 className={` bg-slate-100`}
             >
-                <Navbar />
+                <NavbarSelector />
                 <div className="min-h-screen">{children}</div>
                 <Toaster position="top-right" />
             </body>
