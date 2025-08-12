@@ -40,7 +40,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="gradient-bg ">
+        <div className="gradient-bg pt-20">
 
             <div className='py-12 flex items-center'>
                 <div className=' border-black border-[5px] w-72 mx-auto text-center '>

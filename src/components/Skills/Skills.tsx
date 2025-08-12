@@ -90,15 +90,6 @@ const Skills = () => {
                     <p>JS</p>
                 </motion.div>
 
-                <div className=' flex flex-col justify-center items-center space-y-3'>
-                    <Image
-                        src={es6}
-                        alt='html5'
-                        width={80}
-                        height={80}
-                    />
-                    <p>JS</p>
-                </div>
 
                 <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image
@@ -149,9 +140,6 @@ const Skills = () => {
                     />
                     <p>Bootstrap</p>
                 </div>
-
-
-
             </div>
 
 

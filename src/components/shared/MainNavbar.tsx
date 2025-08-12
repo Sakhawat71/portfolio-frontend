@@ -19,7 +19,7 @@ const MainNavbar = () => {
     return (
         <header
             className={
-                `fixed top-0 w-full z-50 transition-colors duration-300 bg-black`
+                `fixed top-0 w-full z-50 transition-colors duration-300 bg-gray-900`
             }
         >
             <nav className="relative flex items-center justify-between h-16 px-4 md:px-8 lg:px-28">
@@ -53,7 +53,7 @@ const MainNavbar = () => {
 
                     {/* Mobile Nav Toggle */}
                     <button
-                        className="md:hidden p-2 rounded-lg bg-gray-200 dark:bg-gray-800"
+                        className="md:hidden p-2 rounded-lg bg-gray-900 dark:bg-gray-800"
                         onClick={() => setIsOpen(!isOpen)}
                     >
                         {isOpen ? <X size={24} /> : <Menu size={24} />}

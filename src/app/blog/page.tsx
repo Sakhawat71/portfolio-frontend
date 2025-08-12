@@ -6,7 +6,7 @@ const BlogsPage = async () => {
     // console.log(blogs);
 
     return (
-        <div className="max-w-7xl mx-auto p-6">
+        <div className="max-w-7xl mx-auto p-6 pt-20">
             <h1 className="text-3xl font-bold text-center mb-8">Blogs</h1>
 
             {blogs.data.length === 0 ? (

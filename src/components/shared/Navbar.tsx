@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <header
             className={
-                `fixed top-0 w-full z-50 transition-colors duration-300 ${isScrolled ? "bg-black" : "bg-transparent"
+                `fixed top-0 w-full z-50 transition-colors duration-300 ${isScrolled ? "bg-gray-900" : "bg-transparent"
                 }`
             }
         >

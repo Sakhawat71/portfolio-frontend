@@ -5,7 +5,7 @@ import Typewriter from './Typewriter';
 
 const Banner = () => {
     return (
-        <div className="flex h-screen lg:max-h-[100vh] mx-auto justify-center overflow-hidden bg-[#D7D7D7] pt-3 md:pt-0">
+        <div className="flex h-screen lg:max-h-[100vh] mx-auto justify-center overflow-hidden bg-[#D7D7D7]">
             {/* Left Content Section */}
             <div className="lg:w-5/12 w-full bg-[#D7D7D7] flex flex-col justify-center lg:items-start p-10 md:p-16 space-y-12 lg:pl-28 md:items-center text-center lg:text-start">
                 <div className='font-light space-y-3'>
