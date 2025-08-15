@@ -49,7 +49,7 @@ const Banner = () => {
                 {/* Download CV Button */}
                 <div className="flex justify-center lg:justify-start">
                     <Link
-                        href="/Sakhawat_react.jsDev_resume.pdf"
+                        href="/Sakhawat Full Stack resume.pdf"
                         download
                         className="flex items-center space-x-2 border-2 border-black text-black px-6 py-3 rounded-lg hover:bg-black hover:text-white transition-all duration-300"
                     >

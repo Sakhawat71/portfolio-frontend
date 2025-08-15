@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fira_Code, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import NavbarSelector from "@/components/shared/NavbarSelector";
