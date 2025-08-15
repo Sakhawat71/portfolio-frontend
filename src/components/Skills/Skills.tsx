@@ -1,4 +1,5 @@
-import React from 'react';
+"use client"
+
 import "./skills.css";
 import Image from 'next/image';
 import * as motion from "motion/react-client"
@@ -22,14 +23,20 @@ import firebase from "@/assets/skills/firebase.png";
 import netlify from "@/assets/skills/netlify.png";
 import lineImage from '@/assets/ext/line.png'
 import Aspirations from '../Aspirations/Aspirations';
+import SkillsBox from "./SkillsBox";
 
 const Skills = () => {
 
-    const box = {
-        width: 100,
-        height: 100,
-        backgroundColor: "#9911ff",
-        borderRadius: 5,
+    // const box = {
+    //     width: 100,
+    //     height: 100,
+    //     backgroundColor: "#9911ff",
+    //     borderRadius: 5,
+    // }
+
+    const boxdata = {
+        img: html5,
+        name: "HTML"
     }
 
     return (
@@ -55,7 +62,7 @@ const Skills = () => {
             {/* front end section */}
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  text-center  gap-10 my-10'>
 
-                <div className=' flex flex-col justify-center items-center space-y-3'>
+                {/* <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image
                         src={html5}
                         alt='html5'
@@ -63,7 +70,8 @@ const Skills = () => {
                         height={80}
                     />
                     <p>HTML5</p>
-                </div>
+                </div> */}
+                <SkillsBox data={boxdata} />
 
                 <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image

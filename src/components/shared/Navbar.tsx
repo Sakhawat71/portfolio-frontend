@@ -29,8 +29,7 @@ const Navbar = () => {
     return (
         <header
             className={
-                `fixed top-0 w-full z-50 transition-colors duration-300 ${isScrolled ? "bg-gray-900" : "bg-transparent"
-                }`
+                `fixed top-0 w-full z-50 transition-colors duration-300 ${isScrolled ? "bg-gray-900" : "bg-transparent"}`
             }
         >
             <nav className="relative flex items-center justify-between h-16 px-4 md:px-8 lg:px-28">

@@ -1,8 +1,6 @@
 import { TProject } from "@/types/project.type";
 import ProjectCard from "./ProjectCard";
 
-
-
 interface ProjectsComponentProps {
     projects: TProject[];
 }
