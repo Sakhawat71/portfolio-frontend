@@ -1,6 +1,6 @@
 "use server";
 
-export const fetchSkills = async () => {
+export const getSkills = async () => {
     try {
         const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}api/skills`, {
             method: "GET",
