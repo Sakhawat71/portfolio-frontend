@@ -1,19 +1,40 @@
+"use client"
+
+import * as motion from "motion/react-client";
+import { getSkills } from "@/services/fetchSkills";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 
-const SkillsBox = ({data} : any) => {
-    
+const SkillsBox = () => {
+
+    const [skills, setSkills] = useState([]);
+    useEffect(() => {
+        const fetchSkills = async () => {
+            const data = await getSkills();
+            setSkills(data.data)
+        };
+        fetchSkills();
+    }, [])
+
+    console.log(skills);
 
     return (
-        <div className=' flex flex-col justify-center items-center space-y-3'>
-            <Image
-                src={data.img}
-                alt={data.name}
-                width={80}
-                height={80}
-            />
-            <p>{data.name}</p>
-        </div>
+        skills.map(skill => <>
+            <motion.div
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                className=' flex flex-col justify-center items-center space-y-3'
+            >
+                <Image
+                    src={skill.icon}
+                    alt={skill.name}
+                    width={60}
+                    height={60}
+                />
+                <p>{skill.name}</p>
+            </motion.div>
+        </>)
     );
 };
 

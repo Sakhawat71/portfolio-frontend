@@ -2,7 +2,7 @@
 
 import "./skills.css";
 import Image from 'next/image';
-import * as motion from "motion/react-client"
+import * as motion from "motion/react-client";
 
 import html5 from "@/assets/skills/html.png";
 import css3 from "@/assets/skills/css3.png";
@@ -71,7 +71,7 @@ const Skills = () => {
                     />
                     <p>HTML5</p>
                 </div> */}
-                <SkillsBox data={boxdata} />
+                <SkillsBox />
 
                 <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image
