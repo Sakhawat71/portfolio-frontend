@@ -11,9 +11,9 @@ const Banner = () => {
                 <div className='font-light space-y-3'>
                     <h4 className="text-xl md:text-3xl font-semibold text-gray-600">Hi, I am</h4>
                     <h2 className="text-3xl md:text-5xl font-bold text-black uppercase font-sans">Sakhawat H.</h2>
-                    <p className="md:text-xl font-extrabold text-gray-600">
+                    <div className="md:text-xl font-extrabold text-gray-600">
                         <Typewriter />
-                    </p>
+                    </div>
                 </div>
 
 

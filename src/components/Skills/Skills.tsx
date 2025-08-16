@@ -34,10 +34,10 @@ const Skills = () => {
     //     borderRadius: 5,
     // }
 
-    const boxdata = {
-        img: html5,
-        name: "HTML"
-    }
+    // const boxdata = {
+    //     img: html5,
+    //     name: "HTML"
+    // }
 
     return (
         <div className=' gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
@@ -60,7 +60,7 @@ const Skills = () => {
             <h1 className='font-bold text-xl tracking-widest mt-20'>Front-End</h1>
 
             {/* front end section */}
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  text-center  gap-10 my-10'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6  text-center gap-10 my-10'>
 
                 {/* <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image
