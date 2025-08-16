@@ -33,7 +33,6 @@ const Skills = () => {
     //     backgroundColor: "#9911ff",
     //     borderRadius: 5,
     // }
-
     // const boxdata = {
     //     img: html5,
     //     name: "HTML"

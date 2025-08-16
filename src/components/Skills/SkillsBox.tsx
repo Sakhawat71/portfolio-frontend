@@ -17,6 +17,11 @@ const SkillsBox = () => {
         fetchSkills();
     }, [])
 
+
+    const frontend = skills.filter((sk) => sk.type === "Frontend");
+    console.log(frontend);
+
+
     console.log(skills);
 
     return (
