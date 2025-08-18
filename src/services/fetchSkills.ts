@@ -4,7 +4,7 @@ export const getSkills = async () => {
     try {
         const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}api/skills`, {
             method: "GET",
-            next: { revalidate: 60 }
+            // next: { revalidate: 60 }
         });
 
         if (!res.ok) {
