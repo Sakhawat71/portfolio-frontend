@@ -1,31 +1,17 @@
 "use client"
 
 import * as motion from "motion/react-client";
-import { getSkills } from "@/services/fetchSkills";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { ISkill } from "@/types/skill.type";
 
+interface SkillsBoxProps {
+    skills: ISkill[]
+}
 
-const SkillsBox = () => {
-
-    const [skills, setSkills] = useState([]);
-    useEffect(() => {
-        const fetchSkills = async () => {
-            const data = await getSkills();
-            setSkills(data.data)
-        };
-        fetchSkills();
-    }, [])
-
-
-    const frontend = skills.filter((sk) => sk.type === "Frontend");
-    console.log(frontend);
-
-
-    console.log(skills);
+const SkillsBox = ({ skills }: SkillsBoxProps) => {
 
     return (
-        skills.map(skill => <>
+        skills.map((skill: ISkill) => <>
             <motion.div
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}

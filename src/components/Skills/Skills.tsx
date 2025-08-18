@@ -24,19 +24,28 @@ import netlify from "@/assets/skills/netlify.png";
 import lineImage from '@/assets/ext/line.png'
 import Aspirations from '../Aspirations/Aspirations';
 import SkillsBox from "./SkillsBox";
+import { useEffect, useState } from "react";
+import { getSkills } from "@/services/fetchSkills";
+import { ISkill } from "@/types/skill.type";
 
 const Skills = () => {
 
-    // const box = {
-    //     width: 100,
-    //     height: 100,
-    //     backgroundColor: "#9911ff",
-    //     borderRadius: 5,
-    // }
-    // const boxdata = {
-    //     img: html5,
-    //     name: "HTML"
-    // }
+    const [skills, setSkills] = useState([]);
+    useEffect(() => {
+        const fetchSkills = async () => {
+            const data = await getSkills();
+            setSkills(data.data)
+        };
+        fetchSkills();
+    }, [])
+
+
+    const frontend = skills.filter((sk : ISkill) => sk.type === "Frontend");
+    console.log(frontend);
+
+
+    console.log(skills);
+
 
     return (
         <div className=' gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
@@ -70,7 +79,7 @@ const Skills = () => {
                     />
                     <p>HTML5</p>
                 </div> */}
-                <SkillsBox />
+                <SkillsBox skills={frontend} />
 
                 <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image
