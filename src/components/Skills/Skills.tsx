@@ -27,6 +27,7 @@ import SkillsBox from "./SkillsBox";
 import { useEffect, useState } from "react";
 import { getSkills } from "@/services/fetchSkills";
 import { ISkill } from "@/types/skill.type";
+import { skillFilter } from "@/utils/skillFilter";
 
 const Skills = () => {
 
@@ -38,13 +39,12 @@ const Skills = () => {
         };
         fetchSkills();
     }, [])
-
-
-    const frontend = skills.filter((sk : ISkill) => sk.type === "Frontend");
-    console.log(frontend);
-
-
-    console.log(skills);
+    
+    const Frontend =  skillFilter(skills,'Frontend');
+    const backend =  skillFilter(skills,'Backend');
+    
+    console.log(backend);
+    // console.log(skills);
 
 
     return (
@@ -70,18 +70,9 @@ const Skills = () => {
             {/* front end section */}
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6  text-center gap-10 my-10'>
 
-                {/* <div className=' flex flex-col justify-center items-center space-y-3'>
-                    <Image
-                        src={html5}
-                        alt='html5'
-                        width={80}
-                        height={80}
-                    />
-                    <p>HTML5</p>
-                </div> */}
-                <SkillsBox skills={frontend} />
+                <SkillsBox skills={Frontend} />
 
-                <div className=' flex flex-col justify-center items-center space-y-3'>
+                {/* <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image
                         src={css3}
                         alt='html5'
@@ -155,16 +146,18 @@ const Skills = () => {
                         height={80}
                     />
                     <p>Bootstrap</p>
-                </div>
+                </div> */}
             </div>
 
 
             <h1 className='font-bold text-xl tracking-widest mt-20'>Back End</h1>
 
             {/* back end section */}
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  text-center  gap-10 my-10'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6  text-center gap-10 my-10'>
+                
+                <SkillsBox skills={backend} />
 
-                <div className=' flex flex-col justify-center items-center space-y-3'>
+                {/* <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image
                         src={nodejs}
                         alt='nodejs'
@@ -182,7 +175,7 @@ const Skills = () => {
                         height={80}
                     />
                     <p>EXPRESS.JS</p>
-                </div>
+                </div> */}
             </div>
 
 
