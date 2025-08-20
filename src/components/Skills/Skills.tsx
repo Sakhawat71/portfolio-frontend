@@ -104,10 +104,10 @@ const Skills = () => {
             </div>
 
 
-            {/* <h1 className='font-bold text-xl tracking-widest mt-20'>Hosting & Server</h1> */}
+            <h1 className='font-bold text-xl tracking-widest mt-20'>Hosting & Server</h1>
 
             {/* Hosting & Serverless Platforms section */}
-            {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  text-center  gap-10 my-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  text-center  gap-10 my-10'>
 
                 <div className=' flex flex-col justify-center items-center space-y-3'>
                     <Image
@@ -139,7 +139,7 @@ const Skills = () => {
                     <p>Netlify</p>
                 </div>
 
-            </div> */}
+            </div>
 
 
         </div>
