@@ -11,6 +11,12 @@ const inter = Inter({
     weight: ["400", "500", "700"],
 });
 
+const raleway = Inter({
+    subsets: ["latin"],
+    variable: '--font-raleway',
+    weight: ["400", "500", "700"],
+});
+
 export const metadata: Metadata = {
     title: "Sakhawat - Portfolio",
     description: "Sakhawat Full Stack Developer",
@@ -23,7 +29,7 @@ export default async function RootLayout({
 }>) {
 
     return (
-        <html lang="en" className={`${inter.className}`}>
+        <html lang="en" className={`${inter.className} ${raleway.className}`}>
             <body
                 className={` bg-slate-100`}
             >

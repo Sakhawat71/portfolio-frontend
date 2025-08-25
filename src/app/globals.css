@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --light-bg: #D7D7D7;
+  --dark-bg: #1a1a1a;
+  --dark-skew-bg: #2a2a2a;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-black;
+  }
+
+  * {
+    @apply border-gray-300;
+  }
+}
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 :root {
     --light-bg: #D7D7D7;
@@ -81,4 +102,4 @@
   body {
     @apply bg-background text-foreground;
     }
-}
+} */
