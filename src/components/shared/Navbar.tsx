@@ -4,6 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from '@/assets/white_logo.png';
+import Image from "next/image";
 
 const Navbar = () => {
     const pathname = usePathname();
@@ -11,7 +13,7 @@ const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
-        const handleScroll = () => {
+        const handleScroll: () => void = () => {
             setIsScrolled(window.scrollY > 0);
         };
 
@@ -37,9 +39,18 @@ const Navbar = () => {
                 <div className="w-5/12">
                     <Link
                         href="/"
-                        className={`text-2xl font-bold font-mono ${isScrolled ? "text-white" : "text-black"}`}
+                        className={`text-2xl font-bold ${isScrolled ? "text-white" : "text-black"}`}
                     >
-                        {`<Sakhawat/>`}
+                        {isScrolled ? (
+                            <Image
+                                src={logo.src}
+                                alt="Logo"
+                                height={100}
+                                width={200}
+                            />
+                        ) : (
+                            '<Sakhawat/>'
+                        )}
                     </Link>
                 </div>
 

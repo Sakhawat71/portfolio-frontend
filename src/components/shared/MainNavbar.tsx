@@ -4,6 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
+import logo from '@/assets/white_logo.png';
 
 const MainNavbar = () => {
     const pathname = usePathname();
@@ -29,7 +31,13 @@ const MainNavbar = () => {
                         href="/"
                         className={`text-2xl font-bold font-mono text-white`}
                     >
-                        {`<Sakhawat/>`}
+                        {/* {`<Sakhawat/>`} */}
+                        <Image
+                            src={logo.src}
+                            alt="Logo"
+                            height={100}
+                            width={200}
+                        />
                     </Link>
                 </div>
 
