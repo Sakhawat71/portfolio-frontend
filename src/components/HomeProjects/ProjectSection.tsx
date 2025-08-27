@@ -33,9 +33,12 @@ export function ProjectSection({
     live,
     reverse,
 }: ProjectProps) {
+
+    console.log(images);
+
     return (
-        <section className="w-full py-16">
-            <div className={`grid md:grid-cols-2 gap-10 items-center ${reverse ? "md:flex-row-reverse" : ""}`}>
+        <section className=" py-16 mx-20">
+            <div className={`grid md:grid-cols-2 gap-10 items-center ${reverse ? "md:[&>*:first-child]:order-last" : ""}`}>
 
                 {/* Carousel Side */}
                 <motion.div
@@ -47,7 +50,7 @@ export function ProjectSection({
                 >
                     <Carousel className="w-full max-w-lg mx-auto">
                         <CarouselContent>
-                            {images.map((img, i) => (
+                            {images.map((img : string, i) => (
                                 <CarouselItem key={i}>
                                     <Card>
                                         <CardContent className="flex aspect-video items-center justify-center p-2">
