@@ -34,7 +34,7 @@ export function ProjectSection({
     reverse,
 }: ProjectProps) {
 
-    console.log(images);
+    // console.log(images);
 
     return (
         <section className=" py-16 mx-20">
@@ -42,23 +42,23 @@ export function ProjectSection({
 
                 {/* Carousel Side */}
                 <motion.div
-                    initial={{ opacity: 0, x: reverse ? 100 : -100 }}
+                    // initial={{ opacity: 0, x: reverse ? 100 : -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6 }}
+                    // transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
-                    className="w-full"
+                    // className="w-full"
                 >
                     <Carousel className="w-full max-w-lg mx-auto">
                         <CarouselContent>
                             {images.map((img : string, i) => (
                                 <CarouselItem key={i}>
                                     <Card>
-                                        <CardContent className="flex aspect-video items-center justify-center p-2">
+                                        <CardContent className="flex  items-center justify-center p-2">
                                             <Image
                                                 src={img}
                                                 alt={`${name} screenshot`}
-                                                width={100}
-                                                height={100}
+                                                width={350}
+                                                height={200}
                                                 className="rounded-xl shadow-lg object-cover w-full h-full"
                                             />
                                         </CardContent>
@@ -73,9 +73,9 @@ export function ProjectSection({
 
                 {/* Info Side */}
                 <motion.div
-                    initial={{ opacity: 0, x: reverse ? -100 : 100 }}
+                    // initial={{ opacity: 0, x: reverse ? -100 : 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6 }}
+                    // transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
                     className="space-y-4"
                 >
