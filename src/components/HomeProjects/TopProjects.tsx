@@ -7,7 +7,6 @@ const TopProjects = () => {
 
     return (
         <div>
-
             <div>
                 <Image
                     src={lineImage}
@@ -61,6 +60,16 @@ const TopProjects = () => {
                 live="https://portfolio.com"
                 reverse={true}
             />
+
+            <div>
+                <Image
+                    src={lineImage}
+                    alt='line'
+                    width={150}
+                    height={50}
+                    className='my-20 mx-auto'
+                />
+            </div>
         </div>
     );
 };
