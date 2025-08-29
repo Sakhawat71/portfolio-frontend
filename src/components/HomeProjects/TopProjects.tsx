@@ -26,6 +26,11 @@ const TopProjects = () => {
             </div>
 
 
+            <div className="text-center mb-10">
+                <h2 className="text-4xl">My Work</h2>
+                <p>A collection of projects I've worked on.</p>
+            </div>
+
             <ProjectSection
                 name="TutorLink"
                 type="Team"
