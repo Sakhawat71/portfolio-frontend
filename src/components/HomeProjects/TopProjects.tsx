@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { ProjectSection } from "./ProjectSection";
 import lineImage from '@/assets/ext/line.png'
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 
 const TopProjects = () => {
@@ -62,6 +64,11 @@ const TopProjects = () => {
             />
 
             <div>
+
+                <Link href={"/projects"}>
+                    <Button className="mx-auto my-10 block" variant={"outline"}>See All Projects</Button>
+                </Link>
+
                 <Image
                     src={lineImage}
                     alt='line'
