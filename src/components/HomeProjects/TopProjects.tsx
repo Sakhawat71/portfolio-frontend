@@ -31,6 +31,7 @@ const TopProjects = () => {
                 <p>A collection of projects I've worked on.</p>
             </div>
 
+            {/* 1st */}
             <ProjectSection
                 name="TutorLink"
                 type="Team"
@@ -51,7 +52,7 @@ const TopProjects = () => {
                 live="https://tutorlink.com"
             />
 
-
+            {/* 2nd */}
             <ProjectSection
                 name="Portfolio"
                 type="Solo"
@@ -68,6 +69,7 @@ const TopProjects = () => {
                 reverse={true}
             />
 
+            {/* 3rd  */}
             <ProjectSection
                 name="TutorLink"
                 type="Team"
