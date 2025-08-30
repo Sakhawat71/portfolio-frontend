@@ -2,7 +2,6 @@ import { HomeBlogCard } from "./HomeBlogCard";
 
 const HomeBlogs = () => {
 
-
     return (
         <section className="py-16">
             <div className="text-center mb-10">

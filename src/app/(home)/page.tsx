@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner/Banner";
+import HomeBlogs from "@/components/HomeBlogs/HomeBlogs";
 import TopProjects from "@/components/HomeProjects/TopProjects";
 import Skills from "@/components/Skills/Skills";
 import Footer from "@/components/shared/Footer";
@@ -11,6 +12,7 @@ const HomePage = () => {
             <Banner />
             <Skills />
             <TopProjects />
+            <HomeBlogs />
             <Footer />
         </div>
     );
