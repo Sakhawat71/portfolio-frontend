@@ -17,7 +17,7 @@ const ProjectDetailsPage = async ({ params }: ProjectProps) => {
     if (!project) return notFound();
 
     return (
-        <div>
+        <div className="mt-10">
             <ProjectDetails
                 project={project}
             />
