@@ -8,7 +8,8 @@ import Link from "next/link";
 const TopProjects = () => {
 
     return (
-        <div>
+        <section>
+            {/* project line */}
             <div>
                 <Image
                     src={lineImage}
@@ -104,7 +105,7 @@ const TopProjects = () => {
                     className='my-20 mx-auto'
                 />
             </div>
-        </div>
+        </section>
     );
 };
 
