@@ -6,23 +6,13 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { IProject } from "@/types/project.type";
 
-type Project = {
-    id: string;
-    title: string;
-    description: string;
-    image: string;
-    techStack: string[];
-    liveUrl: string;
-    githubUrl: string;
-    isTeam?: boolean;
-    teamSize?: number;
-    roleInTeam?: string;
-    startDate: string;
-    endDate: string;
-};
 
-const ProjectCard = ({ project }: { project: Project }) => {
+const ProjectCard = (
+    { project }: { project: IProject }
+) => {
+    
     return (
         <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-white hover:scale-[1.02]">
             <Link href={`/projects/${project.id}`} className="block">

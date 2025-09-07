@@ -11,7 +11,7 @@ export type IProject = {
     roleInTeam: string | null;
     startDate: string | null;
     endDate: string | null;
-    createdAt: string;
+    createdAt?: string;
 };
 
 export type TProject = {
@@ -23,3 +23,18 @@ export type TProject = {
     liveUrl: string;
     githubUrl: string;
 };
+
+// export type TProjectCard = {
+//     id: string;
+//     title: string;
+//     description: string;
+//     image: string;
+//     techStack: string[];
+//     liveUrl: string;
+//     githubUrl: string;
+//     isTeam?: boolean;
+//     teamSize?: number;
+//     roleInTeam?: string;
+//     startDate: string;
+//     endDate: string;
+// };
