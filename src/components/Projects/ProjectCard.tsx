@@ -15,6 +15,11 @@ type Project = {
     techStack: string[];
     liveUrl: string;
     githubUrl: string;
+    isTeam?: boolean;
+    teamSize?: number;
+    roleInTeam?: string;
+    startDate: string;
+    endDate: string;
 };
 
 const ProjectCard = ({ project }: { project: Project }) => {
