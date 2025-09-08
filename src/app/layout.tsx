@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import NavbarSelector from "@/components/shared/NavbarSelector";
+import Footer from "@/components/shared/Footer";
 
 
 const inter = Inter({
@@ -36,6 +37,7 @@ export default async function RootLayout({
                 <NavbarSelector />
                 <div className="min-h-screen">{children}</div>
                 <Toaster position="top-right" />
+                <Footer />
             </body>
         </html>
     );
