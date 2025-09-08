@@ -24,6 +24,19 @@ export type TProject = {
     githubUrl: string;
 };
 
+export type TProjectProps = {
+    name: string
+    type: "Team" | "Solo"
+    role: string
+    features: string[]
+    work: string
+    images: string[]
+    githubBackend?: string
+    githubFrontend?: string
+    live: string
+    reverse?: boolean
+}
+
 // export type TProjectCard = {
 //     id: string;
 //     title: string;

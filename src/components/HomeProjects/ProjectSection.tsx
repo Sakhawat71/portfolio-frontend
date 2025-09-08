@@ -7,19 +7,8 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Github, ExternalLink } from "lucide-react"
 import Image from "next/image"
+import { TProjectProps } from "@/types/project.type"
 
-type ProjectProps = {
-    name: string
-    type: "Team" | "Solo"
-    role: string
-    features: string[]
-    work: string
-    images: string[]
-    githubBackend?: string
-    githubFrontend?: string
-    live: string
-    reverse?: boolean
-}
 
 export function ProjectSection({
     name,
@@ -32,25 +21,23 @@ export function ProjectSection({
     githubFrontend,
     live,
     reverse,
-}: ProjectProps) {
+}: TProjectProps) {
 
     // console.log(images);
 
     return (
-        <section className=" py-16 mx-20">
-            <div className={`grid md:grid-cols-2 gap-10 items-center ${reverse ? "md:[&>*:first-child]:order-last" : ""}`}>
+        <section className=" py-16 mx-20 ">
+
+            <div className={`grid md:grid-cols-2 gap-10 items-center rounded-2xl ${reverse ? "md:[&>*:first-child]:order-last" : ""} border-black border-2 bg-slate-50`}>
 
                 {/* Carousel Side */}
                 <motion.div
-                    // initial={{ opacity: 0, x: reverse ? 100 : -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    // transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
-                    // className="w-full"
                 >
                     <Carousel className="w-full max-w-lg mx-auto">
                         <CarouselContent>
-                            {images.map((img : string, i) => (
+                            {images.map((img: string, i) => (
                                 <CarouselItem key={i}>
                                     <Card>
                                         <CardContent className="flex  items-center justify-center p-2">
@@ -73,11 +60,9 @@ export function ProjectSection({
 
                 {/* Info Side */}
                 <motion.div
-                    // initial={{ opacity: 0, x: reverse ? -100 : 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    // transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
-                    className="space-y-4"
+                    className="space-y-4 border-black border-2 p-6"
                 >
                     <h2 className="text-2xl md:text-3xl font-bold">{name}</h2>
                     <div className="flex gap-2">
