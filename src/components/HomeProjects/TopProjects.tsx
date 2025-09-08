@@ -8,7 +8,7 @@ import Link from "next/link";
 const TopProjects = () => {
 
     return (
-        <section>
+        <section className="">
             {/* project line */}
             <div>
                 <Image
@@ -32,67 +32,70 @@ const TopProjects = () => {
                 <p>A collection of projects I've worked on.</p>
             </div>
 
-            {/* 1st */}
-            <ProjectSection
-                name="TutorLink"
-                type="Team"
-                role="Backend Developer"
-                features={[
-                    "Tutor search with filters",
-                    "Booking & Payment system",
-                    "Real-time notifications",
-                ]}
-                work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
-                images={[
-                    `https://i.ibb.co.com/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
-                    `https://i.ibb.co.com/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
-                    `https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
-                ]}
-                githubFrontend="https://github.com/..."
-                githubBackend="https://github.com/..."
-                live="https://tutorlink.com"
-            />
 
-            {/* 2nd */}
-            <ProjectSection
-                name="Portfolio"
-                type="Solo"
-                role="Fullstack"
-                features={[
-                    "Interactive animations",
-                    "Responsive design",
-                    "Project showcase with carousel",
-                ]}
-                work="Built with Next.js, Tailwind, shadcn/ui, and Framer Motion."
-                images={[`https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`]}
-                githubFrontend="https://github.com/..."
-                live="https://portfolio.com"
-                reverse={true}
-            />
+            <section className="space-y-16 mx-10 lg:mx-20 ">
+                {/* 1st */}
+                <ProjectSection
+                    name="TutorLink"
+                    type="Team"
+                    role="Backend Developer"
+                    features={[
+                        "Tutor search with filters",
+                        "Booking & Payment system",
+                        "Real-time notifications",
+                    ]}
+                    work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
+                    images={[
+                        `https://i.ibb.co.com/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
+                        `https://i.ibb.co.com/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
+                        `https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
+                    ]}
+                    githubFrontend="https://github.com/..."
+                    githubBackend="https://github.com/..."
+                    live="https://tutorlink.com"
+                />
 
-            {/* 3rd  */}
-            <ProjectSection
-                name="TutorLink"
-                type="Team"
-                role="Backend Developer"
-                features={[
-                    "Tutor search with filters",
-                    "Booking & Payment system",
-                    "Real-time notifications",
-                ]}
-                work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
-                images={[
-                    `https://i.ibb.co.com/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
-                    `https://i.ibb.co.com/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
-                    `https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
-                ]}
-                githubFrontend="https://github.com/..."
-                githubBackend="https://github.com/..."
-                live="https://tutorlink.com"
-            />
+                {/* 2nd */}
+                <ProjectSection
+                    name="Portfolio"
+                    type="Solo"
+                    role="Fullstack"
+                    features={[
+                        "Interactive animations",
+                        "Responsive design",
+                        "Project showcase with carousel",
+                    ]}
+                    work="Built with Next.js, Tailwind, shadcn/ui, and Framer Motion."
+                    images={[`https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`]}
+                    githubFrontend="https://github.com/..."
+                    live="https://portfolio.com"
+                    reverse={true}
+                />
+
+                {/* 3rd  */}
+                <ProjectSection
+                    name="TutorLink"
+                    type="Team"
+                    role="Backend Developer"
+                    features={[
+                        "Tutor search with filters",
+                        "Booking & Payment system",
+                        "Real-time notifications",
+                    ]}
+                    work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
+                    images={[
+                        `https://i.ibb.co.com/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
+                        `https://i.ibb.co.com/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
+                        `https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
+                    ]}
+                    githubFrontend="https://github.com/..."
+                    githubBackend="https://github.com/..."
+                    live="https://tutorlink.com"
+                />
+            </section>
+
 
             <div>
-
                 <Link href={"/projects"}>
                     <Button className="mx-auto my-10 block" variant={"outline"}>See All Projects</Button>
                 </Link>
