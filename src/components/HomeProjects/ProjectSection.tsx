@@ -1,7 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -26,20 +27,30 @@ export function ProjectSection({
     // console.log(images);
 
     return (
-        <div className={`grid md:grid-cols-2 gap-10 items-center rounded-2xl ${reverse ? "md:[&>*:first-child]:order-last" : ""} border-black border-2 bg-slate-50`}>
+        <div className={`grid md:grid-cols-2 gap-10 items-center rounded-2xl ${reverse ? "md:[&>*:first-child]:order-last" : ""} bg-slate-50`}>
 
             {/* Carousel Side */}
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="border-black border-2"
+                className="h-full"
             >
-                <Carousel className="w-[90%] md:w-full max-w-lg mx-auto">
+                <Carousel
+                    className="w-[90%] md:w-full max-w-lg mx-auto"
+                    opts={{ loop: true, align: 'start' }}
+                    plugins={[
+                        Autoplay({
+                            delay: 3500,
+                            stopOnInteraction: false,
+                            stopOnMouseEnter: true
+                        })
+                    ]}
+                >
                     <CarouselContent>
                         {images.map((img: string, i) => (
                             <CarouselItem key={i}>
                                 <Card>
-                                    <CardContent className="flex  items-center justify-center p-2">
+                                    <CardContent className="flex items-center justify-center p-2">
                                         <Image
                                             src={img}
                                             alt={`${name} screenshot`}
@@ -52,9 +63,6 @@ export function ProjectSection({
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    
-                    {/* <CarouselPrevious /> */}
-                    {/* <CarouselNext /> */}
                 </Carousel>
             </motion.div>
 
@@ -62,7 +70,7 @@ export function ProjectSection({
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="border-x-2 border-black space-y-4 h-full p-6"
+                className=" space-y-4 h-full p-6"
             >
                 <h2 className="text-2xl md:text-3xl font-bold">{name}</h2>
                 <div className="flex gap-2">
