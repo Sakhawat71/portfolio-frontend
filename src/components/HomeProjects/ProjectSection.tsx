@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Github, ExternalLink } from "lucide-react"
 import Image from "next/image"
-import { TProjectProps } from "@/types/project.type"
+import { TProjectProps } from "@/types/project.type";
 
 
 export function ProjectSection({
@@ -56,7 +56,7 @@ export function ProjectSection({
                                             alt={`${name} screenshot`}
                                             width={600}
                                             height={400}
-                                            unoptimized
+                                            // unoptimized
                                             className="rounded-xl shadow-lg object-cover w-full h-full"
                                         />
                                     </CardContent>
