@@ -27,13 +27,13 @@ const TopProjects = () => {
             </div>
 
 
-            <div className="text-center mb-10">
+            {/* <div className="text-center mb-10">
                 <h2 className="text-4xl">My Work</h2>
                 <p>A collection of projects I've worked on.</p>
-            </div>
+            </div> */}
 
 
-            <section className="space-y-16 mx-10 lg:mx-20 ">
+            <section className="space-y-10 mx-10 lg:mx-20 ">
                 {/* 1st */}
                 <ProjectSection
                     name="TutorLink"
@@ -46,9 +46,9 @@ const TopProjects = () => {
                     ]}
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
-                        `https://i.ibb.co.com/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
-                        `https://i.ibb.co.com/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
-                        `https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
+                        `https://i.ibb.co/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
+                        `https://i.ibb.co/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
+                        `https://i.ibb.co/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
                     ]}
                     githubFrontend="https://github.com/..."
                     githubBackend="https://github.com/..."
@@ -66,7 +66,9 @@ const TopProjects = () => {
                         "Project showcase with carousel",
                     ]}
                     work="Built with Next.js, Tailwind, shadcn/ui, and Framer Motion."
-                    images={[`https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`]}
+                    images={[
+                        `https://i.ibb.co/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
+                    ]}
                     githubFrontend="https://github.com/..."
                     live="https://portfolio.com"
                     reverse={true}
@@ -84,9 +86,9 @@ const TopProjects = () => {
                     ]}
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
-                        `https://i.ibb.co.com/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
-                        `https://i.ibb.co.com/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
-                        `https://i.ibb.co.com/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
+                        `https://i.ibb.co/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
+                        `https://i.ibb.co/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
+                        `https://i.ibb.co/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
                     ]}
                     githubFrontend="https://github.com/..."
                     githubBackend="https://github.com/..."

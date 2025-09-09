@@ -151,13 +151,13 @@ const ProjectDetails = ({ project }: { project: IProject }) => {
                                 <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-1">
                                     Added to Portfolio
                                 </h3>
-                                <p className="text-gray-800 dark:text-gray-200">
-                                    {new Date(project.createdAt).toLocaleDateString("en-US", {
+                                {/* <p className="text-gray-800 dark:text-gray-200">
+                                    {new Date(project?.createdAt).toLocaleDateString("en-US", {
                                         year: "numeric",
                                         month: "long",
                                         day: "numeric",
                                     })}
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>

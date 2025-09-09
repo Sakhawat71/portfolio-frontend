@@ -27,13 +27,13 @@ export function ProjectSection({
     // console.log(images);
 
     return (
-        <div className={`grid md:grid-cols-2 gap-10 items-center rounded-2xl ${reverse ? "md:[&>*:first-child]:order-last" : ""} bg-slate-50`}>
+        <div className={`grid lg:grid-cols-2 gap-10 items-center rounded-2xl ${reverse ? "md:[&>*:first-child]:order-last" : ""} bg-slate-50`}>
 
             {/* Carousel Side */}
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="h-full"
+                className="h-full p-4"
             >
                 <Carousel
                     className="w-[90%] md:w-full max-w-lg mx-auto"
@@ -54,8 +54,9 @@ export function ProjectSection({
                                         <Image
                                             src={img}
                                             alt={`${name} screenshot`}
-                                            width={350}
-                                            height={200}
+                                            width={600}
+                                            height={400}
+                                            unoptimized
                                             className="rounded-xl shadow-lg object-cover w-full h-full"
                                         />
                                     </CardContent>
