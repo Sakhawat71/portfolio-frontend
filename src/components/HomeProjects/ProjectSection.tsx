@@ -36,7 +36,7 @@ export function ProjectSection({
                 className="h-full p-4"
             >
                 <Carousel
-                    className="w-[90%] md:w-full max-w-lg mx-auto"
+                    className="w-[90%] md:w-full mx-auto" // max-w-lg
                     opts={{ loop: true, align: 'start' }}
                     plugins={[
                         Autoplay({
@@ -46,7 +46,7 @@ export function ProjectSection({
                         })
                     ]}
                 >
-                    <CarouselContent>
+                    {/* <CarouselContent>
                         {images.map((img: string, i) => (
                             <CarouselItem key={i}>
                                 <Card>
@@ -56,8 +56,24 @@ export function ProjectSection({
                                             alt={`${name} screenshot`}
                                             width={600}
                                             height={400}
-                                            // unoptimized
+                                            // fill
                                             className="rounded-xl shadow-lg object-cover w-full h-full"
+                                        />
+                                    </CardContent>
+                                </Card>
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent> */}
+                    <CarouselContent className="border-black">
+                        {images.map((img: string, i) => (
+                            <CarouselItem key={i}>
+                                <Card className="border-black">
+                                    <CardContent className="relative aspect-video w-full h-full p-2">
+                                        <Image
+                                            src={img}
+                                            alt={`${name} screenshot`}
+                                            fill
+                                            className="rounded-xl shadow-lg object-cover"
                                         />
                                     </CardContent>
                                 </Card>

@@ -70,7 +70,9 @@ const TopProjects = () => {
                     ]}
                     work="Built with Next.js, Tailwind, shadcn/ui, and Framer Motion."
                     images={[
-                        `https://i.ibb.co/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
+                        '/assets/homeProjects/tutorlink-s3h.vercel_1.png',
+                        '/assets/homeProjects/tutorlink-s3h.vercel_2.png',
+                        '/assets/homeProjects/tutorlink-s3h.vercel_3.png',
                     ]}
                     githubFrontend="https://github.com/..."
                     live="https://portfolio.com"
