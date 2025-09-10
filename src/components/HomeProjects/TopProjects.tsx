@@ -29,7 +29,7 @@ const TopProjects = () => {
             <section className="space-y-10 mx-10 lg:mx-20 ">
                 {/* 1st */}
                 <ProjectSection
-                    name="TutorLink"
+                    name="ReviewHub"
                     type="Team"
                     role="Backend Developer"
                     features={[
@@ -43,14 +43,14 @@ const TopProjects = () => {
                         '/assets/homeProjects//review-hub-s3h.vercel.app_4.png',
                         '/assets/homeProjects/review-hub-s3h.vercel.app_3.png',
                     ]}
-                    githubFrontend="https://github.com/..."
-                    githubBackend="https://github.com/..."
-                    live="https://tutorlink.com"
+                    githubFrontend="https://github.com/Sakhawat71/ReviewHub-Client"
+                    githubBackend="https://github.com/Sakhawat71/ReviewHub-Server"
+                    live="https://review-hub-s3h.vercel.app/"
                 />
 
                 {/* 2nd */}
                 <ProjectSection
-                    name="Portfolio"
+                    name="TutorLink"
                     type="Solo"
                     role="Fullstack"
                     features={[
@@ -64,16 +64,17 @@ const TopProjects = () => {
                         '/assets/homeProjects/tutorlink-s3h.vercel_2.png',
                         '/assets/homeProjects/tutorlink-s3h.vercel_3.png',
                     ]}
-                    githubFrontend="https://github.com/..."
-                    live="https://portfolio.com"
+                    githubFrontend="https://github.com/Sakhawat71/tutorlink-frontend"
+                    githubBackend="https://github.com/Sakhawat71/tutorlink-psql"
+                    live="https://tutorlink-s3h.vercel.app/"
                     reverse={true}
                 />
 
                 {/* 3rd  */}
                 <ProjectSection
-                    name="TutorLink"
-                    type="Team"
-                    role="Backend Developer"
+                    name="BookNest"
+                    type="Solo"
+                    role="Full Stack"
                     features={[
                         "Tutor search with filters",
                         "Booking & Payment system",
@@ -90,9 +91,9 @@ const TopProjects = () => {
                         '/assets/homeProjects/book-shop-7.png',
                         '/assets/homeProjects/book-shop-8.png',
                     ]}
-                    githubFrontend="https://github.com/..."
-                    githubBackend="https://github.com/..."
-                    live="https://tutorlink.com"
+                    githubFrontend="https://github.com/Sakhawat71/book-shop-client"
+                    githubBackend="https://github.com/Sakhawat71/book-shop-server"
+                    live="https://book-shop-client-71.vercel.app/"
                 />
             </section>
 
