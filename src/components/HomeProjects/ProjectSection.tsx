@@ -36,7 +36,7 @@ export function ProjectSection({
                 className="h-full p-4"
             >
                 <Carousel
-                    className="w-[90%] md:w-full max-w-lg mx-auto" // max-w-lg
+                    className="w-[90%] md:w-full max-w-lg mx-auto"
                     opts={{ loop: true, align: 'start' }}
                     plugins={[
                         Autoplay({

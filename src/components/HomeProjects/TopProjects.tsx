@@ -47,8 +47,8 @@ const TopProjects = () => {
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
                         '/assets/homeProjects/review-hub-s3h.vercel.app_1.png',
-                        '/assets/homeProjects//review-hub-s3h.vercel.app_2.png',
-                        '/assets/homeProjects/review-hub-s3h.vercel.app_3.png'
+                        '/assets/homeProjects/review-hub-s3h.vercel.app_3.png',
+                        '/assets/homeProjects//review-hub-s3h.vercel.app_4.png',
                     ]}
                     githubFrontend="https://github.com/..."
                     githubBackend="https://github.com/..."
