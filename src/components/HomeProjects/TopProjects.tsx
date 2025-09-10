@@ -26,13 +26,6 @@ const TopProjects = () => {
                 </div>
             </div>
 
-
-            {/* <div className="text-center mb-10">
-                <h2 className="text-4xl">My Work</h2>
-                <p>A collection of projects I've worked on.</p>
-            </div> */}
-
-
             <section className="space-y-10 mx-10 lg:mx-20 ">
                 {/* 1st */}
                 <ProjectSection
@@ -47,8 +40,8 @@ const TopProjects = () => {
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
                         '/assets/homeProjects/review-hub-s3h.vercel.app_1.png',
-                        '/assets/homeProjects/review-hub-s3h.vercel.app_3.png',
                         '/assets/homeProjects//review-hub-s3h.vercel.app_4.png',
+                        '/assets/homeProjects/review-hub-s3h.vercel.app_3.png',
                     ]}
                     githubFrontend="https://github.com/..."
                     githubBackend="https://github.com/..."
@@ -88,9 +81,14 @@ const TopProjects = () => {
                     ]}
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
-                        `https://i.ibb.co/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
-                        `https://i.ibb.co/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
-                        `https://i.ibb.co/PvmTzzQw/review-hub-s3h-vercel-app-3.png`
+                        '/assets/homeProjects/book-shop-1.png',
+                        '/assets/homeProjects/book-shop-2.png',
+                        '/assets/homeProjects/book-shop-3.png',
+                        '/assets/homeProjects/book-shop-4.png',
+                        '/assets/homeProjects/book-shop-5.png',
+                        '/assets/homeProjects/book-shop-6.png',
+                        '/assets/homeProjects/book-shop-7.png',
+                        '/assets/homeProjects/book-shop-8.png',
                     ]}
                     githubFrontend="https://github.com/..."
                     githubBackend="https://github.com/..."
