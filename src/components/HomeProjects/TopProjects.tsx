@@ -46,12 +46,9 @@ const TopProjects = () => {
                     ]}
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
-                        // `https://i.ibb.co/Tq8Q0jXj/review-hub-s3h-vercel-app-1.png`,
-                        // `https://i.ibb.co/0jTHWNgD/review-hub-s3h-vercel-app-2.png`,
-                        // `https://i.ibb.co/PvmTzzQw/review-hub-s3h-vercel-app-3.png`,
-                        '/assets/homeProjects/review-hub-s3h.vercel.app_1.jpg',
-                        '/assets/homeProjects//review-hub-s3h.vercel.app_2.jpg',
-                        '/assets/homeProjects/review-hub-s3h.vercel.app_3.jpg'
+                        '/assets/homeProjects/review-hub-s3h.vercel.app_1.png',
+                        '/assets/homeProjects//review-hub-s3h.vercel.app_2.png',
+                        '/assets/homeProjects/review-hub-s3h.vercel.app_3.png'
                     ]}
                     githubFrontend="https://github.com/..."
                     githubBackend="https://github.com/..."
