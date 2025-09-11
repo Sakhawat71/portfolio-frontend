@@ -18,7 +18,7 @@ export const BlogCard = ({ blog }: { blog: IBlog }) => {
     // console.log(blogImage);
 
     return (
-        <Card className="w-full max-w-md rounded-2xl overflow-hidden shadow-lg">
+        <Card className="bg-slate-100 w-full max-w-md rounded-2xl overflow-hidden shadow-lg">
             {/* Cover Image */}
             <div className="relative w-full h-48">
                 <Image

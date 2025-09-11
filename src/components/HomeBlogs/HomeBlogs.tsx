@@ -1,9 +1,20 @@
-import { HomeBlogCard } from "./HomeBlogCard";
+// "use client"
 
-const HomeBlogs = () => {
+import { fetchBlogs } from "@/services/fetchBlogs";
+import { BlogCard } from "../Blog/BlogCard";
+import { IBlog } from "@/types/blog.type";
+import Link from "next/link";
+import { Button } from "../ui/button";
+import Image from "next/image";
+import lineImage from '@/assets/ext/line.png';
+
+const HomeBlogs = async () => {
+
+    const blogs = await fetchBlogs();
+    // console.log(blogs.data);
 
     return (
-        <section className="">
+        <section className="pb-20">
             <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold bg-clip-text">
                     📚 Latest Blogs
@@ -13,30 +24,23 @@ const HomeBlogs = () => {
                 </p>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-                <HomeBlogCard
-                    title="Mastering Prisma with PostgreSQL"
-                    date="Aug 20, 2025"
-                    tags={["Backend", "Database"]}
-                    excerpt="Learn how to design scalable schemas, optimize queries, and use Prisma with PostgreSQL effectively."
-                    image="/images/blog1.png"
-                    link="/blogs/prisma-postgres"
-                />
-                <HomeBlogCard
-                    title="Docker for Fullstack Developers"
-                    date="Aug 12, 2025"
-                    tags={["DevOps", "Docker"]}
-                    excerpt="A beginner-friendly guide to containerizing fullstack apps with Docker & Compose."
-                    image="/images/blog2.png"
-                    link="/blogs/docker-fullstack"
-                />
-                <HomeBlogCard
-                    title="Next.js App Router: Best Practices"
-                    date="Aug 5, 2025"
-                    tags={["Next.js", "Frontend"]}
-                    excerpt="Deep dive into the App Router, layouts, and SSR/SSG strategies for scalable apps."
-                    image="/images/blog3.png"
-                    link="/blogs/nextjs-app-router"
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto pb-10">
+                {blogs?.data?.slice(0, 3).map((blog: IBlog) => (
+                    <BlogCard key={blog.id} blog={blog} />
+                ))}
+            </div>
+
+            <div>
+                <Link href={"/blog"}>
+                    <Button className="mx-auto my-10 block" variant={"outline"}>See All Blogs</Button>
+                </Link>
+
+                <Image
+                    src={lineImage}
+                    alt='line'
+                    width={150}
+                    height={50}
+                    className='my-20 mx-auto'
                 />
             </div>
         </section>
