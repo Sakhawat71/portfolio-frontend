@@ -85,10 +85,12 @@ export function ProjectSection({
                         {features.map((f, i) => <li key={i}>{f}</li>)}
                     </ul>
                 </div>
-                <div>
-                    {techStack && (
-                        <Badge ></Badge>
-                    )}
+                <div className="flex flex-wrap gap-2 mt-3">
+                    {techStack.map((tech) => (
+                        <Badge key={tech} className="bg-gray-100 text-gray-800 text-xs cursor-pointer">
+                            {tech}
+                        </Badge>
+                    ))}
                 </div>
                 <div>
                     <h3 className="font-semibold">My Work:</h3>

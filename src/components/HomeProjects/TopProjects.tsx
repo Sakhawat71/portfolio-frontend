@@ -36,10 +36,14 @@ const TopProjects = () => {
                         "Tutor search with filters",
                         "Booking & Payment system",
                         "Real-time notifications",
-                        "Real-time notifications",
-                        "Real-time notifications",
                     ]}
-                    techStack={['Next.js','Ts']}
+                    techStack={[
+                        'Next.js',
+                        'TypeScript',
+                        'PostgreSQL',
+                        'Node.js',
+                        'Express.js'
+                    ]}
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
                         '/assets/homeProjects/review-hub-s3h.vercel.app_1.png',
@@ -57,11 +61,17 @@ const TopProjects = () => {
                     type="Solo"
                     role="Fullstack"
                     features={[
-                        "Interactive animations",
-                        "Responsive design",
-                        "Project showcase with carousel",
+                        "User authentication and registration",
+                        "Browse and search for tutors",
+                        "Book and manage tutoring sessions",
                     ]}
-                    techStack={['Next.js','Ts']}
+                    techStack={[
+                        'Next.js',
+                        'TypeScript',
+                        'PostgreSQL',
+                        'Node.js',
+                        'Express.js'
+                    ]}
                     work="Built with Next.js, Tailwind, shadcn/ui, and Framer Motion."
                     images={[
                         '/assets/homeProjects/tutorlink-s3h.vercel_1.png',
@@ -80,11 +90,18 @@ const TopProjects = () => {
                     type="Solo"
                     role="Full Stack"
                     features={[
-                        "Tutor search with filters",
-                        "Booking & Payment system",
-                        "Real-time notifications",
+                        "Secure sign-up and login with role-based access control.",
+                        "Browse, search, and view detailed information about books.",
+                        "Optimized for various devices to ensure a consistent user experience.",
                     ]}
-                    techStack={['React.js','JS']}
+                    techStack={[
+                        'React.js',
+                        'TypeScript',
+                        'Redux',
+                        'MongoDB',
+                        'Node.js',
+                        'Express.js'
+                    ]}
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
                         '/assets/homeProjects/book-shop-1.png',
