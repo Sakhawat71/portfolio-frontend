@@ -3,9 +3,9 @@ import { HomeBlogCard } from "./HomeBlogCard";
 const HomeBlogs = () => {
 
     return (
-        <section className="py-16">
+        <section className="">
             <div className="text-center mb-10">
-                <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                <h2 className="text-3xl font-bold bg-clip-text">
                     📚 Latest Blogs
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400 mt-2">
