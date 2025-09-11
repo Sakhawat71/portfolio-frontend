@@ -61,7 +61,7 @@ const TopProjects = () => {
                 <ProjectSection
                     name="TutorLink"
                     type="Solo"
-                    role="Fullstack"
+                    role="Full Stack"
                     features={[
                         "User authentication and registration",
                         "Browse and search for tutors",
@@ -75,7 +75,7 @@ const TopProjects = () => {
                         'Express.js',
                         'sslcommerz'
                     ]}
-                    work="Built with Next.js, Tailwind, shadcn/ui, and Framer Motion."
+                    work="Developed TutorLink with PostgreSQL, Prisma, and Next.js, implementing authentication, search, filtering, booking, and secure payment features."
                     images={[
                         '/assets/homeProjects/tutorlink-s3h.vercel_1.png',
                         '/assets/homeProjects/tutorlink-s3h.vercel_2.png',
@@ -105,7 +105,7 @@ const TopProjects = () => {
                         'Node.js',
                         'Express.js'
                     ]}
-                    work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
+                    work="Built BookNest full-stack app with MERN, adding authentication, book management, category filter, cart, order system, and Stripe payments."
                     images={[
                         '/assets/homeProjects/book-shop-1.png',
                         '/assets/homeProjects/book-shop-2.png',
