@@ -33,18 +33,19 @@ const TopProjects = () => {
                     type="Team"
                     role="Backend Developer"
                     features={[
-                        "Tutor search with filters",
-                        "Booking & Payment system",
-                        "Real-time notifications",
+                        "User authentication & role-based access",
+                        "Product & company review system",
+                        "Search and filtering with pagination",
                     ]}
                     techStack={[
                         'Next.js',
+                        'Redux',
                         'TypeScript',
                         'PostgreSQL',
                         'Node.js',
                         'Express.js'
                     ]}
-                    work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
+                    work="Implemented user module, category management, global pagination, search optimization, and secure online payment integration in the backend system."
                     images={[
                         '/assets/homeProjects/review-hub-s3h.vercel.app_1.png',
                         '/assets/homeProjects//review-hub-s3h.vercel.app_4.png',
@@ -70,7 +71,8 @@ const TopProjects = () => {
                         'TypeScript',
                         'PostgreSQL',
                         'Node.js',
-                        'Express.js'
+                        'Express.js',
+                        'sslcommerz'
                     ]}
                     work="Built with Next.js, Tailwind, shadcn/ui, and Framer Motion."
                     images={[

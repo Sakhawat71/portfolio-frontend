@@ -87,7 +87,7 @@ export function ProjectSection({
                 </div>
                 <div className="flex flex-wrap gap-2 mt-3">
                     {techStack.map((tech) => (
-                        <Badge key={tech} className="bg-gray-100 text-gray-800 text-xs cursor-pointer">
+                        <Badge key={tech} className="bg-gray-100 text-gray-800 text-xs cursor-pointer px-2">
                             {tech}
                         </Badge>
                     ))}
