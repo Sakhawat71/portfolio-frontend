@@ -36,7 +36,7 @@ export function ProjectSection({
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="h-full p-4"
+                className="h-fit p-4 w-full"
             >
                 <Carousel
                     className="w-[90%] md:w-full max-w-lg mx-auto"
@@ -51,8 +51,8 @@ export function ProjectSection({
                 >
                     <CarouselContent>
                         {images.map((img: string, i) => (
-                            <CarouselItem key={i}>
-                                <Card className="">
+                            <CarouselItem  key={i}>
+                                <Card>
                                     <CardContent className="flex items-center justify-center p-2">
                                         <Image
                                             src={img}
