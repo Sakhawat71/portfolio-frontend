@@ -9,11 +9,13 @@ import { Button } from "@/components/ui/button"
 import { Github, ExternalLink } from "lucide-react"
 import Image from "next/image"
 import { TProjectProps } from "@/types/project.type";
+import Link from "next/link";
 
 
 export function ProjectSection({
     name,
     type,
+    contributors,
     role,
     features,
     techStack,
@@ -78,6 +80,16 @@ export function ProjectSection({
                 <div className="flex gap-2">
                     <Badge>{type}</Badge>
                     <Badge variant="outline">{role}</Badge>
+                    {
+                        type === 'Team' && <Link 
+                        href={contributors || '#'}
+                        target="_blank"
+                        className="text-blue-800 underline text-sm flex items-center gap-1"
+                        >
+                            <ExternalLink className="w-4 h-4" />
+                            Contributors
+                        </Link>
+                    }
                 </div>
                 <div>
                     <h3 className="font-semibold">Features:</h3>

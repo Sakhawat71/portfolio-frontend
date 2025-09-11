@@ -31,6 +31,7 @@ const TopProjects = () => {
                 <ProjectSection
                     name="ReviewHub"
                     type="Team"
+                    contributors="https://github.com/abumahid/ReviewHub-Server/graphs/contributors"
                     role="Backend Developer"
                     features={[
                         "User authentication & role-based access",

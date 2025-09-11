@@ -27,6 +27,7 @@ export type TProject = {
 export type TProjectProps = {
     name: string
     type: "Team" | "Solo"
+    contributors?: string
     role: string
     features: string[]
     work: string
