@@ -36,7 +36,10 @@ const TopProjects = () => {
                         "Tutor search with filters",
                         "Booking & Payment system",
                         "Real-time notifications",
+                        "Real-time notifications",
+                        "Real-time notifications",
                     ]}
+                    techStack={['Next.js','Ts']}
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
                         '/assets/homeProjects/review-hub-s3h.vercel.app_1.png',
@@ -58,6 +61,7 @@ const TopProjects = () => {
                         "Responsive design",
                         "Project showcase with carousel",
                     ]}
+                    techStack={['Next.js','Ts']}
                     work="Built with Next.js, Tailwind, shadcn/ui, and Framer Motion."
                     images={[
                         '/assets/homeProjects/tutorlink-s3h.vercel_1.png',
@@ -80,6 +84,7 @@ const TopProjects = () => {
                         "Booking & Payment system",
                         "Real-time notifications",
                     ]}
+                    techStack={['React.js','JS']}
                     work="Designed database schema, built backend API with Prisma & PostgreSQL, integrated SurjoPay payments."
                     images={[
                         '/assets/homeProjects/book-shop-1.png',

@@ -30,6 +30,7 @@ export type TProjectProps = {
     role: string
     features: string[]
     work: string
+    techStack : string[]
     images: string[]
     githubBackend?: string
     githubFrontend?: string

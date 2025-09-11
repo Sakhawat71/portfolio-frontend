@@ -16,6 +16,7 @@ export function ProjectSection({
     type,
     role,
     features,
+    techStack,
     work,
     images,
     githubBackend,
@@ -83,6 +84,11 @@ export function ProjectSection({
                     <ul className="list-disc list-inside text-sm space-y-1">
                         {features.map((f, i) => <li key={i}>{f}</li>)}
                     </ul>
+                </div>
+                <div>
+                    {techStack && (
+                        <Badge ></Badge>
+                    )}
                 </div>
                 <div>
                     <h3 className="font-semibold">My Work:</h3>
