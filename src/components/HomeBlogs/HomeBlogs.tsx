@@ -24,7 +24,7 @@ const HomeBlogs = async () => {
                 </p>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto pb-10">
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto pb-10 px-10 lg:px-5">
                 {blogs?.data?.slice(0, 3).map((blog: IBlog) => (
                     <BlogCard key={blog.id} blog={blog} />
                 ))}

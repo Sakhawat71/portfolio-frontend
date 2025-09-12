@@ -15,10 +15,9 @@ export const BlogCard = ({ blog }: { blog: IBlog }) => {
     };
     const blogImage = extractFirstImageUrlFromHtml(blog.contentHtml);
     const altImage = 'https://res.cloudinary.com/delntxu0e/image/upload/w_800,h_600,c_limit/v1749505084/blog-default_d9ebqm.avif'
-    // console.log(blogImage);
 
     return (
-        <Card className="bg-slate-100 w-full max-w-md rounded-2xl overflow-hidden shadow-lg">
+        <Card className="bg-slate-100 w-full max-w-md rounded-2xl overflow-hidden shadow-lg flex flex-col">
             {/* Cover Image */}
             <div className="relative w-full h-48">
                 <Image
@@ -41,7 +40,8 @@ export const BlogCard = ({ blog }: { blog: IBlog }) => {
                 ))}
             </CardContent>
 
-            <CardFooter className="flex justify-between items-center text-sm text-muted-foreground px-4 pb-4">
+            {/* Push footer to bottom */}
+            <CardFooter className="mt-auto flex justify-between items-center text-sm text-muted-foreground px-4 pb-4">
                 <span>
                     {blog.publishedAt ? format(new Date(blog.publishedAt), "dd MMM yyyy") : "Draft"}
                 </span>
@@ -50,5 +50,5 @@ export const BlogCard = ({ blog }: { blog: IBlog }) => {
                 </Link>
             </CardFooter>
         </Card>
-    )
-}
+    );
+};
