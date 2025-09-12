@@ -18,10 +18,61 @@ const raleway = Inter({
     weight: ["400", "500", "700"],
 });
 
+// export const metadata: Metadata = {
+//     title: "Sakhawat - Portfolio",
+//     description: "Sakhawat Full Stack Developer",
+// };
+
 export const metadata: Metadata = {
-    title: "Sakhawat - Portfolio",
-    description: "Sakhawat Full Stack Developer",
+    title: "Sakhawat Hosan | Full-Stack & Backend Developer",
+    description:
+        "Portfolio of Sakhawat Hosan, a passionate Full-Stack Developer specializing in MERN, Next.js, TypeScript, Express, PostgreSQL, Prisma, and modern web technologies.",
+    keywords: [
+        "Sakhawat Hosan",
+        "Full Stack Developer",
+        "Backend Developer",
+        "MERN Stack",
+        "Next.js",
+        "TypeScript",
+        "Express.js",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "MongoDB",
+        "Web Development",
+        "Software Engineer Portfolio",
+    ],
+    authors: [{ name: "Sakhawat Hosan", url: "https://s3h.vercel.app" }],
+    openGraph: {
+        title: "Sakhawat Hosan | Full-Stack & Backend Developer",
+        description:
+            "Explore the portfolio of Sakhawat Hosan — Full-Stack Developer skilled in building scalable web applications with modern technologies.",
+        url: "https://s3h.vercel.app",
+        siteName: "Sakhawat Portfolio",
+        images: [
+            {
+                url: "https://s3h.vercel.app/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: "Sakhawat Portfolio Preview",
+            },
+        ],
+        locale: "en_US",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Sakhawat Hosan | Full-Stack & Backend Developer",
+        description:
+            "Portfolio of Sakhawat Hosan, passionate about scalable backend systems, full-stack apps, and modern web development.",
+        images: ["https://s3h.vercel.app/og-image.png"],
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
 };
+
 
 export default async function RootLayout({
     children,
