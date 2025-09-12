@@ -9,12 +9,19 @@ import Image from "next/image";
 import lineImage from '@/assets/ext/line.png';
 
 const HomeBlogs = async () => {
+    let blogs: { data: IBlog[] } | null = null;
 
-    const blogs = await fetchBlogs();
-    // console.log(blogs.data);
+    try {
+        blogs = await fetchBlogs();
+    } catch (error) {
+        console.error("Failed to fetch blogs:", error);
+    }
+
+    const blogList = blogs?.data ?? [];
 
     return (
         <section className="pb-20">
+            {/* Header */}
             <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold bg-clip-text">
                     📚 Latest Blogs
@@ -24,27 +31,41 @@ const HomeBlogs = async () => {
                 </p>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto pb-10 px-10 lg:px-5">
-                {blogs?.data?.slice(0, 3).map((blog: IBlog) => (
-                    <BlogCard key={blog.id} blog={blog} />
-                ))}
-            </div>
+            {/* Blog Grid */}
+            {blogList.length > 0 ? (
+                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto pb-10 px-10 lg:px-5">
+                    {blogList.slice(0, 3).map((blog: IBlog) => (
+                        <BlogCard key={blog.id} blog={blog} />
+                    ))}
+                </div>
+            ) : (
+                <p className="text-center text-gray-500 dark:text-gray-400 mb-10">
+                    🚧 No blogs available yet. Stay tuned!
+                </p>
+            )}
 
+            {/* See all button + line */}
             <div>
-                <Link href={"/blog"}>
-                    <Button className="mx-auto my-10 block" variant={"outline"}>See All Blogs</Button>
-                </Link>
+                {blogList.length > 0 && (
+                    <Link href={"/blog"}>
+                        <Button
+                            className="mx-auto my-10 block"
+                            variant="outline"
+                        >
+                            See All Blogs
+                        </Button>
+                    </Link>
+                )}
 
                 <Image
                     src={lineImage}
-                    alt='line'
+                    alt="line"
                     width={150}
                     height={50}
-                    className='my-20 mx-auto'
+                    className="my-20 mx-auto"
                 />
             </div>
         </section>
-
     );
 };
 
