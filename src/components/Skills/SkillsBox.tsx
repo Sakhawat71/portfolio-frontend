@@ -15,13 +15,13 @@ const SkillsBox = ({ skills }: SkillsBoxProps) => {
             <motion.div
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
-                className=' flex flex-col justify-center items-center space-y-3'
+                className='flex flex-col justify-center items-center space-y-3'
             >
                 <Image
                     src={skill.icon}
                     alt={skill.name}
-                    width={60}
-                    height={60}
+                    width={50}
+                    height={50}
                 />
                 <p>{skill.name}</p>
             </motion.div>
