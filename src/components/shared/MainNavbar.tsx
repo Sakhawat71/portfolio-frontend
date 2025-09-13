@@ -21,10 +21,10 @@ const MainNavbar = () => {
     return (
         <header
             className={
-                `fixed top-0 w-full z-50 transition-colors duration-300 bg-gray-900`
+                `fixed top-0 w-full z-50 transition-colors duration-300 bg-[#1D1D1D]`
             }
         >
-            <nav className="relative flex items-center justify-between h-16 px-4 md:px-8 lg:px-28">
+            <nav className="relative flex items-center justify-between h-14 px-4 md:px-8 lg:px-28">
                 {/* Logo */}
                 <div className="w-5/12">
                     <Link
