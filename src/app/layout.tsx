@@ -24,7 +24,7 @@ const raleway = Inter({
 // };
 
 export const metadata: Metadata = {
-    title: "Sakhawat Hosan | Full-Stack & Backend Developer",
+    title: "Sakhawat H. | Full-Stack Developer",
     description:
         "Portfolio of Sakhawat Hosan, a passionate Full-Stack Developer specializing in MERN, Next.js, TypeScript, Express, PostgreSQL, Prisma, and modern web technologies.",
     keywords: [
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     ],
     authors: [{ name: "Sakhawat Hosan", url: "https://s3h.vercel.app" }],
     openGraph: {
-        title: "Sakhawat Hosan | Full-Stack & Backend Developer",
+        title: "Sakhawat H. | Full-Stack & Backend Developer",
         description:
             "Explore the portfolio of Sakhawat Hosan — Full-Stack Developer skilled in building scalable web applications with modern technologies.",
         url: "https://s3h.vercel.app",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Sakhawat Hosan | Full-Stack & Backend Developer",
+        title: "Sakhawat H. | Full-Stack & Backend Developer",
         description:
             "Portfolio of Sakhawat Hosan, passionate about scalable backend systems, full-stack apps, and modern web development.",
         images: ["https://s3h.vercel.app/og-image.png"],
