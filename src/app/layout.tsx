@@ -18,21 +18,20 @@ const raleway = Inter({
     weight: ["400", "500", "700"],
 });
 
-// export const metadata: Metadata = {
-//     title: "Sakhawat - Portfolio",
-//     description: "Sakhawat Full Stack Developer",
-// };
 
 export const metadata: Metadata = {
     title: "Sakhawat H. | Full-Stack Developer",
     description:
-        "Portfolio of Sakhawat Hosan, a passionate Full-Stack Developer specializing in MERN, Next.js, TypeScript, Express, PostgreSQL, Prisma, and modern web technologies.",
+        "Portfolio of Sakhawat, a passionate Full-Stack Developer specializing in MERN, Next.js, TypeScript, Express, PostgreSQL, Prisma, and modern web technologies.",
     keywords: [
+        "Sakhawat",
+        "Sakhawat H",
         "Sakhawat Hosan",
         "Full Stack Developer",
         "Backend Developer",
         "MERN Stack",
         "Next.js",
+        "React.js",
         "TypeScript",
         "Express.js",
         "Node.js",
