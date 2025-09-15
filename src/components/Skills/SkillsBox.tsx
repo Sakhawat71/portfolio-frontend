@@ -23,7 +23,7 @@ const SkillsBox = ({ skills }: SkillsBoxProps) => {
                     width={50}
                     height={50}
                 />
-                <p>{skill.name}</p>
+                <p className="text-sm md:text-base">{skill.name}</p>
             </motion.div>
         </>)
     );
