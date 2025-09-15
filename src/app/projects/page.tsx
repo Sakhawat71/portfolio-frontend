@@ -12,12 +12,11 @@ const ProjectsPage = async () => {
     return (
         <div className="bg-gradient-to-b from-gray-100 to-gray-200 min-h-screen p-6 pt-20">
 
-
-            <div className="">
-                <h1 className="text-2xl md:text-3xl lg:text-[60px] font-bold text-center mb-3 mt-6">
+            <div className="mb-10">
+                <h1 className="text-2xl md:text-3xl lg:text-[50px] font-bold text-center my-5">
                     My Projects Showcase
                 </h1>
-                <p className="text-center text-lg lg:text-xl font-medium text-gray-600 mb-4 lg:w-2/4 mx-auto">
+                <p className="text-center text-lg lg:text-xl font-medium text-gray-600 my-8 lg:w-2/4 mx-auto">
                     Projects I built to sharpen my skills and solve real problems. Full-stack apps combining performance, clean code, and usability.
                 </p>
 
