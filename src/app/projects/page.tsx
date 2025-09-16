@@ -4,10 +4,11 @@ import { Badge } from "@/components/ui/badge";
 
 const ProjectsPage = async () => {
     const { data: projects } = await getProjects();
+    // const  projects = []
 
     if (!projects || projects.length === 0) {
-        return <p className="text-center text-gray-500 mt-10">No projects found.</p>;
-    }
+        return <p className="text-black flex items-center justify-center h-screen">No projects found.</p>;
+    };
 
     return (
         <div className="bg-gradient-to-b from-gray-100 to-gray-200 min-h-screen p-6 pt-20">
