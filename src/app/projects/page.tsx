@@ -1,6 +1,5 @@
 import ProjectsComponent from "@/components/Projects/ProjectsComponent";
 import { getProjects } from "@/services/fetchProject";
-import { Badge } from "@/components/ui/badge";
 
 const ProjectsPage = async () => {
     const { data: projects } = await getProjects();
@@ -27,17 +26,6 @@ const ProjectsPage = async () => {
                     <div className="flex items-center justify-center gap-2"> <div className="w-2 h-2 rounded-full bg-purple-700"></div> Optimized Code</div>
                 </div>
             </div>
-
-            {/* Filters (optional, demo only) */}
-            {/* <div className="flex flex-wrap justify-center gap-3 mb-10">
-                <Badge className="cursor-pointer">All</Badge>
-                <Badge className="cursor-pointer bg-blue-500 text-white hover:bg-blue-600">
-                    Team Projects
-                </Badge>
-                <Badge className="cursor-pointer bg-green-500 text-white hover:bg-green-600">
-                    Solo Projects
-                </Badge>
-            </div> */}
 
             {/* Projects Grid */}
             <div className="mx-3 md:mx-5 lg:mx-10">
