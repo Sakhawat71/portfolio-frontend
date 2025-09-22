@@ -6,6 +6,8 @@ export type IProject = {
     techStack: string[];
     liveUrl: string;
     githubUrl: string;
+    backGitUrl?: string;
+    category?: string;
     isTeam: boolean;
     teamSize: number | null;
     roleInTeam: string | null;
@@ -31,7 +33,7 @@ export type TProjectProps = {
     role: string
     features: string[]
     work: string
-    techStack : string[]
+    techStack: string[]
     images: string[]
     githubBackend?: string
     githubFrontend?: string

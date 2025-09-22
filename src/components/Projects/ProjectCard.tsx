@@ -12,7 +12,7 @@ import { IProject } from "@/types/project.type";
 const ProjectCard = (
     { project }: { project: IProject }
 ) => {
-    
+
     return (
         <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-white hover:scale-[1.02]">
             <Link href={`/projects/${project.id}`} className="block">
@@ -67,46 +67,6 @@ const ProjectCard = (
                 </Link>
             </CardFooter>
         </Card>
-
-        // <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300">
-        //     <Link href={`/projects/${project.id}`} className="block">
-        //         <CardHeader className="p-0">
-        //             <Image
-        //                 src={project.image}
-        //                 alt={project.title}
-        //                 width={800}
-        //                 height={400}
-        //                 className="rounded-t-2xl h-48 object-cover w-full"
-        //             />
-        //         </CardHeader>
-
-        //         <CardContent className="space-y-3 p-4">
-        //             <h3 className="text-lg font-semibold">{project.title}</h3>
-        //             <p className="text-sm text-gray-600 line-clamp-2">{project.description}</p>
-
-        //             <div className="flex flex-wrap gap-2 mt-2">
-        //                 {project.techStack.map((tech) => (
-        //                     <Badge key={tech} variant="outline" className="text-xs">
-        //                         {tech}
-        //                     </Badge>
-        //                 ))}
-        //             </div>
-        //         </CardContent>
-        //     </Link>
-
-        //     <CardFooter className="flex justify-between items-center px-4 pb-4">
-        //         <Link href={project.liveUrl} target="_blank">
-        //             <Button variant="link" className="text-blue-600 gap-1 text-sm">
-        //                 <ExternalLink className="h-4 w-4" /> Live
-        //             </Button>
-        //         </Link>
-        //         <Link href={project.githubUrl} target="_blank">
-        //             <Button variant="link" className="text-gray-700 gap-1 text-sm">
-        //                 <Github className="h-4 w-4" /> Code
-        //             </Button>
-        //         </Link>
-        //     </CardFooter>
-        // </Card>
     );
 };
 
