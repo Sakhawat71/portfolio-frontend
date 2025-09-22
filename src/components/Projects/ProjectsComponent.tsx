@@ -8,7 +8,7 @@ interface ProjectsComponentProps {
     projects: TProject[];
 }
 
-const categories = ["All", "Full Stack", "MERN","FrontEnd", "JavaScript", "HTML/CSS"];
+const categories = ["All", "Full Stack", "MERN", "FrontEnd", "JavaScript", "HTML/CSS"];
 
 const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
     const [activeCategory, setActiveCategory] = useState("All");
@@ -46,8 +46,8 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
                             setCurrentPage(1); // reset on filter change
                         }}
                         className={`px-4 py-2 rounded-xl text-sm font-medium transition ${activeCategory === category
-                                ? "bg-blue-600 text-white shadow-md"
-                                : "bg-gray-200 hover:bg-gray-300"
+                            ? "bg-blue-600 text-white shadow-md"
+                            : "bg-gray-200 hover:bg-gray-300"
                             }`}
                     >
                         {category}
@@ -56,13 +56,15 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
             </div>
 
             {/* Projects Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">
+            <div
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10"
+            >
                 {paginatedProjects.length > 0 ? (
                     paginatedProjects.map((project, idx) => (
                         <ProjectCard key={project.id + idx} project={project} />
                     ))
                 ) : (
-                    <p className="text-center text-gray-500 col-span-full">
+                    <p className="text-center text-gray-500 col-span-full h-screen">
                         No projects found in this category.
                     </p>
                 )}

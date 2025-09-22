@@ -21,7 +21,7 @@ const ProjectCard = (
                     <Image
                         src={project.image}
                         alt={project.title}
-                        width={800}
+                        width={600}
                         height={400}
                         className="rounded-t-2xl h-52 object-cover w-full"
                     />

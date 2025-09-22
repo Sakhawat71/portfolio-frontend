@@ -14,7 +14,7 @@ const ProjectsPage = async () => {
         <div className="bg-gradient-to-b from-gray-100 to-gray-200 min-h-screen p-6 pt-20">
 
             <div className="mb-10">
-                <h1 className="text-2xl md:text-3xl lg:text-[50px] font-bold text-center my-5">
+                <h1 className="text-2xl md:text-3xl lg:text-[50px] font-bold text-center my-5 text-gray-700">
                     My Projects Showcase
                 </h1>
                 <p className="text-center text-lg lg:text-xl font-medium text-gray-600 my-8 lg:w-2/4 mx-auto">
@@ -29,7 +29,7 @@ const ProjectsPage = async () => {
             </div>
 
             {/* Projects Grid */}
-            <div className="mx-3 md:mx-5 lg:mx-10">
+            <div className="mx-3 md:mx-5 lg:mx-20">
                 <ProjectsComponent projects={projects} />
             </div>
         </div>
