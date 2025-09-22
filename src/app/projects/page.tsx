@@ -4,6 +4,7 @@ import { getProjects } from "@/services/fetchProject";
 const ProjectsPage = async () => {
     const { data: projects } = await getProjects();
     // const  projects = []
+    // console.log(projects);
 
     if (!projects || projects.length === 0) {
         return <p className="text-black flex items-center justify-center h-screen">No projects found.</p>;
