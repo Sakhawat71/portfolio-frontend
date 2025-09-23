@@ -41,7 +41,7 @@ const ProjectCard = (
                         </Link>
                     </div>
                     <p className="text-sm text-gray-600 line-clamp-3">
-                        {project.description}
+                        {project?.description?.slice(0,45)} ....
                     </p>
 
                     {/* Tech stack */}
