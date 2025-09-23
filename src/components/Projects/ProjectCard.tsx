@@ -32,8 +32,17 @@ const ProjectCard = (
 
                 {/* Content */}
                 <CardContent className="space-y-3 p-5">
-                    <h3 className="text-lg font-semibold text-gray-900">{project.title}</h3>
-                    <p className="text-sm text-gray-600 line-clamp-3">{project.description}</p>
+                    <div className="flex justify-between items-center">
+                        <h3 className="text-lg font-semibold text-gray-900">{project.title}</h3>
+                        <Link href={project.liveUrl} target="_blank">
+                            <Button variant="link" className="gap-1 text-sm">
+                                <ExternalLink className="h-4 w-4" /> Live
+                            </Button>
+                        </Link>
+                    </div>
+                    <p className="text-sm text-gray-600 line-clamp-3">
+                        {project.description}
+                    </p>
 
                     {/* Tech stack */}
                     <div className="flex flex-wrap gap-2 mt-3">
