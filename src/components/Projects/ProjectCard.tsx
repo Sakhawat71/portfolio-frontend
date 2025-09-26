@@ -14,8 +14,8 @@ const ProjectCard = (
 ) => {
 
     return (
-        <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-white hover:scale-[1.02]">
-            <Link href={`/projects/${project.id}`} className="block">
+        <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-[#FFF2EF] hover:scale-[1.02]">
+            {/* <Link href={`/projects/${project.id}`} className="block"> */}
                 {/* Image */}
                 <CardHeader className="p-0 relative">
                     <Image
@@ -60,7 +60,7 @@ const ProjectCard = (
                         </p>
                     )}
                 </CardContent>
-            </Link>
+            {/* </Link> */}
 
             {/* Footer */}
             <CardFooter className="flex justify-between items-center px-4 pb-4">
@@ -71,7 +71,8 @@ const ProjectCard = (
                 </Link>
                 <Link href={project.githubUrl} target="_blank">
                     <Button variant="outline" className="gap-1 text-sm">
-                        <Github className="h-4 w-4" /> Code
+                        {/* <Github className="h-4 w-4" /> */}
+                         Details
                     </Button>
                 </Link>
             </CardFooter>

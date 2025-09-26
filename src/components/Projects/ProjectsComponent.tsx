@@ -20,7 +20,7 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
     const filteredProjects =
         activeCategory === "All"
             ? fakeProjects
-            : fakeProjects.filter(
+            : fakeProjects?.filter(
                 (project) =>
                     project.category?.toLowerCase() === activeCategory.toLowerCase()
             );
@@ -38,7 +38,7 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
         <div className="space-y-6">
             {/* Category Filter */}
             <div className="flex flex-wrap gap-3 justify-center">
-                {categories.map((category) => (
+                {categories?.map((category) => (
                     <button
                         key={category}
                         onClick={() => {
