@@ -8,7 +8,7 @@ interface ProjectsComponentProps {
     projects: TProject[];
 }
 
-const categories = ["All", "Full Stack", "MERN", "FrontEnd", "JavaScript", "HTML/CSS"];
+const categories = ["All", "Full Stack", "MERN", "FrontEnd", "JavaScript", "HTML-CSS"];
 
 const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
     const [activeCategory, setActiveCategory] = useState("All");
