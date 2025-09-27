@@ -15,7 +15,7 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 6;
 
-    const fakeProjects = projects.flatMap((t) => Array(30).fill(t));
+    const fakeProjects = projects.flatMap((t) => Array(10).fill(t));
 
     const filteredProjects =
         activeCategory === "All"
@@ -57,7 +57,7 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
 
             {/* Projects Grid */}
             <div
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10"
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 pt-10"
             >
                 {paginatedProjects.length > 0 ? (
                     paginatedProjects.map((project, idx) => (
@@ -75,7 +75,7 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
                 <button
                     onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))}
                     disabled={currentPage === 1}
-                    className="px-3 py-1 bg-gray-200 rounded disabled:opacity-50"
+                    className="px-3 py-1 bg-[#2563EB] text-white rounded disabled:opacity-50"
                 >
                     Prev
                 </button>
@@ -85,7 +85,7 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
                 <button
                     onClick={() => setCurrentPage((p) => Math.min(p + 1, totalPages))}
                     disabled={currentPage === totalPages}
-                    className="px-3 py-1 bg-gray-200 rounded disabled:opacity-50"
+                    className="px-3 py-1 bg-[#2563EB] text-white  rounded disabled:opacity-50"
                 >
                     Next
                 </button>

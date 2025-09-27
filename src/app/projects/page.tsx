@@ -11,7 +11,7 @@ const ProjectsPage = async () => {
     };
 
     return (
-        <div className="bg-gradient-to-b from-slate-100 to-slate-50 min-h-screen p-6 pt-20">
+        <div className="bg-gradient-to-b from-[#EFEEEA] to-slate-400 min-h-screen p-6 pt-20">
 
             <div className="mb-10 font-raleway">
                 <h1 className="text-2xl md:text-3xl lg:text-[50px] font-bold text-center mt-5 text-gray-700 font-montserrat">

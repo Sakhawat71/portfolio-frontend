@@ -14,7 +14,7 @@ const ProjectCard = (
 ) => {
 
     return (
-        <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-[#FFF2EF] hover:scale-[1.02]">
+        <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-[#E7F2E4] hover:scale-[1.02]">
             {/* <Link href={`/projects/${project.id}`} className="block"> */}
                 {/* Image */}
                 <CardHeader className="p-0 relative">
@@ -23,7 +23,7 @@ const ProjectCard = (
                         alt={project.title}
                         width={600}
                         height={400}
-                        className="rounded-t-2xl h-52 object-cover w-full"
+                        className="rounded-t-2xl h-52  w-full"
                     />
                     <span className="absolute top-3 right-3 bg-black/60 text-white text-xs px-2 py-1 rounded">
                         {project.isTeam ? `Team (${project.teamSize})` : "Solo"}
@@ -63,19 +63,21 @@ const ProjectCard = (
             {/* </Link> */}
 
             {/* Footer */}
-            <CardFooter className="flex justify-between items-center px-4 pb-4">
+
+            {/* <CardFooter className="flex justify-between items-center px-4 pb-4">
                 <Link href={project.liveUrl} target="_blank">
                     <Button variant="outline" className="gap-1 text-sm">
                         <ExternalLink className="h-4 w-4" /> Live
                     </Button>
                 </Link>
-                <Link href={project.githubUrl} target="_blank">
+                <Link href={`/projects/${project.id}`} >
                     <Button variant="outline" className="gap-1 text-sm">
-                        {/* <Github className="h-4 w-4" /> */}
+                        <Github className="h-4 w-4" />
                          Details
                     </Button>
                 </Link>
-            </CardFooter>
+            </CardFooter> */}
+
         </Card>
     );
 };
