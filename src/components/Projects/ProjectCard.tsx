@@ -39,7 +39,7 @@ const ProjectCard = (
                         }
                     </h3>
                     <Link href={project.liveUrl} target="_blank">
-                        <Button variant="link" className="gap-1 text-sm">
+                        <Button variant="link" className="text-blue-600 gap-1 text-sm">
                             <ExternalLink className="h-4 w-4" /> Live
                         </Button>
                     </Link>
@@ -54,7 +54,7 @@ const ProjectCard = (
 
                 {/* Tech stack */}
                 <div className="flex flex-wrap gap-2 mt-3">
-                    {project.techStack.map((tech) => (
+                    {project.techStack?.slice(0,5)?.map((tech) => (
                         <Badge key={tech} className="bg-gray-100 text-gray-700 text-xs">
                             {tech}
                         </Badge>
@@ -72,7 +72,9 @@ const ProjectCard = (
             {/* Footer */}
             <CardFooter className="flex justify-center items-center px-4 pb-4">
                 <Link href={`/projects/${project.id}`} >
-                    <Button variant="secondary" className="gap-1 text-sm">
+                    <Button
+                        variant="outline"
+                        className="rounded-full gap-1 text-sm hover:bg-[#2563EB] hover:text-[#E7F2E4]">
                         <Telescope className="h-4 w-4" />
                         Explore Project
                     </Button>

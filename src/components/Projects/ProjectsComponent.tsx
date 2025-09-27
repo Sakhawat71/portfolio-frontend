@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { TProject } from "@/types/project.type";
+import { IProject } from "@/types/project.type";
 import ProjectCard from "./ProjectCard";
 
 interface ProjectsComponentProps {
-    projects: TProject[];
+    projects: IProject[];
 }
 
 const categories = ["All", "Full Stack", "MERN", "FrontEnd", "JavaScript", "HTML-CSS"];
@@ -15,12 +15,15 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 6;
 
-    const fakeProjects = projects.flatMap((t) => Array(10).fill(t));
+    // console.log(projects);
+    
+    // const fakeProjects = projects.flatMap((t) => Array(10).fill(t));
+    // console.log('fake ',fakeProjects);
 
     const filteredProjects =
         activeCategory === "All"
-            ? fakeProjects
-            : fakeProjects?.filter(
+            ? projects
+            : projects?.filter(
                 (project) =>
                     project.category?.toLowerCase() === activeCategory.toLowerCase()
             );

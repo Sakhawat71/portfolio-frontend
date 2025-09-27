@@ -40,18 +40,3 @@ export type TProjectProps = {
     live: string
     reverse?: boolean
 }
-
-// export type TProjectCard = {
-//     id: string;
-//     title: string;
-//     description: string;
-//     image: string;
-//     techStack: string[];
-//     liveUrl: string;
-//     githubUrl: string;
-//     isTeam?: boolean;
-//     teamSize?: number;
-//     roleInTeam?: string;
-//     startDate: string;
-//     endDate: string;
-// };
