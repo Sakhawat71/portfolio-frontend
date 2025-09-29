@@ -36,11 +36,12 @@ const ProjectDetails = ({ project }: { project: IProject }) => {
         >
             {/* Project Header */}
             <div>
-                <div className="relative h-64 md:h-80 lg:h-96 rounded-xl overflow-hidden shadow-lg mb-8 group">
+                <div className="relative rounded-xl overflow-hidden shadow-lg mb-8 group">
                     <Image
                         src={project.image}
                         alt={project.title}
-                        fill
+                        width={1200}
+                        height={600}
                         priority
                         className="object-cover transition-all duration-500 group-hover:scale-105"
                     />
