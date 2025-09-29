@@ -14,7 +14,7 @@ const ProjectCard = (
 ) => {
 
     return (
-        <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-[#E7F2E4] hover:scale-[1.02]">
+        <Card className="rounded-2xl shadow-md hover:shadow-xl transition duration-300 bg-[#E7F2E4] hover:scale-[1.02] flex flex-col">
             {/* Image */}
             <CardHeader className="p-0 relative">
                 <Image
@@ -54,7 +54,7 @@ const ProjectCard = (
 
                 {/* Tech stack */}
                 <div className="flex flex-wrap gap-2 mt-3">
-                    {project.techStack?.slice(0,5)?.map((tech) => (
+                    {project.techStack?.slice(0, 5)?.map((tech) => (
                         <Badge key={tech} className="bg-gray-100 text-gray-700 text-xs">
                             {tech}
                         </Badge>
@@ -70,8 +70,8 @@ const ProjectCard = (
             </CardContent>
 
             {/* Footer */}
-            <CardFooter className="flex justify-center items-center px-4 pb-4">
-                <Link href={`/projects/${project.id}`} >
+            <CardFooter className="mt-auto flex justify-center items-center px-4 pb-4">
+                <Link href={`/projects/${project.id}`}>
                     <Button
                         variant="outline"
                         className="rounded-full gap-1 text-sm hover:bg-[#2563EB] hover:text-[#E7F2E4]">
@@ -80,7 +80,6 @@ const ProjectCard = (
                     </Button>
                 </Link>
             </CardFooter>
-
         </Card>
     );
 };
