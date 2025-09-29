@@ -66,8 +66,8 @@ const ProjectDetails = ({ project }: { project: IProject }) => {
                     <div className="flex flex-wrap gap-3">
                         <Link href={project.liveUrl} target="_blank">
                             <Button
-                                size="lg"
-                                className="gap-2 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 transition-all"
+                                variant="outline"
+                                className="rounded-xl gap-2 text-sm hover:bg-[#2563EB] hover:text-[#E7F2E4]"
                             >
                                 <ExternalLink size={18} />
                                 Live Demo
@@ -76,8 +76,7 @@ const ProjectDetails = ({ project }: { project: IProject }) => {
                         <Link href={project.githubUrl} target="_blank">
                             <Button
                                 variant="outline"
-                                size="lg"
-                                className="gap-2 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
+                                className="rounded-xl gap-2 text-sm hover:bg-[#2563EB] hover:text-[#E7F2E4]"
                             >
                                 <Github size={18} />
                                 Frontend Code
@@ -87,8 +86,7 @@ const ProjectDetails = ({ project }: { project: IProject }) => {
                             <Link href={project.backGitUrl} target="_blank">
                                 <Button
                                     variant="outline"
-                                    size="lg"
-                                    className="gap-2 border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
+                                    className="rounded-xl gap-2 text-sm hover:bg-[#2563EB] hover:text-[#E7F2E4]"
                                 >
                                     <Server size={18} />
                                     Backend Code
@@ -113,7 +111,7 @@ const ProjectDetails = ({ project }: { project: IProject }) => {
                                 <Badge
                                     key={tech}
                                     variant="secondary"
-                                    className="text-sm py-1.5 px-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                                    className="md:text-sm py-1.5 px-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors rounded-xl cursor-pointer"
                                 >
                                     {tech}
                                 </Badge>
