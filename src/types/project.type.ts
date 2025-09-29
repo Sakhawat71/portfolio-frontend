@@ -4,6 +4,7 @@ export type IProject = {
     description: string;
     image: string;
     techStack: string[];
+    highlights: string[];
     liveUrl: string;
     githubUrl: string;
     backGitUrl?: string;

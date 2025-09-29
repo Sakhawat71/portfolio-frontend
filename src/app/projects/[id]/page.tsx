@@ -14,6 +14,7 @@ const ProjectDetailsPage = async ({ params }: ProjectProps) => {
     const projectData = await getProjectById(id);
     // console.log(id, projectData);
     const project: IProject = projectData?.data;
+    console.log(project);
     if (!project) return notFound();
 
     return (
