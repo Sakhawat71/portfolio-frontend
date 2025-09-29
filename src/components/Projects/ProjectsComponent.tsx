@@ -8,7 +8,7 @@ interface ProjectsComponentProps {
     projects: IProject[];
 }
 
-const categories = ["All", "Full Stack", "MERN", "FrontEnd", "JavaScript", "HTML-CSS"];
+const categories = ["All", "Full Stack", "MERN", "FrontEnd","Backend", "JavaScript", "HTML-CSS"];
 
 const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
     const [activeCategory, setActiveCategory] = useState("All");
@@ -40,13 +40,13 @@ const ProjectsComponent = ({ projects }: ProjectsComponentProps) => {
     return (
         <div className="space-y-6">
             {/* Category Filter */}
-            <div className="flex flex-wrap gap-3 justify-center">
+            <div className="flex flex-wrap gap-2 lg:gap-3 justify-center">
                 {categories?.map((category) => (
                     <button
                         key={category}
                         onClick={() => {
                             setActiveCategory(category);
-                            setCurrentPage(1); // reset on filter change
+                            setCurrentPage(1);
                         }}
                         className={`px-4 py-2 rounded-xl text-sm font-medium transition ${activeCategory === category
                             ? "bg-blue-600 text-white shadow-md"
