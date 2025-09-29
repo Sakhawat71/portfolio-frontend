@@ -55,7 +55,7 @@ const ProjectCard = (
                 {/* Tech stack */}
                 <div className="flex flex-wrap gap-2 mt-3">
                     {project.techStack?.slice(0, 5)?.map((tech) => (
-                        <Badge key={tech} className="bg-gray-100 text-gray-700 text-xs">
+                        <Badge key={tech} className="bg-gray-100 cursor-pointer text-gray-700 text-xs rounded-lg">
                             {tech}
                         </Badge>
                     ))}
