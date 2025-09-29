@@ -64,7 +64,7 @@ const ProjectCard = (
                 {/* Role + Duration */}
                 {project.roleInTeam && (
                     <p className="text-xs text-gray-500">
-                        Role: {project.roleInTeam} | {project.startDate} - {project.endDate}
+                        Role: {project.roleInTeam}
                     </p>
                 )}
             </CardContent>
