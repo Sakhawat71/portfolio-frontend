@@ -1,5 +1,8 @@
 import { IBlog } from "@/types/blog.type";
-import { extractFirstImageUrlFromHtml, extractFirstParagraphFromHtml } from "@/utils/extractFirstImage";
+import {
+    extractFirstImageUrlFromHtml,
+    extractFirstParagraphFromHtml
+} from "@/utils/extractFirstImage";
 import Image from "next/image";
 import Link from "next/link";
 

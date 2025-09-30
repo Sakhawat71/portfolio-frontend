@@ -9,25 +9,20 @@ export default function BlogLandingPage({ blogs }: { blogs: IBlog[] }) {
     const rest = blogs.slice(4)
 
     return (
-        <div className="container mx-auto px-4 py-8">
-            {/* Header */}
+        <div className="mx-28 px-4 py-8">
+
             <h1 className="text-3xl md:text-4xl font-bold mb-8">Latest</h1>
 
             {/* Featured Section */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-                {/* First blog big card */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
                 {featured[0] && (
                     <div className="md:col-span-2 lg:col-span-3">
                         <BlogCard blog={featured[0]} variant="featured" />
                     </div>
                 )}
-
-                {/* Next 3 smaller blogs */}
-                <div className="flex flex-col gap-6">
-                    {featured.slice(1, 4).map(blog => (
-                        <BlogCard key={blog.id} blog={blog} variant="small" />
-                    ))}
-                </div>
+                {featured.slice(1, 4).map(blog => (
+                    <BlogCard key={blog.id} blog={blog} variant="small" />
+                ))}
             </div>
 
             {/* Rest blogs normal grid */}
