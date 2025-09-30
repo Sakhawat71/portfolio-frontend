@@ -3,10 +3,11 @@ import { fetchBlogs } from "@/services/fetchBlogs";
 
 const BlogsPage = async () => {
     const blogs = await fetchBlogs();
-    // console.log(blogs);
+    console.log(blogs);
 
     return (
-        <div className="max-w-7xl mx-auto p-6 pt-20">
+        <div className="mx-auto bg-gradient-to-b from-[#EFEEEA] to-slate-400 min-h-screen p-6 pt-20">
+            
             <div className="mb-10 font-raleway">
                 <h1 className="text-2xl md:text-3xl lg:text-[50px] font-bold text-center mt-5 text-gray-700 font-montserrat">
                     My Blog Corner
@@ -32,11 +33,13 @@ const BlogsPage = async () => {
             </div>
 
 
-            {blogs.data.length === 0 ? (
-                <p className="text-center text-gray-500">No blogs found.</p>
-            ) : (
-                <BlogComponent blogs={blogs?.data} />
-            )}
+            <div className="mt-20">
+                {blogs.data.length === 0 ? (
+                    <p className="text-center text-gray-500">No blogs found.</p>
+                ) : (
+                    <BlogComponent blogs={blogs?.data} />
+                )}
+            </div>
         </div>
     );
 };
