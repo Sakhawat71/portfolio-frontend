@@ -1,5 +1,5 @@
 import { IBlog } from "@/types/blog.type";
-import { extractFirstImageUrlFromHtml } from "@/utils/extractFirstImage";
+import { extractFirstImageUrlFromHtml, extractFirstParagraphFromHtml } from "@/utils/extractFirstImage";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +9,9 @@ export const BlogCard = (
 ) => {
     const blogImage = extractFirstImageUrlFromHtml(blog.contentHtml);
     const altImage = 'https://res.cloudinary.com/delntxu0e/image/upload/w_800,h_600,c_limit/v1749505084/blog-default_d9ebqm.avif'
-    const imageUrl = blogImage ?? altImage
+    const imageUrl = blogImage ?? altImage;
+
+    const firstText = extractFirstParagraphFromHtml(blog.contentHtml)
 
 
     if (variant === "featured") {
@@ -25,7 +27,7 @@ export const BlogCard = (
                 </div>
                 <div className="flex flex-col justify-between md:w-1/2">
                     <h2 className="text-2xl font-bold mb-2">{blog.title}</h2>
-                    {/* <p className="text-muted-foreground line-clamp-3">{blog.excerpt}</p> */}
+                    <p className="text-muted-foreground line-clamp-3">{firstText}</p>
                     <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline">Read more →</Link>
                 </div>
             </div>
@@ -45,7 +47,7 @@ export const BlogCard = (
                 </div>
                 <div className="p-4">
                     <h3 className="text-lg font-semibold line-clamp-2">{blog.title}</h3>
-                    {/* <p className="text-sm text-muted-foreground line-clamp-2">{blog.excerpt}</p> */}
+                    <p className="text-sm text-muted-foreground line-clamp-2">{firstText}</p>
                 </div>
             </div>
         )
@@ -55,12 +57,12 @@ export const BlogCard = (
     return (
         <div className="bg-slate-100 rounded-xl shadow-md">
             <div className="relative w-full h-48">
-                {/* <Image
+                <Image
                     src={imageUrl}
                     alt={blog.title}
                     fill
                     className="object-cover"
-                /> */}
+                />
             </div>
             <div className="p-4">
                 <h3 className="font-semibold">{blog.title}</h3>
