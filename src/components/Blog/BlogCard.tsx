@@ -40,7 +40,7 @@ export const BlogCard = (
                         ))}
                     </CardContent>
                     <p className="text-muted-foreground line-clamp-3">{firstText}</p>
-                    <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline">Read more →</Link>
+                    <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline hover:text-blue-700">Read more →</Link>
                 </div>
             </div>
         )
@@ -67,7 +67,7 @@ export const BlogCard = (
                         ))}
                     </CardContent>
                     <p className="text-sm text-muted-foreground line-clamp-2">{firstText}</p>
-                    <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline">Read more →</Link>
+                    <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline hover:text-blue-700">Read more →</Link>
                 </div>
             </div>
         )
@@ -86,7 +86,7 @@ export const BlogCard = (
             </div>
             <div className="p-4">
                 <h3 className="font-semibold">{blog.title}</h3>
-                <CardContent className="flex flex-wrap gap-2">
+                <CardContent className="flex flex-wrap gap-2 mt-3">
                     {blog.tags.map(tag => (
                         <Badge key={tag} variant="outline">
                             {tag}
@@ -94,6 +94,7 @@ export const BlogCard = (
                     ))}
                 </CardContent>
                 <p className="text-sm text-muted-foreground line-clamp-3">{firstText}</p>
+                <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline hover:text-blue-700">Read more →</Link>
             </div>
         </div>
     )
