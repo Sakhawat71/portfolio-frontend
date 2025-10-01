@@ -25,6 +25,7 @@ export default function BlogLandingPage({ blogs }: { blogs: IBlog[] }) {
                 ))}
             </div>
 
+            <h1 className="text-3xl md:text-4xl font-bold mb-8">All BLogs</h1>
             {/* Rest blogs normal grid */}
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {rest.map(blog => (

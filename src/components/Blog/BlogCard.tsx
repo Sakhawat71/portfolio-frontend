@@ -5,6 +5,8 @@ import {
 } from "@/utils/extractFirstImage";
 import Image from "next/image";
 import Link from "next/link";
+import { CardContent } from "../ui/card";
+import { Badge } from "../ui/badge";
 
 export const BlogCard = (
     { blog, variant = "default" }
@@ -15,7 +17,7 @@ export const BlogCard = (
     const imageUrl = blogImage ?? altImage;
 
     const firstText = extractFirstParagraphFromHtml(blog.contentHtml)
-
+    console.log(firstText);
 
     if (variant === "featured") {
         return (
@@ -30,6 +32,13 @@ export const BlogCard = (
                 </div>
                 <div className="flex flex-col justify-between md:w-1/2">
                     <h2 className="text-2xl font-bold mb-2">{blog.title}</h2>
+                    <CardContent className="flex flex-wrap gap-2">
+                        {blog.tags.map(tag => (
+                            <Badge key={tag} variant="outline">
+                                {tag}
+                            </Badge>
+                        ))}
+                    </CardContent>
                     <p className="text-muted-foreground line-clamp-3">{firstText}</p>
                     <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline">Read more →</Link>
                 </div>
@@ -51,6 +60,14 @@ export const BlogCard = (
                 <div className="p-4">
                     <h3 className="text-lg font-semibold line-clamp-2">{blog.title}</h3>
                     <p className="text-sm text-muted-foreground line-clamp-2">{firstText}</p>
+                    <div>
+                        {blog.tags.map(tag => (
+                            <Badge key={tag} variant="outline">
+                                {tag}
+                            </Badge>
+                        ))}
+                    </div>
+                    <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline">Read more →</Link>
                 </div>
             </div>
         )
