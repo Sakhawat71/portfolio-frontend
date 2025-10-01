@@ -59,14 +59,14 @@ export const BlogCard = (
                 </div>
                 <div className="p-4">
                     <h3 className="text-lg font-semibold line-clamp-2">{blog.title}</h3>
-                    <p className="text-sm text-muted-foreground line-clamp-2">{firstText}</p>
-                    <div>
+                    <CardContent className="flex flex-wrap gap-2">
                         {blog.tags.map(tag => (
                             <Badge key={tag} variant="outline">
                                 {tag}
                             </Badge>
                         ))}
-                    </div>
+                    </CardContent>
+                    <p className="text-sm text-muted-foreground line-clamp-2">{firstText}</p>
                     <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline">Read more →</Link>
                 </div>
             </div>
@@ -86,10 +86,18 @@ export const BlogCard = (
             </div>
             <div className="p-4">
                 <h3 className="font-semibold">{blog.title}</h3>
+                <CardContent className="flex flex-wrap gap-2">
+                    {blog.tags.map(tag => (
+                        <Badge key={tag} variant="outline">
+                            {tag}
+                        </Badge>
+                    ))}
+                </CardContent>
+                <p className="text-sm text-muted-foreground line-clamp-3">{firstText}</p>
             </div>
         </div>
     )
-}
+};
 
 
 
