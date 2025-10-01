@@ -7,7 +7,6 @@ export const extractFirstImageUrlFromHtml = (html: string): string | null => {
 export const extractFirstParagraphFromHtml = (html: string): string | null => {
     const matches = html.match(/<p[^>]*>(.*?)<\/p>/gi);
     if (!matches) return null;
-
     for (const p of matches) {
         const textOnly = p.replace(/<[^>]+>/g, "").trim();
         if (textOnly.length > 0) {
