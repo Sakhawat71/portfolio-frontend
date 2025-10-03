@@ -26,7 +26,6 @@ const Contact = () => {
         const toastId = toast.loading("Sending message...");
         try {
             const res = await createMessage(messageInfo);
-            console.log(res);
             if (res.success) {
                 toast.success("Message sent successfully", { id: toastId });
                 reset();
@@ -80,11 +79,11 @@ const Contact = () => {
                     />
                     {errors.email && <span className="text-red-500">{errors.email.message}</span>}
 
-                    <input
+                    {/* <input
                         placeholder="PHONE NUMBER"
                         {...register("phone")}
                         className="textarea textarea-bordered w-full border-black focus:outline-none bg-transparent focus:border-black border-l-4 border-b-4 border-t-0 border-r-0 rounded-none min-h-10"
-                    />
+                    /> */}
 
                     <textarea
                         placeholder="YOUR MESSAGE*"
