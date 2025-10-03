@@ -5,7 +5,7 @@ import {
 } from "@/utils/extractFirstImage";
 import Image from "next/image";
 import Link from "next/link";
-import { CardContent } from "../ui/card";
+import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
 import { Badge } from "../ui/badge";
 
 export const BlogCard = (
@@ -44,59 +44,89 @@ export const BlogCard = (
                 </div>
             </div>
         )
-    }
+    };
 
+    // small card
     if (variant === "small") {
         return (
-            <div className="bg-slate-100 rounded-xl overflow-hidden shadow-md">
-                <div className="relative w-full h-40">
+            <Card className="bg-slate-100 rounded-xl overflow-hidden shadow-md flex flex-col">
+                {/* Image Section */}
+                <CardHeader className="relative w-full h-40">
                     <Image
                         src={imageUrl}
                         alt={blog.title}
                         fill
                         className="object-cover"
                     />
+                </CardHeader>
+
+                {/* Content + Footer should fill space */}
+                <div className="flex flex-col flex-1">
+                    <CardContent className="p-4 flex flex-col flex-1">
+                        <h3 className="text-lg font-normal line-clamp-2">{blog.title}</h3>
+
+                        <div className="flex flex-wrap gap-2 mt-2">
+                            {blog.tags.map(tag => (
+                                <p key={tag} className="font-bold text-xs text-[#B84848]">
+                                    #{tag}
+                                </p>
+                            ))}
+                        </div>
+
+                        <p className="text-sm py-3 text-muted-foreground line-clamp-2">
+                            {firstText}
+                        </p>
+                    </CardContent>
+
+                    {/* Footer sticks to bottom */}
+                    <CardFooter className="mt-auto flex justify-end px-4 pb-4">
+                        <Link
+                            href={`/blog/${blog.id}`}
+                            className="text-primary hover:underline hover:text-blue-700"
+                        >
+                            Read more →
+                        </Link>
+                    </CardFooter>
                 </div>
-                <div className="p-4 flex flex-col">
-                    <h3 className="text-lg font-normal line-clamp-2">{blog.title}</h3>
-                    <div className="flex flex-wrap gap-2">
-                        {blog.tags.map(tag => (
-                            <p key={tag} className="font-bold text-xs text-[#B84848]">
-                                #{tag}
-                            </p>
-                        ))}
-                    </div>
-                    <p className="text-sm py-3 text-muted-foreground line-clamp-2">{firstText}</p>
-                    <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline hover:text-blue-700 my-auto">Read more →</Link>
-                </div>
-            </div>
-        )
-    }
+            </Card>
+        );
+    };
+
+
 
     // Default (grid cards)
     return (
-        <div className="bg-slate-100 rounded-xl shadow-md">
-            <div className="relative w-full h-48">
+        <Card className="bg-slate-100 rounded-xl shadow-md flex flex-col">
+            <CardHeader className="relative w-full h-48">
                 <Image
                     src={imageUrl}
                     alt={blog.title}
                     fill
                     className="object-cover"
                 />
-            </div>
-            <div className="p-4">
+            </CardHeader>
+
+            <CardContent className="p-4 flex flex-col flex-grow">
                 <h3 className="font-semibold">{blog.title}</h3>
-                <CardContent className="flex flex-wrap gap-2 mt-3">
+                <div className="flex flex-wrap gap-2 mt-3">
                     {blog.tags.map(tag => (
                         <Badge key={tag} variant="outline">
                             {tag}
                         </Badge>
                     ))}
-                </CardContent>
-                <p className="text-sm text-muted-foreground line-clamp-3">{firstText}</p>
-                <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline hover:text-blue-700">Read more →</Link>
-            </div>
-        </div>
+                </div>
+                <p className="text-sm text-muted-foreground line-clamp-3 mt-3">{firstText}</p>
+            </CardContent>
+
+            <CardFooter className="mt-auto flex justify-end px-4 pb-4">
+                <Link
+                    href={`/blog/${blog.id}`}
+                    className="text-primary hover:underline hover:text-blue-700"
+                >
+                    Read more →
+                </Link>
+            </CardFooter>
+        </Card>
     )
 };
 
