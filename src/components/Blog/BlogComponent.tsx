@@ -9,10 +9,8 @@ export default function BlogLandingPage({ blogs }: { blogs: IBlog[] }) {
     const rest = blogs.slice(4)
 
     return (
-        <div className="mx-28 px-4 py-8">
-
+        <div className="mx-2 md:mx-8 lg:mx-28 py-2 md:py-4 lg:py-8">
             <h1 className="text-3xl md:text-4xl font-bold mb-8">Latest</h1>
-
             {/* Featured Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
                 {featured[0] && (
