@@ -3,7 +3,7 @@ import { fetchBlogs } from "@/services/fetchBlogs";
 
 const BlogsPage = async () => {
     const blogs = await fetchBlogs();
-    console.log(blogs);
+    // console.log(blogs);
 
     return (
         <div className="mx-auto bg-gradient-to-b from-[#EFEEEA] to-slate-400 min-h-screen p-6 pt-20">
@@ -33,7 +33,7 @@ const BlogsPage = async () => {
             </div>
 
 
-            <div className="mt-20">
+            <div>
                 {blogs.data.length === 0 ? (
                     <p className="text-center text-gray-500">No blogs found.</p>
                 ) : (

@@ -17,7 +17,7 @@ export const BlogCard = (
     const imageUrl = blogImage ?? altImage;
 
     const firstText = extractFirstParagraphFromHtml(blog.contentHtml)
-    console.log(firstText);
+    // console.log(firstText);
 
     if (variant === "featured") {
         return (
