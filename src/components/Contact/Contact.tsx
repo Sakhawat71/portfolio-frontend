@@ -26,6 +26,7 @@ const Contact = () => {
         const toastId = toast.loading("Sending message...");
         try {
             const res = await createMessage(messageInfo);
+            console.log(res);
             if (res.success) {
                 toast.success("Message sent successfully", { id: toastId });
                 reset();
