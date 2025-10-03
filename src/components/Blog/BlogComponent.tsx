@@ -9,7 +9,7 @@ export default function BlogLandingPage({ blogs }: { blogs: IBlog[] }) {
     const rest = blogs.slice(4)
 
     return (
-        <div className="mx-2 md:mx-8 lg:mx-28 py-2 md:py-4 lg:py-8">
+        <div className="mx-2 md:mx-8 lg:mx-28 py-2 md:py-4">
             <h1 className="text-3xl md:text-4xl font-bold mb-8">Latest</h1>
             {/* Featured Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -31,27 +31,5 @@ export default function BlogLandingPage({ blogs }: { blogs: IBlog[] }) {
                 ))}
             </div>
         </div>
-    )
-}
-
-
-
-
-// "use client"
-
-// import { IBlog } from '@/types/blog.type';
-// import React from 'react';
-// import { BlogCard } from './BlogCard';
-
-// const BlogComponent = ({ blogs }: { blogs: IBlog[] }) => {
-//     // console.log(blogs);
-//     return (
-//         <div className='md:mx-20 lg:mx-48 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8'>
-//             {blogs?.map((blog) => (
-//                 <BlogCard key={blog.id} blog={blog} />
-//             ))}
-//         </div>
-//     );
-// };
-
-// export default BlogComponent;
+    );
+};
