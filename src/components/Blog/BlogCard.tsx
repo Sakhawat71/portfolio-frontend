@@ -57,17 +57,17 @@ export const BlogCard = (
                         className="object-cover"
                     />
                 </div>
-                <div className="p-4">
-                    <h3 className="text-lg font-semibold line-clamp-2">{blog.title}</h3>
-                    <CardContent className="flex flex-wrap gap-2">
+                <div className="p-4 flex flex-col">
+                    <h3 className="text-lg font-normal line-clamp-2">{blog.title}</h3>
+                    <div className="flex flex-wrap gap-2">
                         {blog.tags.map(tag => (
-                            <Badge key={tag} variant="outline">
-                                {tag}
-                            </Badge>
+                            <p key={tag} className="font-bold text-xs text-[#B84848]">
+                                #{tag}
+                            </p>
                         ))}
-                    </CardContent>
-                    <p className="text-sm text-muted-foreground line-clamp-2">{firstText}</p>
-                    <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline hover:text-blue-700">Read more →</Link>
+                    </div>
+                    <p className="text-sm py-3 text-muted-foreground line-clamp-2">{firstText}</p>
+                    <Link href={`/blog/${blog.id}`} className="text-primary mt-4 hover:underline hover:text-blue-700 my-auto">Read more →</Link>
                 </div>
             </div>
         )
