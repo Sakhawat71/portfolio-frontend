@@ -34,10 +34,10 @@ export const BlogCard = (
                     <h2 className="text-2xl font-bold mb-2">{blog.title}</h2>
                     <CardContent className="flex flex-wrap gap-2">
                         {blog.tags.map(tag => (
-                            <Badge 
-                            key={tag} 
-                            variant="outline"
-                            className="rounded-3xl text-[#B84848]"
+                            <Badge
+                                key={tag}
+                                variant="outline"
+                                className="rounded-3xl text-[#B84848]"
                             >
                                 {tag}
                             </Badge>
@@ -60,17 +60,17 @@ export const BlogCard = (
                         src={imageUrl}
                         alt={blog.title}
                         fill
-                        className="object-cover"
+                        className="object-cover rounded-t-xl"
                     />
                 </CardHeader>
 
                 {/* Content + Footer should fill space */}
                 <div className="flex flex-col flex-1">
                     <CardContent className="p-4 pb-0 flex flex-col flex-1">
-                        <h3 className="text-lg font-normal line-clamp-2">{blog.title}</h3>
+                        <h3 className="text-base font-semibold line-clamp-2">{blog.title}</h3>
 
                         <div className="flex flex-wrap gap-2 mt-2">
-                            {blog.tags?.slice(0,5)?.map(tag => (
+                            {blog.tags?.slice(0, 5)?.map(tag => (
                                 <p key={tag} className="font-bold text-xs text-[#B84848]">
                                     #{tag}
                                 </p>
@@ -78,7 +78,7 @@ export const BlogCard = (
                         </div>
 
                         <p className="text-sm py-3 ">
-                            {firstText?.slice(0,100)} {firstText && firstText.length > 100 ? '...' : ''}
+                            {firstText?.slice(0, 100)} {firstText && firstText.length > 100 ? '...' : ''}
                         </p>
                     </CardContent>
 
@@ -113,7 +113,7 @@ export const BlogCard = (
             <CardContent className="p-4 flex flex-col flex-grow">
                 <h3 className="font-semibold">{blog.title}</h3>
                 <div className="flex flex-wrap gap-2 mt-3">
-                    {blog.tags.map(tag => (
+                    {blog.tags?.slice(0, 4)?.map(tag => (
                         <Badge key={tag} variant="outline" className="rounded-3xl text-[#B84848]">
                             {tag}
                         </Badge>
