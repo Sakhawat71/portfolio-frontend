@@ -11,7 +11,7 @@ interface SkillsBoxProps {
 const SkillsBox = ({ skills }: SkillsBoxProps) => {
 
     return (
-        skills.map((skill: ISkill) => <>
+        skills?.map((skill: ISkill) => <>
             <motion.div
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}

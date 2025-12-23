@@ -4,5 +4,5 @@ export const skillFilter = (
     skills: ISkill[],
     typeOfSkills: string
 ) => {
-    return skills.filter((skill: ISkill) => skill.type === typeOfSkills);
+    return skills?.filter((skill: ISkill) => skill.type === typeOfSkills);
 };

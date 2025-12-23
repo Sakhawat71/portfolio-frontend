@@ -15,6 +15,7 @@ const Skills = () => {
     useEffect(() => {
         const fetchSkills = async () => {
             const data = await getSkills();
+            // console.log(data);
             setSkills(data.data)
         };
         fetchSkills();
@@ -23,7 +24,7 @@ const Skills = () => {
     const Frontend = skillFilter(skills, 'Frontend');
     const backend = skillFilter(skills, 'Backend');
     const tools = skillFilter(skills, 'Tools & Others');
-    const cloud = skillFilter(skills, 'DevOps & Cloud');
+    // const cloud = skillFilter(skills, 'DevOps & Cloud');
 
 
     return (
@@ -66,12 +67,12 @@ const Skills = () => {
                 <SkillsBox skills={tools} />
             </div>
 
-            <h1 className='font-bold text-xl tracking-widest mt-20'>DevOps & Cloud</h1>
+            {/* <h1 className='font-bold text-xl tracking-widest mt-20'>DevOps & Cloud</h1> */}
 
             {/* Hosting & Serverless Platforms section */}
-            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center  gap-10 my-10'>
+            {/* <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center  gap-10 my-10'>
                 <SkillsBox skills={cloud} />
-            </div>
+            </div> */}
         </div>
     );
 };

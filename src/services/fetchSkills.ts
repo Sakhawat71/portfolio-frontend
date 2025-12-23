@@ -6,11 +6,11 @@ export const getSkills = async () => {
             method: "GET",
             // next: { revalidate: 60 }
         });
-
-        if (!res.ok) {
-            throw new Error("Failed to fetch skills");
-        }
-
+        
+        // console.log(res)
+        // if (!res.ok) {
+        //     throw new Error("Failed to fetch skills");
+        // }
         return await res.json();
     } catch (error) {
         console.error("Error fetching skills:", error);
