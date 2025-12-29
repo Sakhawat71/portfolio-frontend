@@ -2,7 +2,7 @@
 
 import "./skills.css";
 import Image from 'next/image';
-import lineImage from '@/assets/ext/line.png'
+import lineImage from '@/assets/ext/line.png';
 import Aspirations from '../Aspirations/Aspirations';
 import SkillsBox from "./SkillsBox";
 import { useEffect, useState } from "react";
@@ -19,7 +19,9 @@ const Skills = () => {
             setSkills(data.data)
         };
         fetchSkills();
-    }, [])
+    }, []);
+
+    // console.log(skills);
 
     const Languages = skillFilter(skills, 'Programming Language');
     const Frontend = skillFilter(skills, 'Frontend');
@@ -28,8 +30,6 @@ const Skills = () => {
     const dataScience = skillFilter(skills, 'Data Science');
     const cloud = skillFilter(skills, 'DevOps & Cloud');
 
-
-    
 
     return (
         <div className=' gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
@@ -43,6 +43,7 @@ const Skills = () => {
             />
 
 
+
             {/* SKILLS SECTION */}
 
             <div className=' border-black border-[5px] w-72 mx-auto text-center'>
@@ -50,29 +51,24 @@ const Skills = () => {
             </div>
 
             <h1 className='font-bold text-xl tracking-widest mt-20'>Programming Languages</h1>
-
             {/* Programming Language section */}
             <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center gap-10 my-10'>
                 <SkillsBox skills={Languages} />
             </div>
 
             <h1 className='font-bold text-xl tracking-widest mt-20'>Front-End</h1>
-
             {/* front end section */}
             <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center gap-10 my-10'>
                 <SkillsBox skills={Frontend} />
             </div>
 
-
             <h1 className='font-bold text-xl tracking-widest mt-20'>Back End</h1>
-
             {/* back end section */}
             <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center gap-10 my-10'>
                 <SkillsBox skills={backend} />
             </div>
 
             <h1 className='font-bold text-xl tracking-widest mt-20'>Tools & Others</h1>
-
             {/* Tools section */}
             <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center gap-10 my-10'>
                 <SkillsBox skills={tools} />
@@ -89,6 +85,7 @@ const Skills = () => {
             <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center  gap-10 my-10'>
                 <SkillsBox skills={cloud} />
             </div>
+
         </div>
     );
 };

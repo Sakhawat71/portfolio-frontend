@@ -3,12 +3,26 @@
 import * as motion from "motion/react-client";
 import Image from "next/image";
 import { ISkill } from "@/types/skill.type";
+import finding from '@/assets/loading/finding.gif';
 
 interface SkillsBoxProps {
     skills: ISkill[]
 }
 
 const SkillsBox = ({ skills }: SkillsBoxProps) => {
+
+    if (skills.length === 0) {
+        return <div className="flex justify-center items-center h-20">
+            <Image
+                src={finding}
+                alt='finding'
+                width={150}
+                height={50}
+                className='mx-auto'
+            />
+        </div>
+    };
+
 
     return (
         skills?.map((skill: ISkill) => <>
