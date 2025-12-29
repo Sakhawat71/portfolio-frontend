@@ -26,9 +26,10 @@ const Skills = () => {
     const backend = skillFilter(skills, 'Backend');
     const tools = skillFilter(skills, 'Tools & Others');
     const dataScience = skillFilter(skills, 'Data Science');
-    // const cloud = skillFilter(skills, 'DevOps & Cloud');
+    const cloud = skillFilter(skills, 'DevOps & Cloud');
 
-    // console.log(Languages);
+
+    
 
     return (
         <div className=' gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
@@ -85,9 +86,9 @@ const Skills = () => {
 
             <h1 className='font-bold text-xl tracking-widest mt-20'>DevOps & Cloud</h1>
             {/* Hosting & Serverless Platforms section */}
-            {/* <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center  gap-10 my-10'>
+            <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6  text-center  gap-10 my-10'>
                 <SkillsBox skills={cloud} />
-            </div> */}
+            </div>
         </div>
     );
 };
