@@ -11,7 +11,7 @@ interface SkillsBoxProps {
 
 const SkillsBox = ({ skills }: SkillsBoxProps) => {
 
-    if (skills.length === 0) {
+    if (!skills || skills.length === 0) {
         return <div className="flex justify-center items-center h-20">
             <Image
                 src={finding}

@@ -15,13 +15,11 @@ const Skills = () => {
     useEffect(() => {
         const fetchSkills = async () => {
             const data = await getSkills();
-            // console.log(data);
             setSkills(data.data)
         };
         fetchSkills();
     }, []);
 
-    // console.log(skills);
 
     const Languages = skillFilter(skills, 'Programming Language');
     const Frontend = skillFilter(skills, 'Frontend');
@@ -41,7 +39,6 @@ const Skills = () => {
                 height={50}
                 className='my-20 mx-auto'
             />
-
 
 
             {/* SKILLS SECTION */}
