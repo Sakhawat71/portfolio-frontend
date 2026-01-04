@@ -67,6 +67,7 @@ const Banner = () => {
                     <div className="relative h-[90%] w-auto aspect-[3/4]">
                         <Image
                             src="/assets/profileImg.png"
+                            // src="/assets/s3h.png"
                             alt="Sakhawat Hossain - Full Stack Developer"
                             fill
                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
