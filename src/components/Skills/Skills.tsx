@@ -15,6 +15,12 @@ const Skills = () => {
     useEffect(() => {
         const fetchSkills = async () => {
             const data = await getSkills();
+            console.log(data);
+
+            if(data.success == false){
+                console.log('no data');
+            }
+
             setSkills(data.data)
         };
         fetchSkills();
@@ -30,7 +36,7 @@ const Skills = () => {
 
 
     return (
-        <div className=' gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
+        <div className='gradient-bg h-full my-20 mx-auto w-4/6 font-montserrat'>
             <Aspirations />
             <Image
                 src={lineImage}
