@@ -1,0 +1,2154 @@
+[
+    {
+        "id": "1d4c6b83-ebfb-44c1-8a65-ac02b7759b0e",
+        "title": "মেশিন লার্নিং ও এআই শেখার পথচলা: কেন, কীভাবে এবং প্রজেক্ট আইডিয়া",
+        "contentHtml": "<h1 style=\"text-align: left\">মেশিন লার্নিং ও এআই শেখার পথচলা: কেন, কীভাবে এবং প্রজেক্ট আইডিয়া</h1><p style=\"text-align: left\">আজকের দিনে ওয়েব ডেভেলপমেন্ট, অ্যাপ ডেভেলপমেন্টের পাশাপাশি <strong>মেশিন লার্নিং (ML)</strong> ও <strong>আর্টিফিশিয়াল ইন্টেলিজেন্স (AI)</strong> সবচেয়ে বেশি চাহিদাসম্পন্ন স্কিল। গুগল, মেটা, মাইক্রোসফট থেকে শুরু করে ছোট ছোট স্টার্টআপ—সব জায়গায়ই এখন ডেটা, এআই এবং মডেল ট্রেইনিং গুরুত্বপূর্ণ ভূমিকা রাখছে।</p><p style=\"text-align: left\">আপনি যদি ওয়েব ডেভেলপমেন্ট শেষ করে থাকেন এবং এখন ভালো সুযোগ খুঁজছেন, তবে এআই/এমএল শেখা আপনার জন্য নতুন দরজা খুলে দিতে পারে।</p><p style=\"text-align: left\"></p><img class=\"rounded-lg border mx-auto\" src=\"https://res.cloudinary.com/delntxu0e/image/upload/w_800,h_600,c_limit/v1759467899/lygemrw9oxaprcq1uxnm.png\"><hr><h2 style=\"text-align: left\">কেন এআই/এমএল শিখবেন?</h2><ol><li><p style=\"text-align: left\"><strong>চাকরির সুযোগ বেশি</strong> – ডেটা সায়েন্টিস্ট, এমএল ইঞ্জিনিয়ার, এআই রিসার্চার, এনএলপি স্পেশালিস্ট ইত্যাদি ক্যারিয়ার তৈরি হয়।</p></li><li><p style=\"text-align: left\"><strong>ওপেন সোর্স টুলস ফ্রি</strong> – পাইথন, টেনসরফ্লো, পাইটর্চ, স্কিকিট-লার্ন এর মতো লাইব্রেরি দিয়ে শুরু করা সহজ।</p></li><li><p style=\"text-align: left\"><strong>ওয়েবের সাথে কানেকশন</strong> – আপনি চাইলে এমএল মডেল বানিয়ে ওয়েব অ্যাপে ইন্টিগ্রেট করতে পারবেন।</p></li></ol><hr><h2 style=\"text-align: left\">কোর্স আউটলাইনের কিছু হাইলাইটস</h2><ul><li><p style=\"text-align: left\">পাইথন বেসিকস (এমএল-এর জন্য দরকারি)</p></li><li><p style=\"text-align: left\">লিনিয়ার অ্যালজেব্রা, স্ট্যাটিস্টিকস, প্রোবাবিলিটি</p></li><li><p style=\"text-align: left\">ডেটা ক্লিনিং ও ভিজুয়ালাইজেশন</p></li><li><p style=\"text-align: left\">ক্লাসিক মেশিন লার্নিং অ্যালগরিদম (Regression, Classification, Clustering)</p></li><li><p style=\"text-align: left\">ডিপ লার্নিং (নিউরাল নেটওয়ার্ক, CNN, RNN)</p></li><li><p style=\"text-align: left\">রিয়েল-লাইফ প্রজেক্ট</p></li></ul><hr><h2 style=\"text-align: left\">২–৩টা প্রজেক্ট আইডিয়া</h2><ol><li><p style=\"text-align: left\"><strong>স্টুডেন্ট গ্রেড প্রেডিকশন সিস্টেম</strong></p><ul><li><p style=\"text-align: left\">ইনপুট: ক্লাস অ্যাটেনডেন্স, অ্যাসাইনমেন্ট নম্বর, প্র্যাকটিস টাইম</p></li><li><p style=\"text-align: left\">আউটপুট: ফাইনাল গ্রেডের সম্ভাব্য প্রেডিকশন</p></li><li><p style=\"text-align: left\">ব্যবহার: শিক্ষার্থীরা কেমন পারফর্ম করবে আগে থেকেই আন্দাজ করা যাবে।</p></li></ul></li><li><p style=\"text-align: left\"><strong>বাংলা সেন্টিমেন্ট অ্যানালাইসিস</strong></p><ul><li><p style=\"text-align: left\">ইনপুট: বাংলা ফেসবুক/টুইটার কমেন্ট</p></li><li><p style=\"text-align: left\">আউটপুট: Positive / Negative / Neutral ট্যাগ</p></li><li><p style=\"text-align: left\">ব্যবহার: কোম্পানি বা মিডিয়া জানতে পারবে মানুষ তাদের সম্পর্কে কী ভাবছে।</p></li></ul></li><li><p style=\"text-align: left\"><strong>ইমেজ ক্লাসিফিকেশন (ফল-মূল সনাক্তকরণ)</strong></p><ul><li><p style=\"text-align: left\">ইনপুট: ছবি (আম, কলা, আপেল ইত্যাদি)</p></li><li><p style=\"text-align: left\">আউটপুট: ছবিতে কোন ফল আছে সেটা শনাক্ত করা</p></li><li><p style=\"text-align: left\">ব্যবহার: কৃষি/ই-কমার্সে কাজে লাগানো যায়।</p></li></ul></li></ol><hr><h2 style=\"text-align: left\">উপসংহার</h2><p style=\"text-align: left\">এআই/এমএল শেখা মানে শুধু প্রোগ্রামিং না, বরং ডেটা থেকে <strong>ইনসাইট বের করা</strong> এবং <strong>ভবিষ্যৎ প্রেডিকশন</strong> করা। আপনি যদি ওয়েব ডেভেলপমেন্টে দক্ষ হয়ে থাকেন, তাহলে এখন এমএল/এআই শেখার মাধ্যমে নিজের ক্যারিয়ারকে আরেক ধাপ এগিয়ে নিতে পারবেন।</p><hr><p style=\"text-align: left\"></p>",
+        "contentJson": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "মেশিন লার্নিং ও এআই শেখার পথচলা: কেন, কীভাবে এবং প্রজেক্ট আইডিয়া",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "আজকের দিনে ওয়েব ডেভেলপমেন্ট, অ্যাপ ডেভেলপমেন্টের পাশাপাশি ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "মেশিন লার্নিং (ML)",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " ও ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "আর্টিফিশিয়াল ইন্টেলিজেন্স (AI)",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " সবচেয়ে বেশি চাহিদাসম্পন্ন স্কিল। গুগল, মেটা, মাইক্রোসফট থেকে শুরু করে ছোট ছোট স্টার্টআপ—সব জায়গায়ই এখন ডেটা, এআই এবং মডেল ট্রেইনিং গুরুত্বপূর্ণ ভূমিকা রাখছে।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "আপনি যদি ওয়েব ডেভেলপমেন্ট শেষ করে থাকেন এবং এখন ভালো সুযোগ খুঁজছেন, তবে এআই/এমএল শেখা আপনার জন্য নতুন দরজা খুলে দিতে পারে।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "কেন এআই/এমএল শিখবেন?",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "orderedList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "চাকরির সুযোগ বেশি",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – ডেটা সায়েন্টিস্ট, এমএল ইঞ্জিনিয়ার, এআই রিসার্চার, এনএলপি স্পেশালিস্ট ইত্যাদি ক্যারিয়ার তৈরি হয়।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "ওপেন সোর্স টুলস ফ্রি",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – পাইথন, টেনসরফ্লো, পাইটর্চ, স্কিকিট-লার্ন এর মতো লাইব্রেরি দিয়ে শুরু করা সহজ।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "ওয়েবের সাথে কানেকশন",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – আপনি চাইলে এমএল মডেল বানিয়ে ওয়েব অ্যাপে ইন্টিগ্রেট করতে পারবেন।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "কোর্স আউটলাইনের কিছু হাইলাইটস",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "পাইথন বেসিকস (এমএল-এর জন্য দরকারি)",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "লিনিয়ার অ্যালজেব্রা, স্ট্যাটিস্টিকস, প্রোবাবিলিটি",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "ডেটা ক্লিনিং ও ভিজুয়ালাইজেশন",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "ক্লাসিক মেশিন লার্নিং অ্যালগরিদম (Regression, Classification, Clustering)",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "ডিপ লার্নিং (নিউরাল নেটওয়ার্ক, CNN, RNN)",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "রিয়েল-লাইফ প্রজেক্ট",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "২–৩টা প্রজেক্ট আইডিয়া",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "orderedList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "স্টুডেন্ট গ্রেড প্রেডিকশন সিস্টেম",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "ইনপুট: ক্লাস অ্যাটেনডেন্স, অ্যাসাইনমেন্ট নম্বর, প্র্যাকটিস টাইম",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "আউটপুট: ফাইনাল গ্রেডের সম্ভাব্য প্রেডিকশন",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "ব্যবহার: শিক্ষার্থীরা কেমন পারফর্ম করবে আগে থেকেই আন্দাজ করা যাবে।",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "বাংলা সেন্টিমেন্ট অ্যানালাইসিস",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "ইনপুট: বাংলা ফেসবুক/টুইটার কমেন্ট",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "আউটপুট: Positive / Negative / Neutral ট্যাগ",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "ব্যবহার: কোম্পানি বা মিডিয়া জানতে পারবে মানুষ তাদের সম্পর্কে কী ভাবছে।",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "ইমেজ ক্লাসিফিকেশন (ফল-মূল সনাক্তকরণ)",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "ইনপুট: ছবি (আম, কলা, আপেল ইত্যাদি)",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "আউটপুট: ছবিতে কোন ফল আছে সেটা শনাক্ত করা",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "ব্যবহার: কৃষি/ই-কমার্সে কাজে লাগানো যায়।",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "উপসংহার",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "এআই/এমএল শেখা মানে শুধু প্রোগ্রামিং না, বরং ডেটা থেকে ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "ইনসাইট বের করা",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " এবং ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "ভবিষ্যৎ প্রেডিকশন",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " করা। আপনি যদি ওয়েব ডেভেলপমেন্টে দক্ষ হয়ে থাকেন, তাহলে এখন এমএল/এআই শেখার মাধ্যমে নিজের ক্যারিয়ারকে আরেক ধাপ এগিয়ে নিতে পারবেন।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "paragraph"
+                }
+            ]
+        },
+        "slug": "মেশিন-লার্নিং-ও-এআই-শেখার-পথচলা:-কেন,-কীভাবে-এবং-প্রজেক্ট-আইডিয়া",
+        "tags": [
+            "Ai",
+            "ML",
+            "Project idea",
+            "মেশিন লার্নিং"
+        ],
+        "isDeleted": false,
+        "publishedAt": "2025-10-03T05:06:00.509Z",
+        "isPublished": true,
+        "createdAt": "2025-10-03T05:06:00.509Z",
+        "updatedAt": "2025-10-03T05:06:00.509Z"
+    },
+    {
+        "id": "740e11d3-ea3f-413b-91a9-c7edec02d969",
+        "title": "ফাইট্রন AI/ML কোর্স – নেওয়া উচিত নাকি নয়?",
+        "contentHtml": "<h1 style=\"text-align: left\">ফাইট্রন AI/ML কোর্স – নেওয়া উচিত নাকি নয়?</h1><p style=\"text-align: left\">আজকাল AI আর Machine Learning নিয়ে সবার ভীষণ আগ্রহ। চাকরির বাজারে Data Science, ML Engineer, AI Researcher – এই ধরণের স্কিলের চাহিদা বাড়ছে প্রতিদিন। অনেকেই ভাবছেন, <em>“আমি ওয়েব ডেভেলপমেন্ট শিখেছি, কিন্তু চাকরির সুযোগ পাচ্ছি না। তাহলে কি ML/AI শিখবো?”</em></p><p style=\"text-align: left\">ফাইট্রন তাদের <strong>AI/ML Batch-1</strong> কোর্স চালু করেছে, যেখানে Python থেকে শুরু করে Deep Learning, NLP (Natural Language Processing), Computer Vision সব কিছু শিখানো হবে। এই ব্লগে আমরা দেখব এই কোর্সে কী কী থাকছে, এর ভালো-খারাপ দিক, আর কার জন্য এটা উপযুক্ত।</p><hr><p style=\"text-align: left\"></p><img class=\"rounded-lg border mx-auto\" src=\"https://res.cloudinary.com/delntxu0e/image/upload/w_800,h_600,c_limit/v1759428768/atowu4sg1is2s5b99zkf.png\"><p style=\"text-align: left\"></p><h2 style=\"text-align: left\">কোর্সে কী কী থাকছে?</h2><p style=\"text-align: left\">ফাইট্রনের অফিসিয়াল outline অনুযায়ী এই কোর্সে থাকছে –</p><ol><li><p style=\"text-align: left\"><strong>Python + Data Tools</strong></p><ul><li><p style=\"text-align: left\">Python basics, Numpy, Pandas, Matplotlib, Seaborn</p></li><li><p style=\"text-align: left\">Data preprocessing, cleaning, feature engineering</p></li></ul></li><li><p style=\"text-align: left\"><strong>Math Basics for ML</strong></p><ul><li><p style=\"text-align: left\">Linear Algebra, Probability, Statistics</p></li><li><p style=\"text-align: left\">Gradient Descent, Logistic Regression ইত্যাদি কোড সহকারে</p></li></ul></li><li><p style=\"text-align: left\"><strong>Machine Learning Algorithms</strong></p><ul><li><p style=\"text-align: left\">Regression, Classification, Decision Tree, Random Forest, Boosting</p></li><li><p style=\"text-align: left\">Clustering, Dimensionality Reduction, Semi-supervised Learning</p></li></ul></li><li><p style=\"text-align: left\"><strong>Deep Learning</strong></p><ul><li><p style=\"text-align: left\">Neural Networks, CNN, Vision Transformer</p></li><li><p style=\"text-align: left\">Transfer Learning, Image Processing, Object Detection</p></li></ul></li><li><p style=\"text-align: left\"><strong>Natural Language Processing (NLP)</strong></p><ul><li><p style=\"text-align: left\">Tokenization, Embedding, Sentiment Analysis, NER</p></li><li><p style=\"text-align: left\">Transformer Architecture, Fine-tuning, Bias &amp; Fairness</p></li><li><p style=\"text-align: left\">Deployment of NLP Models</p></li></ul></li><li><p style=\"text-align: left\"><strong>Hands-on Projects &amp; Labs</strong></p><ul><li><p style=\"text-align: left\">প্রতিটি টপিকের পর ছোট ছোট অ্যাসাইনমেন্ট, Mini-lab, এবং বাস্তব প্রজেক্ট</p></li></ul></li></ol><hr><h2 style=\"text-align: left\">এই কোর্সের ভালো দিক</h2><ul><li><p style=\"text-align: left\"><strong>Step by step structure</strong> – একেবারে শুরু থেকে ধাপে ধাপে উন্নত লেভেলে নিয়ে যাওয়া হবে।</p></li><li><p style=\"text-align: left\"><strong>Hands-on practice</strong> – শুধু তত্ত্ব নয়, বরং ডেটা ক্লিনিং থেকে শুরু করে মডেল বানানো পর্যন্ত প্র্যাক্টিক্যাল কাজ থাকবে।</p></li><li><p style=\"text-align: left\"><strong>Modern topics covered</strong> – Transformer, Vision Model, NLP Deployment – এগুলো আধুনিক ইন্ডাস্ট্রিতে খুব দরকারি।</p></li><li><p style=\"text-align: left\"><strong>Pre-enrollment bootcamp</strong> – যারা একেবারে নতুন তাদের জন্য আলাদা প্রস্তুতি ক্লাসও আছে।</p></li></ul><hr><h2 style=\"text-align: left\">কিছু সীমাবদ্ধতা / চিন্তার জায়গা</h2><ul><li><p style=\"text-align: left\"><strong>কোর্স অনেক বড়</strong> – সব টপিক কভার করতে গিয়ে হয়তো কিছু জায়গায় গভীরভাবে শেখানো হবে না।</p></li><li><p style=\"text-align: left\"><strong>Compute resources লাগবে</strong> – বড় ML প্রজেক্ট চালাতে GPU দরকার হবে। কোর্সে সেটার ব্যবস্থা আছে কি না সেটা নিশ্চিত হওয়া দরকার।</p></li><li><p style=\"text-align: left\"><strong>Production ML/MLOps কম কভার হয়েছে</strong> – মডেল বানানো শেখানো হবে, কিন্তু বড় স্কেলে Deploy/Monitor করার বিষয়ে কম কন্টেন্ট আছে।</p></li><li><p style=\"text-align: left\"><strong>চাকরির নিশ্চয়তা নেই</strong> – কোর্স শেষ করলেই চাকরি পাওয়া নিশ্চিত নয়। তোমার প্রজেক্ট, নেটওয়ার্কিং আর নিজস্ব পরিশ্রম খুব জরুরি।</p></li></ul><hr><h2 style=\"text-align: left\">কারা এই কোর্স করবে?</h2><ul><li><p style=\"text-align: left\">যারা <strong>ওয়েব/সফটওয়্যার ডেভেলপমেন্ট শিখে ফেলেছো</strong> কিন্তু নতুন সুযোগ খুঁজছো।</p></li><li><p style=\"text-align: left\">যারা <strong>AI/ML এর বেসিক থেকে অ্যাডভান্স লেভেল পর্যন্ত শিখতে চাও</strong>।</p></li><li><p style=\"text-align: left\">যারা <strong>প্রজেক্ট বানিয়ে GitHub/Portfolio তে দেখাতে প্রস্তুত</strong>।</p></li></ul><hr><h2 style=\"text-align: left\">আমার পরামর্শ</h2><p style=\"text-align: left\">👉 যদি তুমি ওয়েব ডেভেলপমেন্ট জানো এবং এখন AI/ML এর দিকে যেতে চাও, তবে এই কোর্স তোমার জন্য ভালো একটি সুযোগ হতে পারে। তবে মনে রেখো –</p><ul><li><p style=\"text-align: left\">শুধু কোর্স করলেই হবে না, নিজের <strong>Side Project</strong> বানাতে হবে।</p></li><li><p style=\"text-align: left\">কোর্স থেকে শেখা জ্ঞান ব্যবহার করে <strong>Portfolio তৈরি</strong> করতে হবে।</p></li><li><p style=\"text-align: left\"><strong>Freelancing/Internship</strong> বা ছোট প্রজেক্ট নিয়েও শুরু করতে পারো।</p></li></ul><hr><h2 style=\"text-align: left\">উপসংহার</h2><p style=\"text-align: left\">ফাইট্রনের AI/ML কোর্সের outline শক্তিশালী। সঠিকভাবে করলে তুমি Machine Learning ও AI তে ভালো একটা ফাউন্ডেশন পাবে। তবে চূড়ান্ত সাফল্য নির্ভর করবে তুমি কতটা প্র্যাকটিস করছো, কী প্রজেক্ট বানাচ্ছো এবং শেখার পর কীভাবে ক্যারিয়ারে প্রয়োগ করছো তার উপর।</p><hr>",
+        "contentJson": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "ফাইট্রন AI/ML কোর্স – নেওয়া উচিত নাকি নয়?",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "আজকাল AI আর Machine Learning নিয়ে সবার ভীষণ আগ্রহ। চাকরির বাজারে Data Science, ML Engineer, AI Researcher – এই ধরণের স্কিলের চাহিদা বাড়ছে প্রতিদিন। অনেকেই ভাবছেন, ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "“আমি ওয়েব ডেভেলপমেন্ট শিখেছি, কিন্তু চাকরির সুযোগ পাচ্ছি না। তাহলে কি ML/AI শিখবো?”",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "italic"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "ফাইট্রন তাদের ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "AI/ML Batch-1",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " কোর্স চালু করেছে, যেখানে Python থেকে শুরু করে Deep Learning, NLP (Natural Language Processing), Computer Vision সব কিছু শিখানো হবে। এই ব্লগে আমরা দেখব এই কোর্সে কী কী থাকছে, এর ভালো-খারাপ দিক, আর কার জন্য এটা উপযুক্ত।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "কোর্সে কী কী থাকছে?",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "ফাইট্রনের অফিসিয়াল outline অনুযায়ী এই কোর্সে থাকছে –",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "orderedList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Python + Data Tools",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Python basics, Numpy, Pandas, Matplotlib, Seaborn",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Data preprocessing, cleaning, feature engineering",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Math Basics for ML",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Linear Algebra, Probability, Statistics",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Gradient Descent, Logistic Regression ইত্যাদি কোড সহকারে",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Machine Learning Algorithms",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Regression, Classification, Decision Tree, Random Forest, Boosting",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Clustering, Dimensionality Reduction, Semi-supervised Learning",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Deep Learning",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Neural Networks, CNN, Vision Transformer",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Transfer Learning, Image Processing, Object Detection",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Natural Language Processing (NLP)",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Tokenization, Embedding, Sentiment Analysis, NER",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Transformer Architecture, Fine-tuning, Bias & Fairness",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Deployment of NLP Models",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Hands-on Projects & Labs",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "bulletList",
+                                    "content": [
+                                        {
+                                            "type": "listItem",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "প্রতিটি টপিকের পর ছোট ছোট অ্যাসাইনমেন্ট, Mini-lab, এবং বাস্তব প্রজেক্ট",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "এই কোর্সের ভালো দিক",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Step by step structure",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – একেবারে শুরু থেকে ধাপে ধাপে উন্নত লেভেলে নিয়ে যাওয়া হবে।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Hands-on practice",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – শুধু তত্ত্ব নয়, বরং ডেটা ক্লিনিং থেকে শুরু করে মডেল বানানো পর্যন্ত প্র্যাক্টিক্যাল কাজ থাকবে।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Modern topics covered",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – Transformer, Vision Model, NLP Deployment – এগুলো আধুনিক ইন্ডাস্ট্রিতে খুব দরকারি।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Pre-enrollment bootcamp",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – যারা একেবারে নতুন তাদের জন্য আলাদা প্রস্তুতি ক্লাসও আছে।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "কিছু সীমাবদ্ধতা / চিন্তার জায়গা",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "কোর্স অনেক বড়",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – সব টপিক কভার করতে গিয়ে হয়তো কিছু জায়গায় গভীরভাবে শেখানো হবে না।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Compute resources লাগবে",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – বড় ML প্রজেক্ট চালাতে GPU দরকার হবে। কোর্সে সেটার ব্যবস্থা আছে কি না সেটা নিশ্চিত হওয়া দরকার।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Production ML/MLOps কম কভার হয়েছে",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – মডেল বানানো শেখানো হবে, কিন্তু বড় স্কেলে Deploy/Monitor করার বিষয়ে কম কন্টেন্ট আছে।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "চাকরির নিশ্চয়তা নেই",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – কোর্স শেষ করলেই চাকরি পাওয়া নিশ্চিত নয়। তোমার প্রজেক্ট, নেটওয়ার্কিং আর নিজস্ব পরিশ্রম খুব জরুরি।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "কারা এই কোর্স করবে?",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "যারা ",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "text": "ওয়েব/সফটওয়্যার ডেভেলপমেন্ট শিখে ফেলেছো",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " কিন্তু নতুন সুযোগ খুঁজছো।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "যারা ",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "text": "AI/ML এর বেসিক থেকে অ্যাডভান্স লেভেল পর্যন্ত শিখতে চাও",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "যারা ",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "text": "প্রজেক্ট বানিয়ে GitHub/Portfolio তে দেখাতে প্রস্তুত",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": "।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "আমার পরামর্শ",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "👉 যদি তুমি ওয়েব ডেভেলপমেন্ট জানো এবং এখন AI/ML এর দিকে যেতে চাও, তবে এই কোর্স তোমার জন্য ভালো একটি সুযোগ হতে পারে। তবে মনে রেখো –",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "শুধু কোর্স করলেই হবে না, নিজের ",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "text": "Side Project",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " বানাতে হবে।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "কোর্স থেকে শেখা জ্ঞান ব্যবহার করে ",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "text": "Portfolio তৈরি",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " করতে হবে।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Freelancing/Internship",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " বা ছোট প্রজেক্ট নিয়েও শুরু করতে পারো।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "উপসংহার",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "ফাইট্রনের AI/ML কোর্সের outline শক্তিশালী। সঠিকভাবে করলে তুমি Machine Learning ও AI তে ভালো একটা ফাউন্ডেশন পাবে। তবে চূড়ান্ত সাফল্য নির্ভর করবে তুমি কতটা প্র্যাকটিস করছো, কী প্রজেক্ট বানাচ্ছো এবং শেখার পর কীভাবে ক্যারিয়ারে প্রয়োগ করছো তার উপর।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                }
+            ]
+        },
+        "slug": "ফাইট্রন-ai/ml-কোর্স-–-নেওয়া-উচিত-নাকি-নয়?",
+        "tags": [
+            "ai",
+            "ml",
+            "AI/ML",
+            "Python",
+            "Numpy",
+            "Pandas",
+            "Seaborn",
+            "Matplotlib"
+        ],
+        "isDeleted": false,
+        "publishedAt": "2025-10-02T18:13:10.041Z",
+        "isPublished": true,
+        "createdAt": "2025-10-02T18:13:10.041Z",
+        "updatedAt": "2025-10-02T18:13:10.041Z"
+    },
+    {
+        "id": "a8730cb5-8444-455f-9050-587879f4a7a8",
+        "title": "Redux with React vs Redux with Next.js",
+        "contentHtml": "<img class=\"rounded-lg border mx-auto\" src=\"https://res.cloudinary.com/delntxu0e/image/upload/w_800,h_600,c_limit/v1757688610/jutntuikvmk8pi7h2cde.png\"><p style=\"text-align: left\"></p><hr><h1 style=\"text-align: left\">⚡ Redux with React vs Redux with Next.js</h1><p style=\"text-align: left\">State management is a crucial part of modern frontend development. <strong>Redux</strong> is one of the most popular state management libraries in the React ecosystem. But how it works with <strong>React</strong> and <strong>Next.js</strong> differs slightly due to SSR (Server-Side Rendering) in Next.js. Let’s break it down.</p><hr><h2 style=\"text-align: left\">🔹 Redux with React</h2><p style=\"text-align: left\">In a typical <strong>React</strong> application:</p><ul><li><p style=\"text-align: left\">Redux helps manage <strong>global state</strong>, so different components can share data easily.</p></li><li><p style=\"text-align: left\">Common use cases: user authentication, shopping cart, theme settings, etc.</p></li><li><p style=\"text-align: left\">Basic setup:</p><ol><li><p style=\"text-align: left\">Install Redux and React-Redux:</p><pre><code class=\"language-plaintext\">npm install @reduxjs/toolkit react-redux\n</code></pre></li><li><p style=\"text-align: left\">Create a <strong>slice</strong> using Redux Toolkit.</p></li><li><p style=\"text-align: left\">Configure the store and wrap your <code>&lt;App&gt;</code> with <code>&lt;Provider&gt;</code>.</p></li><li><p style=\"text-align: left\">Use <code>useSelector</code> to read state and <code>useDispatch</code> to update state.</p></li></ol></li></ul><h3 style=\"text-align: left\">Example</h3><pre><code class=\"language-javascript\">import { configureStore, createSlice } from '@reduxjs/toolkit';\nimport { Provider, useSelector, useDispatch } from 'react-redux';\n\n// Slice\nconst counterSlice = createSlice({\n  name: 'counter',\n  initialState: { value: 0 },\n  reducers: {\n    increment: (state) =&gt; { state.value += 1 },\n  },\n});\n\n// Store\nconst store = configureStore({ reducer: counterSlice.reducer });\n\nfunction Counter() {\n  const value = useSelector((state) =&gt; state.value);\n  const dispatch = useDispatch();\n  return &lt;button onClick={() =&gt; dispatch(counterSlice.actions.increment())}&gt;{value}&lt;/button&gt;\n}\n\n// App\nexport default function App() {\n  return (\n    &lt;Provider store={store}&gt;\n      &lt;Counter /&gt;\n    &lt;/Provider&gt;\n  );\n}\n</code></pre><p style=\"text-align: left\">✅ Works perfectly for <strong>CSR (Client-Side Rendering)</strong> apps.</p><hr><h2 style=\"text-align: left\">🔹 Redux with Next.js</h2><p style=\"text-align: left\"><strong>Next.js</strong> adds SSR/SSG (Server-Side Rendering / Static Generation) to React, which makes Redux integration slightly different:</p><ul><li><p style=\"text-align: left\">The Redux store can be created <strong>per request</strong> for SSR to prevent data sharing between users.</p></li><li><p style=\"text-align: left\">You often use a <strong>wrapper</strong> library like <code>next-redux-wrapper</code> for proper SSR support.</p></li><li><p style=\"text-align: left\">Can be used for <strong>both client-side and server-side data hydration</strong>.</p></li></ul><h3 style=\"text-align: left\">Example Setup</h3><pre><code class=\"language-javascript\">import { configureStore, createSlice } from '@reduxjs/toolkit';\nimport { createWrapper } from 'next-redux-wrapper';\n\nconst counterSlice = createSlice({\n  name: 'counter',\n  initialState: { value: 0 },\n  reducers: {\n    increment: (state) =&gt; { state.value += 1 },\n  },\n});\n\nconst makeStore = () =&gt; configureStore({ reducer: counterSlice.reducer });\n\nexport const wrapper = createWrapper(makeStore);\n</code></pre><p style=\"text-align: left\">Then in <code>_app.js</code>:</p><pre><code class=\"language-javascript\">import { wrapper } from '../store';\n\nfunction MyApp({ Component, pageProps }) {\n  return &lt;Component {...pageProps} /&gt;;\n}\n\nexport default wrapper.withRedux(MyApp);\n</code></pre><ul><li><p style=\"text-align: left\">SSR pages can <strong>preload data</strong> in <code>getServerSideProps</code> or <code>getStaticProps</code> and inject into the Redux store.</p></li><li><p style=\"text-align: left\">Ensures <strong>universal state management</strong> between server and client.</p></li></ul><hr><p style=\"text-align: left\"></p><img class=\"rounded-lg border mx-auto\" src=\"https://res.cloudinary.com/delntxu0e/image/upload/w_800,h_600,c_limit/v1757688781/qfmhch1hcn6q7vhlwpbg.jpg\"><h2 style=\"text-align: left\">🔹 Key Differences</h2><p style=\"text-align: left\">Feature React + Redux Next.js + Redux Rendering Type CSR only CSR + SSR/SSG Store Setup Simple <code>&lt;Provider&gt;</code> wrapper <code>next-redux-wrapper</code> or custom SSR setup Data Hydration Client-side only Server-side preloaded + client-side hydration Use Cases SPA apps SSR/SSG apps, SEO-friendly apps Complexity Low Slightly higher due to SSR handling</p><hr><h2 style=\"text-align: left\">🔹 Conclusion</h2><ul><li><p style=\"text-align: left\"><strong>React + Redux</strong> → Perfect for single-page apps and purely client-side projects.</p></li><li><p style=\"text-align: left\"><strong>Next.js + Redux</strong> → Necessary for server-side rendered apps where global state needs to be consistent between server and client.</p></li></ul><p style=\"text-align: left\">💡 Tip: If your Next.js app mostly uses CSR, Redux works exactly like in React. Only consider SSR/SSG when you need server-side data or SEO.</p><hr><p style=\"text-align: left\"></p>",
+        "contentJson": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "⚡ Redux with React vs Redux with Next.js",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects."
+                },
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+                "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects."
+            ]
+        },
+        "slug": "redux-with-react-vs-redux-with-next.js",
+        "tags": "This object has been omitted by React in the console log to avoid sending too much data from the server. Try logging smaller or more specific objects.",
+        "isDeleted": false,
+        "publishedAt": "2025-09-12T14:53:09.524Z",
+        "isPublished": true,
+        "createdAt": "2025-09-12T14:53:09.524Z",
+        "updatedAt": "2025-09-12T14:53:09.524Z"
+    },
+    {
+        "id": "10377454-83c9-479c-ad8e-1f6ffcad4d0b",
+        "title": "Competitive Programming (CP) শুরু করার পথচলা",
+        "contentHtml": "<img class=\"rounded-lg border mx-auto\" src=\"https://res.cloudinary.com/delntxu0e/image/upload/w_800,h_600,c_limit/v1757686076/foehdltfnss5h5seyazw.png\"><p style=\"text-align: left\"></p><hr><h1 style=\"text-align: left\">🚀 Competitive Programming (CP) শুরু করার পথচলা</h1><p style=\"text-align: left\">আজকের আইটি জগতে <strong>Competitive Programming (CP)</strong> শুধু প্রতিযোগিতা নয়, বরং একজন ডেভেলপারের জন্য শক্তিশালী <strong>সমস্যা সমাধানের দক্ষতা</strong> গড়ে তোলার অন্যতম সেরা মাধ্যম। কিন্তু নতুনরা অনেক সময় বুঝতে পারে না, কোথা থেকে শুরু করবে? এই ব্লগে ধাপে ধাপে আলোচনা করা হলো।</p><hr><h2 style=\"text-align: left\">🔹 Competitive Programming কী?</h2><p style=\"text-align: left\">সহজভাবে বললে, CP হলো <strong>সমস্যা সমাধান</strong> করার খেলা।<br>আপনাকে একটি সমস্যা দেওয়া হবে, আপনাকে সেটা কম্পিউটারের সাহায্যে (অ্যালগরিদম + কোড) সমাধান করতে হবে।</p><hr><h2 style=\"text-align: left\">🔹 কেন CP শিখবেন?</h2><ul><li><p style=\"text-align: left\"><strong>Problem Solving Skills বাড়ে</strong> – যে কোনো কোডিং ইন্টারভিউতে এগুলো কাজে লাগে।</p></li><li><p style=\"text-align: left\"><strong>Data Structure &amp; Algorithm (DSA)</strong> সম্পর্কে গভীর ধারণা হয়।</p></li><li><p style=\"text-align: left\"><strong>লজিক্যাল থিংকিং ও স্পিড</strong> বাড়ায়।</p></li><li><p style=\"text-align: left\">অনলাইনে অনেক <strong>কনটেস্ট</strong> হয় (Codeforces, LeetCode, AtCoder) → সেখানে অংশ নিয়ে নিজেকে উন্নত করা যায়।</p></li></ul><hr><h2 style=\"text-align: left\">🔹 কীভাবে শুরু করবেন?</h2><h3 style=\"text-align: left\">1. বেসিক প্রোগ্রামিং ভাষা শিখুন</h3><p style=\"text-align: left\">সবার আগে একটা ভাষায় (C++/Python/Java/JavaScript) শক্ত হতে হবে।<br>👉 অনেকেই C++ বেছে নেয় কারণ এতে STL (Standard Template Library) আছে।</p><h3 style=\"text-align: left\">2. Data Structure &amp; Algorithm (DSA) শিখুন</h3><p style=\"text-align: left\">প্রথমে শুরু করুন:</p><ul><li><p style=\"text-align: left\">Array, String, Linked List</p></li><li><p style=\"text-align: left\">Stack, Queue, Hashmap</p></li><li><p style=\"text-align: left\">Sorting, Binary Search</p></li><li><p style=\"text-align: left\">Recursion, Basic DP (Dynamic Programming)</p></li></ul><h3 style=\"text-align: left\">3. অনলাইন প্ল্যাটফর্মে সমস্যা সমাধান করুন</h3><p style=\"text-align: left\">👉 Beginners এর জন্য জনপ্রিয় কিছু সাইট:</p><ul><li><p style=\"text-align: left\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"text-blue-600 hover:underline\" href=\"https://leetcode.com/\">LeetCode</a> – ইন্টারভিউ ফোকাসড</p></li><li><p style=\"text-align: left\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"text-blue-600 hover:underline\" href=\"https://codeforces.com/\">Codeforces</a> – প্রতিযোগিতা ফোকাসড</p></li><li><p style=\"text-align: left\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"text-blue-600 hover:underline\" href=\"https://atcoder.jp/\">AtCoder</a> – সুন্দর কনটেস্ট ও এডুকেশনাল প্রবলেমস</p></li><li><p style=\"text-align: left\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"text-blue-600 hover:underline\" href=\"https://www.hackerrank.com/\">HackerRank</a> – বেসিক প্র্যাকটিস</p></li></ul><h3 style=\"text-align: left\">4. ছোট লক্ষ্য নির্ধারণ করুন</h3><ul><li><p style=\"text-align: left\">প্রতিদিন ১-২টা প্রবলেম সমাধান করুন।</p></li><li><p style=\"text-align: left\">সহজ → মাঝারি → কঠিন ধাপে এগিয়ে যান।</p></li></ul><h3 style=\"text-align: left\">5. কনটেস্টে অংশ নিন</h3><p style=\"text-align: left\">প্রথমে হয়তো পারবেন না, কিন্তু প্রতিবার অংশ নিলে দেখবেন আপনি আরও ভালো হচ্ছেন।</p><hr><h2 style=\"text-align: left\">🔹 কিছু টিপস</h2><ul><li><p style=\"text-align: left\">StackOverflow, GeeksforGeeks, YouTube থেকে শেখার চেষ্টা করুন।</p></li><li><p style=\"text-align: left\">প্রথমে এডিটোরিয়াল (solution discussion) দেখে শিখুন, পরে নিজে চেষ্টা করুন।</p></li><li><p style=\"text-align: left\">হাল ছাড়বেন না – CP তে ধৈর্যই সাফল্যের চাবিকাঠি।</p></li></ul><hr><h2 style=\"text-align: left\">🏆 শেষ কথা</h2><p style=\"text-align: left\"><strong>Competitive Programming</strong> শুরুতে কঠিন লাগলেও এটা একটা <strong>অভ্যাস</strong>। প্রতিদিন সামান্য প্র্যাকটিস করলেই কয়েক মাস পর বুঝবেন আপনার সমস্যা সমাধানের দক্ষতা অনেক বেড়ে গেছে। 🚀</p><blockquote><p style=\"text-align: left\">শুরুটা হোক আজই, হোক নিজের প্রথম “Accepted” কোড দিয়ে! ✅</p></blockquote>",
+        "contentJson": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "🚀 Competitive Programming (CP) শুরু করার পথচলা",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "আজকের আইটি জগতে ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "Competitive Programming (CP)",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " শুধু প্রতিযোগিতা নয়, বরং একজন ডেভেলপারের জন্য শক্তিশালী ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "সমস্যা সমাধানের দক্ষতা",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " গড়ে তোলার অন্যতম সেরা মাধ্যম। কিন্তু নতুনরা অনেক সময় বুঝতে পারে না, কোথা থেকে শুরু করবে? এই ব্লগে ধাপে ধাপে আলোচনা করা হলো।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "🔹 Competitive Programming কী?",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "সহজভাবে বললে, CP হলো ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "সমস্যা সমাধান",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " করার খেলা।",
+                            "type": "text"
+                        },
+                        {
+                            "type": "hardBreak"
+                        },
+                        {
+                            "text": "আপনাকে একটি সমস্যা দেওয়া হবে, আপনাকে সেটা কম্পিউটারের সাহায্যে (অ্যালগরিদম + কোড) সমাধান করতে হবে।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "🔹 কেন CP শিখবেন?",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Problem Solving Skills বাড়ে",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – যে কোনো কোডিং ইন্টারভিউতে এগুলো কাজে লাগে।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Data Structure & Algorithm (DSA)",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " সম্পর্কে গভীর ধারণা হয়।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "লজিক্যাল থিংকিং ও স্পিড",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " বাড়ায়।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "অনলাইনে অনেক ",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "text": "কনটেস্ট",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "bold"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " হয় (Codeforces, LeetCode, AtCoder) → সেখানে অংশ নিয়ে নিজেকে উন্নত করা যায়।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "🔹 কীভাবে শুরু করবেন?",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "1. বেসিক প্রোগ্রামিং ভাষা শিখুন",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "সবার আগে একটা ভাষায় (C++/Python/Java/JavaScript) শক্ত হতে হবে।",
+                            "type": "text"
+                        },
+                        {
+                            "type": "hardBreak"
+                        },
+                        {
+                            "text": "👉 অনেকেই C++ বেছে নেয় কারণ এতে STL (Standard Template Library) আছে।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "2. Data Structure & Algorithm (DSA) শিখুন",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "প্রথমে শুরু করুন:",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Array, String, Linked List",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Stack, Queue, Hashmap",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Sorting, Binary Search",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Recursion, Basic DP (Dynamic Programming)",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "3. অনলাইন প্ল্যাটফর্মে সমস্যা সমাধান করুন",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "👉 Beginners এর জন্য জনপ্রিয় কিছু সাইট:",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "LeetCode",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "link"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – ইন্টারভিউ ফোকাসড",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Codeforces",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "link"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – প্রতিযোগিতা ফোকাসড",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "AtCoder",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "link"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – সুন্দর কনটেস্ট ও এডুকেশনাল প্রবলেমস",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "HackerRank",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "link"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "text": " – বেসিক প্র্যাকটিস",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "4. ছোট লক্ষ্য নির্ধারণ করুন",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "প্রতিদিন ১-২টা প্রবলেম সমাধান করুন।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "সহজ → মাঝারি → কঠিন ধাপে এগিয়ে যান।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "5. কনটেস্টে অংশ নিন",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "প্রথমে হয়তো পারবেন না, কিন্তু প্রতিবার অংশ নিলে দেখবেন আপনি আরও ভালো হচ্ছেন।",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "🔹 কিছু টিপস",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "bulletList",
+                    "content": [
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "StackOverflow, GeeksforGeeks, YouTube থেকে শেখার চেষ্টা করুন।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "প্রথমে এডিটোরিয়াল (solution discussion) দেখে শিখুন, পরে নিজে চেষ্টা করুন।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "listItem",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "হাল ছাড়বেন না – CP তে ধৈর্যই সাফল্যের চাবিকাঠি।",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "horizontalRule"
+                },
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "🏆 শেষ কথা",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Competitive Programming",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": " শুরুতে কঠিন লাগলেও এটা একটা ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "অভ্যাস",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "। প্রতিদিন সামান্য প্র্যাকটিস করলেই কয়েক মাস পর বুঝবেন আপনার সমস্যা সমাধানের দক্ষতা অনেক বেড়ে গেছে। 🚀",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "blockquote",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "শুরুটা হোক আজই, হোক নিজের প্রথম “Accepted” কোড দিয়ে! ✅",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "slug": "competitive-programming-(cp)-শুরু-করার-পথচলা",
+        "tags": [
+            "Competitive Programming",
+            "Programming",
+            "Python",
+            "c++"
+        ],
+        "isDeleted": false,
+        "publishedAt": "2025-09-12T14:08:52.299Z",
+        "isPublished": true,
+        "createdAt": "2025-09-12T14:08:52.299Z",
+        "updatedAt": "2025-09-12T14:08:52.299Z"
+    },
+    {
+        "id": "b17c4655-8099-4357-a770-4bd49e1f325a",
+        "title": "Mastering the MERN Stack in 2025",
+        "contentHtml": "<h1 style=\"text-align: center\">Mastering the MERN Stack in 2025</h1><p style=\"text-align: left\">hello world</p><p style=\"text-align: left\"></p><img class=\"rounded-lg border mx-auto\" src=\"https://res.cloudinary.com/delntxu0e/image/upload/w_800,h_600,c_limit/v1755184522/huljoqpshjxvkdav4n1w.png\">",
+        "contentJson": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "heading",
+                    "content": [
+                        {
+                            "text": "Mastering the MERN Stack in 2025",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "hello world",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "image"
+                }
+            ]
+        },
+        "slug": "mastering-the-mern-stack-in-2025",
+        "tags": [
+            "MERN",
+            "Forntend",
+            "Backend",
+            "Next.js",
+            "React.js",
+            "Mongodb",
+            "Mongoss"
+        ],
+        "isDeleted": false,
+        "publishedAt": "2025-08-14T15:15:45.530Z",
+        "isPublished": true,
+        "createdAt": "2025-08-14T15:15:45.530Z",
+        "updatedAt": "2025-08-14T15:15:45.530Z"
+    }
+]

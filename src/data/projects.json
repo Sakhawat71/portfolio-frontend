@@ -1,0 +1,508 @@
+[
+    {
+        "id": "2aef9d01-c523-4c8b-bcf7-9f5f324abca0",
+        "title": "ReviewHub",
+        "description": "A comprehensive platform that allows users to create accounts, share product reviews with ratings, categorize reviews, and interact with posts through voting and commenting. The portal includes premium content features, admin moderation, and a payment system.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1759170981/review-hub-s3h.vercel.app_%20%283%29.jpg",
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "shadcn/ui",
+            "Prisma ORM",
+            "NextAuth.js",
+            "SSLCOMMERZ",
+            "Vercel",
+            "Node.js",
+            "Express.js",
+            "PostgreSQL"
+        ],
+        "highlights": [
+            "Create & Manage Reviews: Users can create, edit, and delete their own reviews",
+            "Rating System: 1-5 star rating for products",
+            "Categorization: Organize reviews by product categories",
+            "Media Support: Upload images with reviews",
+            "Purchase Source: Add optional links to where products were purchased",
+            "User Registration & Authentication: Secure signup/login with JWT authentication",
+            "User Profiles: View and manage personal information and review history",
+            "Role-based Access Control: Different permissions for regular users and administrators"
+        ],
+        "category": "Full Stack",
+        "liveUrl": "https://review-hub-s3h.vercel.app/",
+        "githubUrl": "https://github.com/Sakhawat71/ReviewHub-Client",
+        "backGitUrl": "https://github.com/Sakhawat71/ReviewHub-Server",
+        "isTeam": true,
+        "teamSize": 6,
+        "roleInTeam": "BackEnd Developer",
+        "startDate": "2025-05-08T00:00:00.000Z",
+        "endDate": "2025-05-13T00:00:00.000Z",
+        "createdAt": "2025-09-29T18:36:23.718Z",
+        "updatedAt": "2025-09-29T18:36:23.718Z"
+    },
+    {
+        "id": "32970f2c-9dcb-451e-9f5a-3a3135e958ac",
+        "title": "TutorLink",
+        "description": "This project is built using modern web technologies to provide a seamless experience for users seeking tutoring services. And the backend for the TutorLink platform, built using the PostgreSQL with TypeScript. It provides RESTful APIs for user authentication, tutor-student interactions, course management, bookings, and payments.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1759170267/tutorlink-s3h.vercel.app_%20%282%29.jpg",
+        "techStack": [
+            "Next.js",
+            "TypeScript",
+            "PostgreSQL",
+            "Node.js",
+            "Express.js",
+            "sslcommerz",
+            "Prisma",
+            "SurjoPay",
+            "tailwindCSS"
+        ],
+        "highlights": [
+            "User authentication and registration",
+            "Browse and search for tutors",
+            "Book and manage tutoring sessions",
+            "Responsive design for all devices",
+            "Review & Rating System",
+            "Payment Integration (SurjoPay)",
+            "Admin Dashboard (Manage users, tutors, and courses)",
+            "Booking System (Schedule tutor sessions)"
+        ],
+        "category": "Full Stack",
+        "liveUrl": "https://tutorlink-s3h.vercel.app/",
+        "githubUrl": "https://github.com/Sakhawat71/tutorlink-frontend",
+        "backGitUrl": "https://github.com/Sakhawat71/tutorlink-psql",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": "2025-07-24T00:00:00.000Z",
+        "endDate": "2025-08-25T00:00:00.000Z",
+        "createdAt": "2025-09-29T18:24:29.632Z",
+        "updatedAt": "2025-09-29T18:24:29.632Z"
+    },
+    {
+        "id": "ab4f5f57-5358-4caa-90e4-9622ed675106",
+        "title": "BookNest",
+        "description": "The Book Shop Application! This platform offers a seamless experience for book enthusiasts, providing features like user authentication, product management, and a responsive design.CRUD Operations for Books: Create, Read, Update, and Delete book records.\nOrder Management: Place orders for books and manage inventory.\nRevenue Calculation: Calculate total revenue from orders using MongoDB aggregation.\nInput Validation: Ensures data integrity with Mongoose schema validation.\nError Handling: Centralized error handling for better debugging.\n",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1759169618/book-shop-client-71.vercel.app_%20%281%29.jpg",
+        "techStack": [
+            "React.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "React Router",
+            "Redux",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "JWT",
+            "bcrypt.js"
+        ],
+        "highlights": [
+            "User Registration & Authentication: Secure sign-up and login with role-based access control.",
+            "Product Management: Browse, search, and view detailed information about books.",
+            "Responsive Design: Optimized for various devices to ensure a consistent user experience.",
+            "Secure Authentication: Utilizes JWT tokens for session management.",
+            "Error Handling: Comprehensive error messages and form validations for better user guidance."
+        ],
+        "category": "MERN",
+        "liveUrl": "https://book-shop-client-71.vercel.app/",
+        "githubUrl": "https://github.com/Sakhawat71/book-shop-client",
+        "backGitUrl": "https://github.com/Sakhawat71/book-shop-backend",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": "2025-02-11T00:00:00.000Z",
+        "endDate": "2025-02-25T00:00:00.000Z",
+        "createdAt": "2025-09-29T18:13:39.030Z",
+        "updatedAt": "2025-09-29T18:13:39.030Z"
+    },
+    {
+        "id": "c5330680-c6f7-49d9-bd5c-0ef994ae254b",
+        "title": "Chat Canvas",
+        "description": "An online platform where people can hold conversations in the form of posted messages. Implemented API endpoints for user authentication, post management, and comment handling using Node.js and Express.js. Configured MongoDB with Mongoose for efficient data storage and retrieval. Developed real-time notification system and announcement feature. Implemented Firebase Storage for secure video streaming and file handling. Managed user roles and permissions, including admin functionalities.\n",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1759168735/chat-canvas-71.web.app_.jpg",
+        "techStack": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Firebase",
+            "Tailwind CSS",
+            "daisyUI"
+        ],
+        "highlights": [
+            "Responsive homepage for mobile, tablet, and desktop",
+            "Search functionality based on post tags",
+            "Real-time notifications and announcements",
+            "User authentication and profile management",
+            "Post creation, editing, and deletion with tag support",
+            "Commenting and voting on posts",
+            "Membership system with payment integration"
+        ],
+        "category": "MERN",
+        "liveUrl": "https://chat-canvas-71.web.app/",
+        "githubUrl": "https://github.com/Sakhawat71/chat-canvas-frontend",
+        "backGitUrl": "https://github.com/Sakhawat71/chat-canvas-backend",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": "2024-06-08T00:00:00.000Z",
+        "endDate": "2024-07-04T00:00:00.000Z",
+        "createdAt": "2025-09-29T17:58:57.146Z",
+        "updatedAt": "2025-09-29T17:58:57.146Z"
+    },
+    {
+        "id": "7a956094-6598-4f21-b26a-e7c0e8319db4",
+        "title": "CoStudy",
+        "description": "CoStudy is a web application that facilitates collaborative learning by allowing users to create, update, and view assignments. The platform supports user authentication through email-password and Google login. The project utilizes React.js for the client-side, Express.js for the backend, and MongoDB as the database. The application is deployed on Firebase and Vercel, providing a seamless and responsive user experience.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1759168242/costudy.netlify.app_.jpg",
+        "techStack": [
+            "React.js",
+            "Firebase",
+            "daisyUI",
+            "Axios",
+            "Express.js",
+            "MongoDB"
+        ],
+        "highlights": [
+            "Email-Password Authentication",
+            "Responsive Design",
+            "Google Authentication",
+            "Users can mark or provide feedback on assignments created by their peers.",
+            "Users can create new assignments by providing details such as title, description, and due date."
+        ],
+        "category": "MERN",
+        "liveUrl": "https://costudy.netlify.app/",
+        "githubUrl": "https://github.com/Sakhawat71/CoStudy-frontend",
+        "backGitUrl": "https://github.com/Sakhawat71/CoStudy-backend",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": "2024-01-23T00:00:00.000Z",
+        "endDate": "2024-01-29T00:00:00.000Z",
+        "createdAt": "2025-09-29T17:50:44.773Z",
+        "updatedAt": "2025-09-29T17:50:44.773Z"
+    },
+    {
+        "id": "7780c787-6b54-4da2-b6a5-cb0bb8c36986",
+        "title": "DriveGear",
+        "description": "React , MongoDB and Express.js is used in this project. Also used are React Router , Context api and CRUD Operations with Mongodb + express.js. And registered users can't view product details, can't add product, can't view my card.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1759160304/brandshop-sabbir71.web.app_.jpg",
+        "techStack": [
+            "React.js",
+            "Express.js",
+            "MongoDB",
+            "JS"
+        ],
+        "highlights": [
+            "User Authentication: Secure user authentication and authorization.",
+            "CRUD Operations: Perform CRUD (Create, Read, Update, Delete) operations on [specific entities or data].",
+            "Responsive UI: A responsive and user-friendly interface built with React.",
+            "Scalable Backend: Utilizes Express.js for a scalable and maintainable backend.",
+            "Database Integration: MongoDB integration for efficient data storage."
+        ],
+        "category": "FrontEnd",
+        "liveUrl": "https://brandshop-sabbir71.web.app/",
+        "githubUrl": "https://github.com/Sakhawat71/DriveGear-frontend",
+        "backGitUrl": "https://github.com/Sakhawat71/DriveGear-backend",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": "2023-12-12T00:00:00.000Z",
+        "endDate": "2023-12-26T00:00:00.000Z",
+        "createdAt": "2025-09-29T15:38:26.038Z",
+        "updatedAt": "2025-09-29T15:38:26.038Z"
+    },
+    {
+        "id": "70fede48-b2fa-470d-8a01-4f3a7dbb2555",
+        "title": "Dream Events",
+        "description": "Private routes using Firebase authentication and PrivateRoute component to ensure that only authenticated users can access event details and profiles.\nEach user has a personalized dashboard showcasing the events they are part of and the relevant details. Detailed event pages accessible only to logged-in users, ensuring privacy and exclusivity.\n\n",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758995954/event-managment-sakhawat71.netlify.app_%20%281%29.png",
+        "techStack": [
+            "React.js",
+            "TailwindCSS",
+            "Vite"
+        ],
+        "highlights": [
+            "Two types of user registration options: Email and password signup and Google signup.",
+            "User profiles to provide a personalized experience for registered users.",
+            "Detailed event pages accessible only to logged-in users, ensuring privacy and exclusivity.",
+            "Each user has a personalized dashboard showcasing the events they are part of and the relevant details.",
+            "Private routes using Firebase authentication and PrivateRoute component to ensure that only authenticated users can access event details and profiles."
+        ],
+        "category": "FrontEnd",
+        "liveUrl": "https://event-managment-sakhawat71.netlify.app/",
+        "githubUrl": "https://github.com/Sakhawat71/event-management",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": null,
+        "endDate": null,
+        "createdAt": "2025-09-27T17:59:16.813Z",
+        "updatedAt": "2025-09-27T17:59:16.813Z"
+    },
+    {
+        "id": "88664b95-c3dc-425c-9a4f-ec4c120f514a",
+        "title": "Donation Campaign",
+        "description": "The Donation Campaign React App. This application is designed to facilitate and manage donation campaigns for various causes. The project is built with a responsive design approach, ensuring that the user interface adapts seamlessly to various screen sizes and devices. Whether accessed from a desktop, tablet, or mobile device, the application provides an optimal viewing and interaction experience.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758992844/donation-campaign-sakhawat71.netlify.app_%20%281%29.png",
+        "techStack": [
+            "React.js",
+            "TailwindCSS",
+            "JavaScript",
+            "Recharts"
+        ],
+        "highlights": [
+            "Local Storage Integration",
+            "Dynamic Pie Chart Visualization",
+            "Responsive Design"
+        ],
+        "category": "FrontEnd",
+        "liveUrl": "https://donation-campaign-sakhawat71.netlify.app/",
+        "githubUrl": "https://github.com/Sakhawat71/donation-campaign",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": null,
+        "endDate": null,
+        "createdAt": "2025-09-27T17:07:27.475Z",
+        "updatedAt": "2025-09-27T17:07:27.475Z"
+    },
+    {
+        "id": "999bef7d-e65e-4a17-8431-971bc3da291f",
+        "title": "Blog Project",
+        "description": "A simple API for managing blogs, including features like user management, blog creation, and administrative controls.\n",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1759171699/Screenshot%20%28112%29.png",
+        "techStack": [
+            "node.js",
+            "Express.js",
+            "mongoose",
+            "MongoDB",
+            "zod",
+            "jwt",
+            "bcrypt",
+            "Typescript"
+        ],
+        "highlights": [
+            "User registration and login.",
+            "Create, update, delete blogs.",
+            "Public API to fetch blogs with search, filter, and sort options.",
+            "Admin can delete any blog by its ID."
+        ],
+        "category": "Backend",
+        "liveUrl": "https://blog-project-71.vercel.app/",
+        "githubUrl": "https://github.com/Sakhawat71/Blog-Project-a3",
+        "backGitUrl": "https://github.com/Sakhawat71/Blog-Project-a3",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": "2024-12-21T00:00:00.000Z",
+        "endDate": "2024-12-22T00:00:00.000Z",
+        "createdAt": "2025-09-27T16:59:59.068Z",
+        "updatedAt": "2025-09-29T19:32:02.444Z"
+    },
+    {
+        "id": "0ff693b0-cc9f-44cd-8969-d216d63c4ac0",
+        "title": "Bike Servicing Api",
+        "description": "This is a backend API for a Bike Servicing Management System, designed to manage customers, bikes, and service records for a bike servicing center. The API supports CRUD operations and includes features for assigning and completing service jobs, as well as retrieving pending or overdue services.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1759173818/bike-servicing-server.vercel.app_.png",
+        "techStack": [
+            "Node.js",
+            "Express.js",
+            "TypeScript",
+            "Prisma ORM",
+            "PostgreSQL"
+        ],
+        "highlights": [
+            "Customer Management: Create, read, update, and delete customers.",
+            "Bike Management: Add and retrieve bikes associated with customers.",
+            "Service Management: Create, retrieve, and complete service records.",
+            "Bonus Feature: Retrieve pending or overdue services (older than 7 days)."
+        ],
+        "category": "Backend",
+        "liveUrl": "https://bike-servicing-server.vercel.app/",
+        "githubUrl": "https://github.com/Sakhawat71/Bike-Servicing-Server",
+        "backGitUrl": "https://github.com/Sakhawat71/Bike-Servicing-Server",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": "2025-04-18T00:00:00.000Z",
+        "endDate": "2025-04-19T00:00:00.000Z",
+        "createdAt": "2025-09-27T16:59:55.068Z",
+        "updatedAt": "2025-09-29T19:32:37.151Z"
+    },
+    {
+        "id": "05e456f8-a8be-4c8c-86f7-317935a9bb66",
+        "title": "My Course Roster",
+        "description": "I used it to create and update variables that held information I needed to display and interact with in my components. This allowed me to keep track of things like user input, component visibility, and more, making my project dynamic and responsive.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758992389/course-regi-sabbir71.netlify.app_%20%281%29.png",
+        "techStack": [
+            "React.js",
+            "TailwindCSS",
+            "JavaScript"
+        ],
+        "highlights": [
+            "Courses cannot be taken for a maximum of 20 credits.",
+            "A course may not be taken more than once.",
+            "The course is made with react.js.",
+            "This project has been deployed on surge and netlify.",
+            "Tailwind CSS is used for style and react-toastify is used to give a warning."
+        ],
+        "category": "FrontEnd",
+        "liveUrl": "https://course-regi-sabbir71.netlify.app/",
+        "githubUrl": "https://github.com/Sakhawat71/my-course-roster",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": null,
+        "endDate": null,
+        "createdAt": "2025-09-27T16:59:51.068Z",
+        "updatedAt": "2025-09-27T16:59:51.068Z"
+    },
+    {
+        "id": "6688b081-7c42-405f-9498-d2a455ddb015",
+        "title": "Summer Sale",
+        "description": "Basic JavaScript Project . This is an early project, when I was just start learning JavaScript.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758992034/b8a5-summer-sale-sakhawat71.netlify.app_%20%281%29.png",
+        "techStack": [
+            "Html",
+            "Css",
+            "JavaScript"
+        ],
+        "highlights": [
+            "Basic JavaScript Project"
+        ],
+        "category": "JavaScript",
+        "liveUrl": "https://b8a5-summer-sale-sakhawat71.netlify.app",
+        "githubUrl": "https://github.com/Sakhawat71/summer-sale-ph_a5",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": null,
+        "endDate": null,
+        "createdAt": "2025-09-27T16:53:56.474Z",
+        "updatedAt": "2025-09-27T16:53:56.474Z"
+    },
+    {
+        "id": "0c4e7571-fa9b-4fe8-bc60-52af3f6fa995",
+        "title": "Penguin Fashion",
+        "description": "Basic JavaScript Project . This is an early project, when I was just learning JavaScript.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758991866/sakhawat71.github.io_Penguin-Fashion_index.html%20%281%29.png",
+        "techStack": [
+            "Html",
+            "Css"
+        ],
+        "highlights": [
+            "Basic JavaScript Project"
+        ],
+        "category": "JavaScript",
+        "liveUrl": "https://sakhawat71.github.io/Penguin-Fashion/index.html",
+        "githubUrl": "https://github.com/Sakhawat71/Penguin-Fashion",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": null,
+        "endDate": null,
+        "createdAt": "2025-09-27T16:51:08.607Z",
+        "updatedAt": "2025-09-27T16:51:08.607Z"
+    },
+    {
+        "id": "1338b96e-d4fc-4999-a662-3bb70c6ba55c",
+        "title": "Flower Shop",
+        "description": "Basic HTML CSS project . This is an early project, when I was just learning HTML and CSS.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758991324/sakhawat71.github.io_flower-shop_index.html%20%281%29.png",
+        "techStack": [
+            "Html",
+            "Css"
+        ],
+        "highlights": [
+            "Basic html css project"
+        ],
+        "category": "HTML-CSS",
+        "liveUrl": "https://sakhawat71.github.io/flower-shop/index.html",
+        "githubUrl": "https://github.com/Sakhawat71/flower-shop",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": null,
+        "endDate": null,
+        "createdAt": "2025-09-27T16:42:06.820Z",
+        "updatedAt": "2025-09-27T16:42:06.820Z"
+    },
+    {
+        "id": "377bdf8a-e702-4d60-b2f0-da8fe98ade9c",
+        "title": "Gamer Zone",
+        "description": "Basic HTML CSS project . This is an early project, when I was just learning HTML and CSS.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758990795/sakhawat71.github.io_gamer-zone_index.html%20%281%29.png",
+        "techStack": [
+            "Html",
+            "Css"
+        ],
+        "highlights": [
+            "Basic html css project"
+        ],
+        "category": "HTML-CSS",
+        "liveUrl": "https://sakhawat71.github.io/gamer-zone/index.html",
+        "githubUrl": "https://github.com/Sakhawat71/gamer-zone",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": null,
+        "endDate": null,
+        "createdAt": "2025-09-27T16:33:17.057Z",
+        "updatedAt": "2025-09-27T16:33:17.057Z"
+    },
+    {
+        "id": "bc8a0eec-6360-4985-9b46-aa143b1fd880",
+        "title": "Portfolio Mary Hardy",
+        "description": "One page portfolio using HTML CSS. This is an early project, when I was just learning HTML and CSS.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758990108/sakhawat71.github.io_portfolio2.0_index.html%20%281%29.png",
+        "techStack": [
+            "Html",
+            "Css"
+        ],
+        "highlights": [
+            "One page portfolio using HTML CSS"
+        ],
+        "category": "HTML-CSS",
+        "liveUrl": "https://sakhawat71.github.io/portfolio-Mary-Hardy/index.html",
+        "githubUrl": "https://github.com/Sakhawat71/portfolio-Mary-Hardy",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": null,
+        "endDate": null,
+        "createdAt": "2025-09-27T16:21:49.942Z",
+        "updatedAt": "2025-09-27T16:21:49.942Z"
+    },
+    {
+        "id": "2c288ba2-16ed-4b31-af47-3cf55b0b8bf1",
+        "title": "Hard Rock",
+        "description": "Hard Rock Lyric Search website. In this project I learned how to fetch data from APIs.",
+        "image": "https://res.cloudinary.com/delntxu0e/image/upload/v1758988516/sakhawat71.github.io_Hard_Rock_%20%281%29.png",
+        "techStack": [
+            "JavaScript",
+            "Html",
+            "Css"
+        ],
+        "highlights": [
+            "Hard Rock Lyric Search"
+        ],
+        "category": "JavaScript",
+        "liveUrl": "https://sakhawat71.github.io/Hard_Rock/index.html",
+        "githubUrl": "https://github.com/Sakhawat71/Hard_Rock",
+        "backGitUrl": "",
+        "isTeam": false,
+        "teamSize": null,
+        "roleInTeam": "",
+        "startDate": "2023-03-31T00:00:00.000Z",
+        "endDate": "2023-04-12T00:00:00.000Z",
+        "createdAt": "2025-09-27T15:55:18.766Z",
+        "updatedAt": "2025-09-27T15:55:18.766Z"
+    }
+]

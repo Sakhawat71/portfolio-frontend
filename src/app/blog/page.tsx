@@ -1,13 +1,32 @@
 import BlogComponent from "@/components/Blog/BlogComponent";
 import { fetchBlogs } from "@/services/fetchBlogs";
+import jsonBlogsData from '../../data/blogs.json';
+
 
 const BlogsPage = async () => {
-    const blogs = await fetchBlogs();
-    // console.log(blogs);
+
+    let blogs = [];
+    try {
+        const response = await fetchBlogs();
+
+        if (response?.data && response.data.length > 0) {
+            blogs = response.data;
+        } else {
+            // fallback if empty
+            blogs = jsonBlogsData;
+        }
+    } catch (error) {
+        console.error("API failed, using local JSON:", error);
+
+        // fallback if API crashes
+        blogs = jsonBlogsData;
+    };
+
+
 
     return (
         <div className="mx-auto bg-gradient-to-b from-[#EFEEEA] to-slate-400 min-h-screen p-6 pt-20">
-            
+
             <div className="mb-10 font-raleway">
                 <h1 className="text-2xl md:text-3xl lg:text-[50px] font-bold text-center mt-5 text-gray-700 font-montserrat">
                     My Blog Corner
@@ -34,10 +53,10 @@ const BlogsPage = async () => {
 
 
             <div>
-                {blogs.data.length === 0 ? (
+                {blogs === 0 ? (
                     <p className="text-center text-gray-500">No blogs found.</p>
                 ) : (
-                    <BlogComponent blogs={blogs?.data} />
+                    <BlogComponent blogs={blogs} />
                 )}
             </div>
         </div>
