@@ -1,0 +1,258 @@
+[
+    {
+        "id": "02794137-1500-47da-bbd7-c7a2e76dd2a0",
+        "name": "Pandas",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1761392070/devicon--pandas.png",
+        "type": "Data Science",
+        "createdAt": "2025-10-25T11:34:30.585Z",
+        "updatedAt": "2025-10-25T11:34:30.585Z"
+    },
+    {
+        "id": "08299854-3888-4281-b316-925fac982b25",
+        "name": "NumPy",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1761392059/devicon--numpy.png",
+        "type": "Data Science",
+        "createdAt": "2025-10-25T11:34:20.254Z",
+        "updatedAt": "2025-10-25T11:34:20.254Z"
+    },
+    {
+        "id": "fd8acae9-ea59-48af-b0b9-a6db95b904d9",
+        "name": "Python",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1761392023/devicon--python.png",
+        "type": "Programming Language",
+        "createdAt": "2025-10-25T11:33:44.086Z",
+        "updatedAt": "2025-12-29T08:06:18.313Z"
+    },
+    {
+        "id": "68e17ce8-1b23-4c34-baec-2415fe1bf258",
+        "name": "Vercel",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756130223/logos--vercel-icon.png",
+        "type": "Tools & Others",
+        "createdAt": "2025-08-25T13:57:05.289Z",
+        "updatedAt": "2025-08-25T13:57:05.289Z"
+    },
+    {
+        "id": "2a3f53be-622f-4442-ac69-6de0f74e8da4",
+        "name": "Linux",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756129995/skill-icons--linux-light.png",
+        "type": "DevOps & Cloud1",
+        "createdAt": "2025-08-25T13:53:17.330Z",
+        "updatedAt": "2025-12-29T08:15:14.127Z"
+    },
+    {
+        "id": "5629b305-a651-4f24-aada-1e1d9be28720",
+        "name": "Firebase",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756129298/logos--firebase-icon.png",
+        "type": "Tools & Others",
+        "createdAt": "2025-08-25T13:41:38.422Z",
+        "updatedAt": "2025-08-25T13:41:38.422Z"
+    },
+    {
+        "id": "e2153137-65f5-44d6-a132-cf64db4e2e71",
+        "name": "npm",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756129212/logos--npm-icon.png",
+        "type": "Tools & Others",
+        "createdAt": "2025-08-25T13:40:12.792Z",
+        "updatedAt": "2025-08-25T13:40:12.792Z"
+    },
+    {
+        "id": "1ff1a716-0fb2-4de4-abbb-4031ab58d20f",
+        "name": "Trello",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756129160/logos--trello.png",
+        "type": "Tools & Others",
+        "createdAt": "2025-08-25T13:39:21.287Z",
+        "updatedAt": "2025-08-25T13:39:21.287Z"
+    },
+    {
+        "id": "a9732187-33eb-4f65-b11c-890dc210d4cb",
+        "name": "Postman",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756129112/logos--postman-icon.png",
+        "type": "Tools & Others",
+        "createdAt": "2025-08-25T13:38:32.765Z",
+        "updatedAt": "2025-08-25T13:38:32.765Z"
+    },
+    {
+        "id": "43bc9bef-6ebb-4046-abe7-de4cedb6dbd4",
+        "name": "Figma",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756129040/logos--figma.png",
+        "type": "Tools & Others",
+        "createdAt": "2025-08-25T13:37:21.267Z",
+        "updatedAt": "2025-08-25T13:37:21.267Z"
+    },
+    {
+        "id": "cc8699e3-5513-4432-9c83-65a2218f20d6",
+        "name": "VS Code",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756128993/material-icon-theme--vscode.png",
+        "type": "Tools & Others",
+        "createdAt": "2025-08-25T13:36:34.373Z",
+        "updatedAt": "2025-08-25T13:36:34.373Z"
+    },
+    {
+        "id": "79c97f79-a375-46c8-bd4d-e7de26e69f7d",
+        "name": "GitHub",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756128824/mdi--github.png",
+        "type": "Tools & Others",
+        "createdAt": "2025-08-25T13:33:44.913Z",
+        "updatedAt": "2025-08-25T13:33:44.913Z"
+    },
+    {
+        "id": "b6b777de-d832-43d0-a6c3-ec438485364e",
+        "name": "Jest",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756128627/logos--jest.png",
+        "type": "DevOps & Cloud1",
+        "createdAt": "2025-08-25T13:30:28.071Z",
+        "updatedAt": "2025-12-29T08:18:27.946Z"
+    },
+    {
+        "id": "e02f949f-2b18-4239-a9ba-ca566c14bc2b",
+        "name": "Vitest",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756128611/logos--vitest.png",
+        "type": "DevOps & Cloud1",
+        "createdAt": "2025-08-25T13:30:11.969Z",
+        "updatedAt": "2025-12-29T08:15:14.127Z"
+    },
+    {
+        "id": "029d9298-4913-47fc-832f-97f382ab44c6",
+        "name": "Nginx",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756128597/logos--nginx.png",
+        "type": "DevOps & Cloud1",
+        "createdAt": "2025-08-25T13:29:58.266Z",
+        "updatedAt": "2025-12-29T08:15:14.127Z"
+    },
+    {
+        "id": "242fe106-0aba-413d-a91b-a7e4f7c820f4",
+        "name": "AWS",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756128562/logos--aws.png",
+        "type": "DevOps & Cloud1",
+        "createdAt": "2025-08-25T13:29:22.624Z",
+        "updatedAt": "2025-12-29T08:15:14.127Z"
+    },
+    {
+        "id": "063dbfb9-6a7a-4f0a-85ce-799d850c6f42",
+        "name": "Docker",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756127813/material-icon-theme--docker.png",
+        "type": "DevOps & Cloud",
+        "createdAt": "2025-08-25T13:16:54.881Z",
+        "updatedAt": "2025-08-25T13:16:54.881Z"
+    },
+    {
+        "id": "58779511-3fd4-4dae-83e0-d35e51cd6bfa",
+        "name": "ShadCN",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1756126602/vscode-icons--file-type-light-shadcn.png",
+        "type": "Frontend",
+        "createdAt": "2025-08-25T12:56:42.839Z",
+        "updatedAt": "2025-08-25T12:56:42.839Z"
+    },
+    {
+        "id": "4c7165f5-4e15-4d91-b182-c7383e7eb17f",
+        "name": "Prisma ORM",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755501575/skill-icons--prisma.png",
+        "type": "Backend",
+        "createdAt": "2025-08-18T07:19:35.911Z",
+        "updatedAt": "2025-08-18T07:19:35.911Z"
+    },
+    {
+        "id": "d291b5c2-bdee-42a6-9101-2823b8e79d7f",
+        "name": "PostgreSQL",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755501433/logos--postgresql.png",
+        "type": "Backend",
+        "createdAt": "2025-08-18T07:17:14.048Z",
+        "updatedAt": "2025-08-18T07:17:14.048Z"
+    },
+    {
+        "id": "11fd7bf3-0f2d-4fa0-8dc0-f33e56a75695",
+        "name": "Mongoose ODM",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755501363/devicon--mongoose.png",
+        "type": "Backend",
+        "createdAt": "2025-08-18T07:16:04.228Z",
+        "updatedAt": "2025-08-18T07:16:04.228Z"
+    },
+    {
+        "id": "1af19b99-d422-4beb-b864-cd7dfa523dc4",
+        "name": "MongoDB",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755501213/logos--mongodb-icon%20%281%29.png",
+        "type": "Backend",
+        "createdAt": "2025-08-18T07:13:33.886Z",
+        "updatedAt": "2025-08-18T07:13:33.886Z"
+    },
+    {
+        "id": "a23801f1-0a2e-471d-b5d4-7727d4c7dce1",
+        "name": "Node.js",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755500921/logos--nodejs-icon.png",
+        "type": "Backend",
+        "createdAt": "2025-08-18T07:08:41.705Z",
+        "updatedAt": "2025-08-18T07:08:41.705Z"
+    },
+    {
+        "id": "ad062115-105a-4874-8c68-10fd931d82f2",
+        "name": "Redux",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755500740/logos--redux.png",
+        "type": "Frontend",
+        "createdAt": "2025-08-18T07:05:41.038Z",
+        "updatedAt": "2025-08-18T07:05:41.038Z"
+    },
+    {
+        "id": "38da0403-9369-40d0-b9c1-d32ac7ceda32",
+        "name": "Next.js",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755500709/logos--nextjs-icon.png",
+        "type": "Frontend",
+        "createdAt": "2025-08-18T07:05:09.558Z",
+        "updatedAt": "2025-08-18T07:05:09.558Z"
+    },
+    {
+        "id": "5fe3ad14-6ab7-4f4f-809b-e35dd58334ca",
+        "name": "React.js",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755500378/logos--react.png",
+        "type": "Frontend",
+        "createdAt": "2025-08-18T06:59:38.437Z",
+        "updatedAt": "2025-08-18T06:59:38.437Z"
+    },
+    {
+        "id": "b8baf6b1-e6d9-4b70-8260-4fa6df649202",
+        "name": "TypeScript",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755500162/devicon--typescript.png",
+        "type": "Programming Language",
+        "createdAt": "2025-08-18T06:56:02.853Z",
+        "updatedAt": "2025-12-29T08:06:43.855Z"
+    },
+    {
+        "id": "d01bb200-ad5c-49e7-b499-ee81f0028daf",
+        "name": "JavaScript",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755500148/logos--javascript.png",
+        "type": "Programming Language",
+        "createdAt": "2025-08-18T06:55:49.020Z",
+        "updatedAt": "2025-12-29T08:06:35.091Z"
+    },
+    {
+        "id": "e012739f-0c1f-4917-8b16-dc9bdc96ac1e",
+        "name": "TAILWIND CSS",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755500044/logos--tailwindcss-icon.png",
+        "type": "Frontend",
+        "createdAt": "2025-08-18T06:54:05.407Z",
+        "updatedAt": "2025-08-18T06:54:05.407Z"
+    },
+    {
+        "id": "8b06e69c-ecc8-4108-854f-33772c152f6c",
+        "name": "Express.js",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755301520/devicon--express.png",
+        "type": "Backend",
+        "createdAt": "2025-08-15T23:45:21.219Z",
+        "updatedAt": "2025-08-15T23:45:21.219Z"
+    },
+    {
+        "id": "76f45848-ee0b-4be5-a57c-0e6388db62bf",
+        "name": "CSS",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1755184337/css3.png",
+        "type": "Frontend",
+        "createdAt": "2025-08-14T15:12:17.834Z",
+        "updatedAt": "2025-08-14T15:12:17.834Z"
+    },
+    {
+        "id": "52ed25f3-e8f1-42f5-b2db-1846e689f43a",
+        "name": "HTML5",
+        "icon": "https://res.cloudinary.com/delntxu0e/image/upload/v1750361203/html.png",
+        "type": "Frontend",
+        "createdAt": "2025-06-19T19:26:43.470Z",
+        "updatedAt": "2025-06-19T19:26:43.470Z"
+    }
+]

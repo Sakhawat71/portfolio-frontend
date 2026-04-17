@@ -8,20 +8,20 @@ import SkillsBox from "./SkillsBox";
 import { useEffect, useState } from "react";
 import { getSkills } from "@/services/fetchSkills";
 import { skillFilter } from "@/utils/skillFilter";
+import jsonSkills from '../../data/skills.json';
 
 const Skills = () => {
 
     const [skills, setSkills] = useState([]);
+    
     useEffect(() => {
         const fetchSkills = async () => {
             const data = await getSkills();
-            console.log(data);
-
-            if(data.success == false){
-                console.log('no data');
+            if (data.success == false) {
+                setSkills(jsonSkills as any)
+            }else{
+                setSkills(data.data)
             }
-
-            setSkills(data.data)
         };
         fetchSkills();
     }, []);
